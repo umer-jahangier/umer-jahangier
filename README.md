@@ -23,6 +23,14 @@
 
 ---
 
+### 🚀 About Me
+
+- 💻 **Founder @ [Praivox](https://praivox.com)** — AI automation architect building production SaaS & agent systems
+- 🤖 Engineering **AI agents**, LLM pipelines, and **n8n** workflow automations for businesses
+- 🖥️ Full-stack across **Next.js · FastAPI · TypeScript · Python · PostgreSQL · Docker**
+- 📱 Shipping mobile & web products — **Elio**, **AlphaVenue AI**, **SocialSync**, and more
+- 🌍 Based in **Lahore, Pakistan** · open to collaborations & interesting builds
+
 ### 👨‍💻 Identity
 
 ```json
@@ -53,9 +61,25 @@
 
 ### 🛠 Tech Stack
 
+**Frontend:**  
+`Next.js` · `React` · `TypeScript` · `TailwindCSS` · `React Native`
+
+**Backend:**  
+`FastAPI` · `Node.js` · `Python` · `REST APIs` · `GraphQL`
+
+**AI & Automation:**  
+`LangChain` · `LLMs` · `RAG` · `n8n` · `OpenAI` · `Computer Vision`
+
+**Databases & Infra:**  
+`PostgreSQL` · `Redis` · `Docker` · `GitHub Actions` · `Vercel` · `Linux`
+
+<div align="center">
+
 <img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp,nextjs,react,nodejs,fastapi&theme=light&perline=9" alt="Languages and frameworks"/>
 <br/>
 <img src="https://skillicons.dev/icons?i=docker,postgres,redis,git,github,vscode,vercel,linux,n8n,tailwind&theme=light&perline=10" alt="Tools and platforms"/>
+
+</div>
 
 ---
 
@@ -104,6 +128,19 @@
 
 ---
 
+### 🏆 GitHub Trophies
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=umer-jahangier&theme=onedark&row=1&column=7&no-bg=true"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=umer-jahangier&theme=flat&row=1&column=7&no-bg=true" alt="GitHub trophies"/>
+</picture>
+
+</div>
+
+---
+
 ### 🚀 Featured Work
 
 | Project | Description | Link |
@@ -128,8 +165,17 @@
 
 **`// built with intent · powered by automation · engineered @ Praivox`**
 
+<br/>
+
+### 🌐 Let's Connect
+
+[![Praivox](https://img.shields.io/badge/Praivox-praivox.com-00FFF5?style=flat&logo=google-chrome&logoColor=0d0221)](https://praivox.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-FF0080?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umer-jahangier/)
+[![Email](https://img.shields.io/badge/Email-hello%40praivox.com-BF00FF?style=flat&logo=gmail&logoColor=white)](mailto:hello@praivox.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%40umer__jahangier-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/umer_jahangier)
+
 <br/><br/>
 
-⭐ Star a repo if my work helped you — it fuels the next build.
+⭐️ From [Muhammad Umer](https://github.com/umer-jahangier)
 
 </div>
