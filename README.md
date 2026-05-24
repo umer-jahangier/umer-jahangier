@@ -19,7 +19,7 @@
 <!-- ═══════════════════════════════════════════════════════ -->
 
 [![Website](https://img.shields.io/badge/WEBSITE-praivox.com-00F0FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://praivox.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/umer-jahangier)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umer-jahangier/)
 [![Email](https://img.shields.io/badge/EMAIL-hello%40praivox.com-A78BFA?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@praivox.com)
 [![Location](https://img.shields.io/badge/LOCATION-Lahore%2C%20Pakistan-0A0A0F?style=for-the-badge&logo=googlemaps&logoColor=00F0FF)](https://www.google.com/maps/place/Lahore)
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-%40umer__jahangier-FF006E?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/umer_jahangier)
@@ -207,7 +207,7 @@ Production voice AI platform combining real-time telephony, LLM orchestration, a
 <tr>
 <td width="50%" valign="top">
 
-**🏟 [AlphaVenueAI](https://github.com/umer-jahangier/AlphaVenueAI)** — *AI Venue Management*
+**🏟 AlphaVenueAI** — *AI Venue Management*
 
 Full-stack AI platform for venue operations — intelligent scheduling, analytics, and automation at scale.
 
