@@ -61,7 +61,7 @@
 
 ### 📊 GitHub Analytics
 
-<sub>Stats below are regenerated daily via GitHub Actions with an authenticated token — they include private contributions (counts only, no repo names).</sub>
+<sub>All cards below are regenerated daily via GitHub Actions (authenticated). Commits &amp; streak include private activity — counts only, no repo names. Language breakdown reflects public repos (GitHub API limit).</sub>
 
 <div align="center">
 
@@ -71,8 +71,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=umer-jahangier&theme=radical&hide_border=true&background=0d1117&stroke=ff0080&ring=00fff5&fire=bf00ff&currStreakLabel=00fff5&sideLabels=c9d1d9&dates=8b949e"/>
-  <img src="https://streak-stats.demolab.com/?user=umer-jahangier&theme=default&hide_border=true&background=ffffff&stroke=ff0080&ring=bf00ff&fire=ff0080&currStreakLabel=24292f&sideLabels=57606a&dates=57606a" height="195" alt="GitHub streak"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/streak-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/streak-light.svg" height="195" alt="Contribution streak"/>
 </picture>
 
 <picture>

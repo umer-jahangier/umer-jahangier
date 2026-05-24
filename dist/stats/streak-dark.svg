@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 495 195' width='495' height='195'>
+  <rect width='495' height='195' rx='4.5' fill='#0d1117' stroke='#30363d' stroke-width='1'/>
+  <line x1='165' y1='28' x2='165' y2='170' stroke='#30363d' stroke-width='1'/>
+  <line x1='330' y1='28' x2='330' y2='170' stroke='#30363d' stroke-width='1'/>
+  <text x='82.5' y='78' text-anchor='middle' fill='#c9d1d9' font-family='Segoe UI, Ubuntu, sans-serif' font-size='28' font-weight='700'>661</text>
+  <text x='82.5' y='108' text-anchor='middle' fill='#c9d1d9' font-family='Segoe UI, Ubuntu, sans-serif' font-size='14'>Total Contributions</text>
+  <text x='82.5' y='132' text-anchor='middle' fill='#8b949e' font-family='Segoe UI, Ubuntu, sans-serif' font-size='12'>2025-07-16 - Present</text>
+  <circle cx='247.5' cy='71' r='40' fill='none' stroke='#bf00ff' stroke-width='5'/>
+  <text x='247.5' y='78' text-anchor='middle' fill='#c9d1d9' font-family='Segoe UI, Ubuntu, sans-serif' font-size='28' font-weight='700'>2</text>
+  <text x='247.5' y='108' text-anchor='middle' fill='#c9d1d9' font-family='Segoe UI, Ubuntu, sans-serif' font-size='14'>Current Streak</text>
+  <text x='247.5' y='132' text-anchor='middle' fill='#8b949e' font-family='Segoe UI, Ubuntu, sans-serif' font-size='12'>05 25</text>
+  <text x='412.5' y='78' text-anchor='middle' fill='#c9d1d9' font-family='Segoe UI, Ubuntu, sans-serif' font-size='28' font-weight='700'>13</text>
+  <text x='412.5' y='108' text-anchor='middle' fill='#c9d1d9' font-family='Segoe UI, Ubuntu, sans-serif' font-size='14'>Longest Streak</text>
+  <text x='412.5' y='132' text-anchor='middle' fill='#8b949e' font-family='Segoe UI, Ubuntu, sans-serif' font-size='12'>03 01 - 03 13</text>
+  <text x='247.5' y='24' text-anchor='middle' fill='#00fff5' font-family='Segoe UI, Ubuntu, sans-serif' font-size='13' font-weight='600'>Contribution Streak</text>
+</svg>
