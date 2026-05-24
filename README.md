@@ -66,18 +66,18 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/stats-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/stats-light.svg" height="195" alt="GitHub stats"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/stats-dark.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/stats-light.svg" height="195" alt="GitHub stats"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/streak-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/streak-light.svg" height="195" alt="Contribution streak"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/streak-dark.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/streak-light.svg" height="195" alt="Contribution streak"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/langs-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/langs-light.svg" height="195" alt="Top languages"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/langs-dark.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/langs-light.svg" height="195" alt="Top languages"/>
 </picture>
 
 </div>
@@ -89,15 +89,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/profile-3d-contrib/profile-night-rainbow.svg"/>
-  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/profile-3d-contrib/profile-night-rainbow.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/github-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/github-snake.svg" width="100%" alt="Contribution snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/github-snake-dark.svg"/>
+  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/github-snake.svg" width="100%" alt="Contribution snake"/>
 </picture>
 
 </div>
