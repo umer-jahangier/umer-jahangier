@@ -7,6 +7,9 @@ import sys
 import urllib.request
 
 
+from datetime import datetime
+
+
 QUERY = """
 query {
   viewer {
@@ -94,11 +97,19 @@ def svg(theme):
 </svg>"""
 
 
+def fmt_short(date_str):
+    return datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d")
+
+
+def fmt_long(date_str):
+    return datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d, %Y")
+
+
 def longest_range(days):
-    best = (0, 0, "")
+    best = (None, 0, None)
     run_start = None
     run_len = 0
-    for i, (date, count) in enumerate(days):
+    for date, count in days:
         if count > 0:
             if run_len == 0:
                 run_start = date
@@ -110,9 +121,7 @@ def longest_range(days):
             run_start = None
     if best[1] == 0:
         return "—"
-    start = best[0]
-    end = best[2]
-    return f"{start[5:].replace('-', ' ')} - {end[5:].replace('-', ' ')}"
+    return f"{fmt_short(best[0])} - {fmt_short(best[2])}, {best[2][:4]}"
 
 
 def main():
@@ -127,8 +136,8 @@ def main():
     total, days = fetch_calendar(token)
     current, longest = streaks(days)
     active = [(d, c) for d, c in days if c > 0]
-    range_start = active[0][0] if active else days[0][0]
-    current_end = active[-1][0] if active else "—"
+    range_start = fmt_long(days[0][0])
+    current_end = fmt_short(active[-1][0]) if active else "—"
     lrange = longest_range(days)
 
     fmt = dict(
@@ -136,7 +145,7 @@ def main():
         current=current,
         longest=longest,
         range_start=range_start,
-        current_end=current_end[5:].replace("-", " ") if current_end != "—" else "—",
+        current_end=current_end,
         longest_range=lrange,
     )
 
