@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0080"/>
+      <stop offset="45%" stop-color="#bf00ff"/>
+      <stop offset="100%" stop-color="#00fff5"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0014"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- cyber grid -->
+  <g stroke="#1a0033" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1050" y1="0" x2="1050" y2="300"/>
+  </g>
+
+  <!-- scan line -->
+  <rect x="0" y="145" width="1200" height="2" fill="#00fff5" opacity="0.15"/>
+
+  <!-- corner brackets -->
+  <path d="M 40 40 L 40 80 L 80 80" fill="none" stroke="#00fff5" stroke-width="3" filter="url(#softGlow)"/>
+  <path d="M 1160 40 L 1160 80 L 1120 80" fill="none" stroke="#ff0080" stroke-width="3" filter="url(#softGlow)"/>
+  <path d="M 40 260 L 40 220 L 80 220" fill="none" stroke="#ff0080" stroke-width="3" filter="url(#softGlow)"/>
+  <path d="M 1160 260 L 1160 220 L 1120 220" fill="none" stroke="#00fff5" stroke-width="3" filter="url(#softGlow)"/>
+
+  <!-- main title -->
+  <text x="600" y="130" font-family="Courier New, monospace" font-size="52" font-weight="bold" fill="url(#neonGrad)" text-anchor="middle" filter="url(#glow)">MUHAMMAD UMER</text>
+
+  <!-- subtitle -->
+  <text x="600" y="175" font-family="Courier New, monospace" font-size="18" fill="#00fff5" text-anchor="middle" opacity="0.9" filter="url(#softGlow)">AI AUTOMATION ARCHITECT  //  FULL-STACK  //  PRAIVOX</text>
+
+  <!-- status bar -->
+  <rect x="350" y="210" width="500" height="28" rx="4" fill="#12001f" stroke="#bf00ff" stroke-width="1"/>
+  <circle cx="370" cy="224" r="5" fill="#00ff88"/>
+  <text x="385" y="229" font-family="Courier New, monospace" font-size="13" fill="#a78bfa">SYSTEM ONLINE  BUILDING THE FUTURE</text>
+
+  <!-- neon underline -->
+  <rect x="200" y="255" width="800" height="3" fill="url(#neonGrad)" opacity="0.8" filter="url(#softGlow)"/>
+</svg>
