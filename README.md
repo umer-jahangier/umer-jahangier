@@ -28,7 +28,7 @@
 - 💻 **Founder @ [Praivox](https://praivox.com)** — AI automation architect building production SaaS & agent systems
 - 🤖 Engineering **AI agents**, LLM pipelines, and **n8n** workflow automations for businesses
 - 🖥️ Full-stack across **Next.js · FastAPI · TypeScript · Python · PostgreSQL · Docker**
-- 📱 Shipping mobile & web products — **Elio**, **AlphaVenue AI**, **SocialSync**, and more
+- 📱 Building **marketplace SaaS** — **Elio** (contractors · homeowners · vendors), **madaddGar** (on-demand home services)
 - 🌍 Based in **Lahore, Pakistan** · open to collaborations & interesting builds
 
 ### 👨‍💻 Identity
@@ -39,7 +39,7 @@
   "alias": "umer-jahangier",
   "role": ["Full-Stack Developer", "AI/ML Engineer", "AI & Automations"],
   "company": "Praivox — intelligent automation for businesses",
-  "stack": ["Next.js", "FastAPI", "TypeScript", "Python", "PostgreSQL", "Docker", "n8n"],
+  "stack": ["Next.js", "FastAPI", "TypeScript", "Flutter", "Python", "PostgreSQL", "MongoDB", "Docker", "n8n"],
   "mission": "Engineer autonomous systems that replace manual workflows",
   "website": "https://praivox.com",
   "contact": "hello@praivox.com"
@@ -53,7 +53,7 @@
 | Area | Focus |
 | :--- | :--- |
 | 🤖 **AI Automation** | Intelligent agents · LLM pipelines · workflow orchestration |
-| 🌐 **SaaS Platforms** | Multi-tenant · auth · billing · production dashboards |
+| 🏗️ **Marketplace SaaS** | Two-sided platforms · role-based dashboards · booking · quotes · payments |
 | ⚡ **n8n Workflows** | Event-driven automations · API mesh · CRM integrations |
 | 🧠 **LLM Integration** | RAG · voice AI · computer vision · real-time inference |
 
@@ -62,16 +62,16 @@
 ### 🛠 Tech Stack
 
 **Frontend:**  
-`Next.js` · `React` · `TypeScript` · `TailwindCSS` · `React Native`
+`Next.js` · `React` · `TypeScript` · `TailwindCSS` · `Flutter` · `React Native`
 
 **Backend:**  
-`FastAPI` · `Node.js` · `Python` · `REST APIs` · `GraphQL`
+`FastAPI` · `Node.js` · `Express` · `Python` · `REST APIs` · `GraphQL`
 
 **AI & Automation:**  
 `LangChain` · `LLMs` · `RAG` · `n8n` · `OpenAI` · `Computer Vision`
 
 **Databases & Infra:**  
-`PostgreSQL` · `Redis` · `Docker` · `GitHub Actions` · `Vercel` · `Linux`
+`PostgreSQL` · `MongoDB` · `Redis` · `Docker` · `GitHub Actions` · `Vercel` · `Linux`
 
 <div align="center">
 
@@ -145,14 +145,14 @@
 
 | Project | Description | Link |
 | :--- | :--- | :---: |
-| **Praivox** | AI automation agency — SaaS, agents, production systems | [Visit →](https://praivox.com) |
+| **Praivox** | AI automation agency — SaaS, agents, and production systems for businesses | [Visit →](https://praivox.com) |
 | **AlphaVenue AI** | AI-powered venue & event management platform | 🔒 Private |
 | **SocialSync** | Social media automation & scheduling platform | 🔒 Private |
-| **[Face Recognition](https://github.com/umer-jahangier/Face-Recognition-Project)** | CNN-based real-time attendance system (Python · TensorFlow · OpenCV) | [Repo →](https://github.com/umer-jahangier/Face-Recognition-Project) |
-| **Elio** | Healthcare platform — mobile apps & web suite (elio.care) | 🔒 Private |
+| **Elio** | SaaS marketplace connecting **contractors**, **homeowners**, and **vendors** — project posting, milestone quotes, scheduling, invoicing & payouts (Flutter mobile + React web) | 🔒 Private |
+| **madaddGar** | On-demand **home services marketplace** (Uber-style) — book electricians, plumbers & more; providers bid, worker arrives on appointment, OTP-verified completion, then payment · Node.js · MongoDB · Socket.io | 🔒 Private |
 | **HRIA-DMS** | Donation management system for humanitarian operations | 🔒 Private |
-| **madaddGar** | Production platform (active development) | 🔒 Private |
-| **[Bobby Tailor Automation](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0)** | Workflow automation showcase (public) | [Repo →](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0) |
+| **[Face Recognition](https://github.com/umer-jahangier/Face-Recognition-Project)** | CNN-based real-time attendance system (Python · TensorFlow · OpenCV) | [Repo →](https://github.com/umer-jahangier/Face-Recognition-Project) |
+| **[Bobby Tailor Automation](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0)** | Production workflow automation showcase (public) | [Repo →](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0) |
 
 ---
 
