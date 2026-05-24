@@ -7,8 +7,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00FFF5&center=true&vCenter=true&multiline=true&repeat=true&width=880&height=100&lines=%3E%20initializing%20Praivox%20neural%20core...;Building%20AI%20agents%20that%20automate%20the%20future;Founder%20%40%20Praivox%20%E2%80%94%20intelligent%20automation%20for%20businesses;Full-Stack%20%C2%B7%20AI%2FML%20Engineer%20%C2%B7%20Next.js%20%C2%B7%20FastAPI"/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=BF00FF&center=true&vCenter=true&multiline=true&repeat=true&width=880&height=100&lines=%3E%20initializing%20Praivox%20neural%20core...;Building%20AI%20agents%20that%20automate%20the%20future;Founder%20%40%20Praivox%20%E2%80%94%20intelligent%20automation%20for%20businesses;Full-Stack%20%C2%B7%20AI%2FML%20Engineer%20%C2%B7%20Next.js%20%C2%B7%20FastAPI" alt="Typing intro"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=00FFF5&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=110&lines=%3E%20initializing%20Praivox%20core...;Building%20AI%20agents%20%26%20automations;Founder%20%40%20Praivox%20%E2%80%94%20intelligent%20automation;Full-Stack%20%C2%B7%20AI%2FML%20%C2%B7%20Next.js%20%C2%B7%20FastAPI"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=BF00FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=110&lines=%3E%20initializing%20Praivox%20core...;Building%20AI%20agents%20%26%20automations;Founder%20%40%20Praivox%20%E2%80%94%20intelligent%20automation;Full-Stack%20%C2%B7%20AI%2FML%20%C2%B7%20Next.js%20%C2%B7%20FastAPI" alt="Typing intro"/>
 </picture>
 
 <br/>
@@ -53,30 +53,31 @@
 
 ### 🛠 Tech Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,py,java,cpp,nextjs,react,nodejs,fastapi,docker,postgres,redis,git,github,vscode,vercel,linux,n8n,tailwind&theme=dark&perline=12"/>
-  <img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp,nextjs,react,nodejs,fastapi,docker,postgres,redis,git,github,vscode,vercel,linux,n8n,tailwind&theme=light&perline=12" alt="Tech stack"/>
-</picture>
+<img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp,nextjs,react,nodejs,fastapi&theme=light&perline=9" alt="Languages and frameworks"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,postgres,redis,git,github,vscode,vercel,linux,n8n,tailwind&theme=light&perline=10" alt="Tools and platforms"/>
 
 ---
 
 ### 📊 GitHub Analytics
 
+<sub>Stats below are regenerated daily via GitHub Actions with an authenticated token — they include private contributions (counts only, no repo names).</sub>
+
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=umer-jahangier&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00fff5&icon_color=ff0080&text_color=c9d1d9"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=umer-jahangier&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&bg_color=ffffff&title_color=ff0080&icon_color=bf00ff&text_color=24292f&border_color=eaeef2" height="185" alt="GitHub stats"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/stats-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/stats-light.svg" height="195" alt="GitHub stats"/>
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=umer-jahangier&theme=radical&hide_border=true&background=0d1117&stroke=ff0080&ring=00fff5&fire=bf00ff&currStreakLabel=00fff5&sideLabels=c9d1d9&dates=8b949e"/>
-  <img src="https://streak-stats.demolab.com/?user=umer-jahangier&theme=default&hide_border=true&background=ffffff&stroke=ff0080&ring=bf00ff&fire=ff0080&currStreakLabel=24292f&sideLabels=57606a&dates=57606a" height="185" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com/?user=umer-jahangier&theme=default&hide_border=true&background=ffffff&stroke=ff0080&ring=bf00ff&fire=ff0080&currStreakLabel=24292f&sideLabels=57606a&dates=57606a" height="195" alt="GitHub streak"/>
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=umer-jahangier&theme=radical&layout=compact&hide_border=true&bg_color=0d1117&title_color=00fff5&text_color=c9d1d9&langs_count=8&hide=html,css,scss,ejs,nsis"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=umer-jahangier&theme=default&layout=compact&hide_border=true&bg_color=ffffff&title_color=ff0080&text_color=24292f&langs_count=8&hide=html,css,scss,ejs,nsis&border_color=eaeef2" height="185" alt="Top languages"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/langs-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/dist/stats/langs-light.svg" height="195" alt="Top languages"/>
 </picture>
 
 </div>
@@ -86,13 +87,6 @@
 ### 📈 Contribution Activity
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=umer-jahangier&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=ff0080&line=00fff5&point=bf00ff&custom_title=Contribution%20Activity"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=umer-jahangier&theme=minimal&hide_border=true&area=true&bg_color=ffffff&color=bf00ff&line=ff0080&point=57606a&custom_title=Contribution%20Activity" width="100%" alt="Contribution graph"/>
-</picture>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umer-jahangier/umer-jahangier/main/profile-3d-contrib/profile-night-rainbow.svg"/>
@@ -115,11 +109,12 @@
 | Project | Description | Link |
 | :--- | :--- | :---: |
 | **Praivox** | AI automation agency — SaaS, agents, production systems | [Visit →](https://praivox.com) |
+| **[Bobby Tailor Automation](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0)** | Production workflow automation (public showcase) | [Repo →](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0) |
+| **[Shares Calculator](https://github.com/umer-jahangier/shares-calculator)** | Cross-platform CI/CD desktop app (JavaScript) | [Repo →](https://github.com/umer-jahangier/shares-calculator) |
 | **[Face Recognition](https://github.com/umer-jahangier/Face-Recognition-Project)** | CNN-based real-time attendance system (Python · TensorFlow · OpenCV) | [Repo →](https://github.com/umer-jahangier/Face-Recognition-Project) |
 | **[Parallel Sudoku Solver](https://github.com/umer-jahangier/ParallelSudokuSolver)** | Parallel computing sudoku solver in Python | [Repo →](https://github.com/umer-jahangier/ParallelSudokuSolver) |
-| **[Shares Calculator](https://github.com/umer-jahangier/shares-calculator)** | Cross-platform CI/CD desktop app (JavaScript) | [Repo →](https://github.com/umer-jahangier/shares-calculator) |
 | **[Event Management System](https://github.com/umer-jahangier/Event-Management-System---SQL)** | Normalized SQL schema & Python backend | [Repo →](https://github.com/umer-jahangier/Event-Management-System---SQL) |
-| **AI-Dailer · AlphaVenueAI** | Production AI platforms (private repos) | 🔒 Private |
+| **Production AI Platforms** | Enterprise SaaS & AI systems | 🔒 Private |
 
 ---
 
@@ -127,7 +122,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&height=80&section=footer&reversal=true&color=0:0d1117,100:ff0080&fontSize=0"/>
-  <img src="https://capsule-render.vercel.app/api?type=soft&height=80&section=footer&reversal=true&color=0:f8f4ff,100:ffd6f0&fontSize=0" width="100%" alt=""/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=80&section=footer&reversal=true&color=0:f8f4ff,100:ffd6f0&fontSize=0" width="100%" alt="Profile footer — engineered at Praivox"/>
 </picture>
 
 **`// built with intent · powered by automation · engineered @ Praivox`**
