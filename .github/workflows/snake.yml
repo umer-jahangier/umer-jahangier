@@ -1,0 +1,32 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: umer-jahangier
+          outputs: |
+            dist/github-snake.svg?color_snake=00f0ff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=00f0ff
+            dist/github-snake.gif?color_snake=00f0ff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353&color_background=0a0a0f
+
+      - name: Commit snake animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git diff --staged --quiet || git commit -m "chore: update contribution snake animation"
+          git push
