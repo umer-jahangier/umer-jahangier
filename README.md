@@ -61,7 +61,7 @@
 
 ### 📊 GitHub Analytics
 
-<sub>All cards below are regenerated daily via GitHub Actions (authenticated). Commits &amp; streak include private activity — counts only, no repo names. Language breakdown reflects public repos (GitHub API limit).</sub>
+<sub>All cards below are regenerated daily via GitHub Actions (authenticated). Stats, streak &amp; languages include private repos — counts and percentages only, no repo names exposed.</sub>
 
 <div align="center">
 
@@ -109,12 +109,13 @@
 | Project | Description | Link |
 | :--- | :--- | :---: |
 | **Praivox** | AI automation agency — SaaS, agents, production systems | [Visit →](https://praivox.com) |
-| **[Bobby Tailor Automation](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0)** | Production workflow automation (public showcase) | [Repo →](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0) |
-| **[Shares Calculator](https://github.com/umer-jahangier/shares-calculator)** | Cross-platform CI/CD desktop app (JavaScript) | [Repo →](https://github.com/umer-jahangier/shares-calculator) |
+| **AlphaVenue AI** | AI-powered venue & event management platform | 🔒 Private |
+| **SocialSync** | Social media automation & scheduling platform | 🔒 Private |
 | **[Face Recognition](https://github.com/umer-jahangier/Face-Recognition-Project)** | CNN-based real-time attendance system (Python · TensorFlow · OpenCV) | [Repo →](https://github.com/umer-jahangier/Face-Recognition-Project) |
-| **[Parallel Sudoku Solver](https://github.com/umer-jahangier/ParallelSudokuSolver)** | Parallel computing sudoku solver in Python | [Repo →](https://github.com/umer-jahangier/ParallelSudokuSolver) |
-| **[Event Management System](https://github.com/umer-jahangier/Event-Management-System---SQL)** | Normalized SQL schema & Python backend | [Repo →](https://github.com/umer-jahangier/Event-Management-System---SQL) |
-| **Production AI Platforms** | Enterprise SaaS & AI systems | 🔒 Private |
+| **Elio** | Healthcare platform — mobile apps & web suite (elio.care) | 🔒 Private |
+| **HRIA-DMS** | Donation management system for humanitarian operations | 🔒 Private |
+| **madaddGar** | Production platform (active development) | 🔒 Private |
+| **[Bobby Tailor Automation](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0)** | Workflow automation showcase (public) | [Repo →](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0) |
 
 ---
 

@@ -9,8 +9,7 @@ on:
       - main
 
 permissions:
-  contents: read
-  actions: read
+  contents: write
 
 jobs:
   stats:
@@ -23,6 +22,7 @@ jobs:
 
       - name: Generate authenticated stats SVGs
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE: https://github-readme-stats-sigma-five.vercel.app
           USER: umer-jahangier
@@ -30,25 +30,17 @@ jobs:
           set -euo pipefail
           mkdir -p dist/stats
           AUTH="username=${USER}&hide_border=true&include_all_commits=true&count_private=true&token=${TOKEN}"
-          LANGS="layout=compact&langs_count=6&card_width=495&card_height=195&hide=html,css,scss,ejs,nsis"
           strip_undefined() { sed -i '/^[[:space:]]*undefined[[:space:]]*$/d' "$1"; }
 
           curl -fsSL "${BASE}/api?${AUTH}&show_icons=true&theme=default&bg_color=ffffff&title_color=ff0080&icon_color=bf00ff&text_color=24292f&border_color=eaeef2" \
             -o dist/stats/stats-light.svg
           curl -fsSL "${BASE}/api?${AUTH}&show_icons=true&theme=radical&bg_color=0d1117&title_color=00fff5&icon_color=ff0080&text_color=c9d1d9" \
             -o dist/stats/stats-dark.svg
-
-          curl -fsSL "${BASE}/api/top-langs/?${AUTH}&${LANGS}&theme=default&bg_color=ffffff&title_color=ff0080&text_color=24292f" \
-            -o dist/stats/langs-light.svg
-          curl -fsSL "${BASE}/api/top-langs/?${AUTH}&${LANGS}&theme=radical&bg_color=0d1117&title_color=00fff5&text_color=c9d1d9" \
-            -o dist/stats/langs-dark.svg
-
           strip_undefined dist/stats/stats-light.svg
           strip_undefined dist/stats/stats-dark.svg
-          strip_undefined dist/stats/langs-light.svg
-          strip_undefined dist/stats/langs-dark.svg
 
           python3 scripts/generate-streak-svg.py dist/stats
+          python3 scripts/generate-langs-svg.py dist/stats
 
           for f in dist/stats/*.svg; do
             test -s "$f" || { echo "Empty or missing: $f"; exit 1; }
