@@ -1,181 +1,53 @@
-<div align="center">
-
-<!-- HEADER: soft/light default · venom/dark via picture -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&height=240&section=header&text=MUHAMMAD%20UMER&fontSize=50&fontColor=00fff5&stroke=ff0080&strokeWidth=2&animation=twinkling&desc=AI%20AUTOMATION%20ARCHITECT%20%7C%20FULL-STACK%20%7C%20STUDIO&descSize=17&descAlign=50&descAlignY=74&color=0:000000,45:ff0080,100:0d0221&fontAlignY=38"/>
-  <img src="https://capsule-render.vercel.app/api?type=soft&height=240&section=header&text=MUHAMMAD%20UMER&fontSize=50&fontColor=0d0221&stroke=ff0080&strokeWidth=1&desc=AI%20AUTOMATION%20ARCHITECT%20%7C%20FULL-STACK%20%7C%20STUDIO&descSize=17&descAlign=50&descAlignY=74&color=0:f8f4ff,50:ffd6f0,100:d6faff&fontAlignY=38" width="100%" alt="Muhammad Umer"/>
-</picture>
+<!-- Generated from variants/README.personal.md by .github/workflows/profile.yml. Edit the variant, not this file. -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=00FFF5&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=110&lines=%3E%20initializing%20Studio%20core...;Building%20AI%20agents%20%26%20automations;Founder%20%40%20Studio%20%E2%80%94%20intelligent%20automation;Full-Stack%20%C2%B7%20AI%2FML%20%C2%B7%20Next.js%20%C2%B7%20FastAPI"/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=BF00FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=110&lines=%3E%20initializing%20Studio%20core...;Building%20AI%20agents%20%26%20automations;Founder%20%40%20Studio%20%E2%80%94%20intelligent%20automation;Full-Stack%20%C2%B7%20AI%2FML%20%C2%B7%20Next.js%20%C2%B7%20FastAPI" alt="Typing intro"/>
+  <source media="(max-width: 600px)" srcset="dist/cover-personal-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/cover-personal-dark.svg">
+  <img src="dist/cover-personal-light.svg" width="100%" alt="Muhammad Umer, AI, Automation and Full-Stack Engineer. Live graph of the last 52 weeks of contributions, with the share made in private repositories.">
 </picture>
 
-<br/>
+<a href="mailto:umer.jahangier@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-dark.svg"><img src="dist/btn-email-light.svg" height="48" alt="Email umer.jahangier@gmail.com"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="48" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="48" alt="Instagram"></picture></a>
 
-[![Studio](https://img.shields.io/badge/Studio-example.com-00FFF5?style=for-the-badge&logo=google-chrome&logoColor=0d0221)](https://example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-FF0080?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umer-jahangier/)
-[![Email](https://img.shields.io/badge/Email-hello%40example.com-BF00FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@example.com)
-[![Location](https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-555?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Lahore)
-[![Instagram](https://img.shields.io/badge/Instagram-%40umer__jahangier-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/umer_jahangier)
+I build AI agents, automations and the full-stack products around them, from the first schema to the production deploy. Most of that work ships in private repositories for clients and for products I own, so the numbers on this page count private work too.
 
-</div>
+### Selected work
 
----
+| Project | What it is |
+| :-- | :-- |
+| **SalesPulse AI** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Sales communication platform: power dialer, AI voice agents, SMS and two-way CRM sync<br><sub>Next.js 15 · Prisma · PostgreSQL · Twilio · Retell AI · Stripe</sub> |
+| **AlphaVenue** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Celebrations and venue platform: API, marketing site, and a mobile app for couples and venue owners<br><sub>pnpm monorepo · Next.js · React Native / Expo · GSAP · Sanity</sub> |
+| **Elio** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Marketplace connecting contractors, homeowners and vendors: projects, milestone quotes, scheduling, payouts<br><sub>Flutter · React · Node.js</sub> |
+| **SocialSync** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Self-hosted, queue-based social media manager for teams across Instagram, Facebook, LinkedIn, X and YouTube<br><sub>TypeScript · job queues · encrypted token vault</sub> |
+| **HRIA-DMS** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Donation management for a humanitarian academy, with an offline-first desktop app in English and Urdu<br><sub>Electron · React · Express · MongoDB · Zod</sub> |
+| **Reveal Your Intentions** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | AI social-intelligence app that reads a situation and suggests how to respond<br><sub>Expo · Express · LLM orchestration</sub> |
+| [**RestaurantOS**](https://github.com/umer-jahangier/ResturantOS) <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-open-dark.svg"><img src="dist/tag-open-light.svg" height="22" alt="Open source"></picture> | Multi-tenant restaurant operating system: POS, inventory, finance, HR and reporting<br><sub>Java</sub> |
+| [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-open-dark.svg"><img src="dist/tag-open-light.svg" height="22" alt="Open source"></picture> | One clone, one install: spec-driven workflows, agent memory, CodeGraph and MCP wiring for Cursor and VS Code<br><sub>Shell · MCP</sub> |
 
-### 🚀 About Me
+<sub>Also: **madaddGar** (on-demand home services, Socket.io) · **Qalb-e-Saleem** (Flutter audio and reading app) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow)</sub>
 
-- 💻 **Founder @ [Studio](https://example.com)** — AI automation architect building production SaaS & agent systems
-- 🤖 Engineering **AI agents**, LLM pipelines, and **n8n** workflow automations for businesses
-- 🖥️ Full-stack across **Next.js · FastAPI · TypeScript · Python · PostgreSQL · Docker**
-- 📱 Building **marketplace SaaS** — **Elio** (contractors · homeowners · vendors), **madaddGar** (on-demand home services)
-- 🌍 Based in **Lahore, Pakistan** · open to collaborations & interesting builds
-
-### 👨‍💻 Identity
-
-```json
-{
-  "name": "Muhammad Umer",
-  "alias": "umer-jahangier",
-  "role": ["Full-Stack Developer", "AI/ML Engineer", "AI & Automations"],
-  "company": "Studio — intelligent automation for businesses",
-  "stack": ["Next.js", "FastAPI", "TypeScript", "Flutter", "Python", "PostgreSQL", "MongoDB", "Docker", "n8n"],
-  "mission": "Engineer autonomous systems that replace manual workflows",
-  "website": "https://example.com",
-  "contact": "hello@example.com"
-}
-```
-
----
-
-### ⚡ What I Build
-
-| Area | Focus |
-| :--- | :--- |
-| 🤖 **AI Automation** | Intelligent agents · LLM pipelines · workflow orchestration |
-| 🏗️ **Marketplace SaaS** | Two-sided platforms · role-based dashboards · booking · quotes · payments |
-| ⚡ **n8n Workflows** | Event-driven automations · API mesh · CRM integrations |
-| 🧠 **LLM Integration** | RAG · voice AI · computer vision · real-time inference |
-
----
-
-### 🛠 Tech Stack
-
-**Frontend:**  
-`Next.js` · `React` · `TypeScript` · `TailwindCSS` · `Flutter` · `React Native`
-
-**Backend:**  
-`FastAPI` · `Node.js` · `Express` · `Python` · `REST APIs` · `GraphQL`
-
-**AI & Automation:**  
-`LangChain` · `LLMs` · `RAG` · `n8n` · `OpenAI` · `Computer Vision`
-
-**Databases & Infra:**  
-`PostgreSQL` · `MongoDB` · `Redis` · `Docker` · `GitHub Actions` · `Vercel` · `Linux`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp,nextjs,react,nodejs,fastapi&theme=light&perline=9" alt="Languages and frameworks"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,postgres,redis,git,github,vscode,vercel,linux,n8n,tailwind&theme=light&perline=10" alt="Tools and platforms"/>
-
-</div>
-
----
-
-### 📊 GitHub Analytics
-
-<sub>All cards below are regenerated daily via GitHub Actions (authenticated). Stats, streak &amp; languages include private repos — counts and percentages only, no repo names exposed.</sub>
-
-<div align="center">
+### The year in numbers
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/stats-dark.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/stats-light.svg" height="195" alt="GitHub stats"/>
+  <source media="(max-width: 600px)" srcset="dist/numbers-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/numbers-dark.svg">
+  <img src="dist/numbers-light.svg" width="100%" alt="The year in numbers: languages, weekly rhythm, streaks and totals, including private repositories.">
 </picture>
+
+<sub>Rebuilt every day from the GitHub API. Private work is counted as totals only; no code leaves the repositories.</sub>
+
+### Toolbox
+
+**Languages** · TypeScript · Python · JavaScript · Dart · Java · C++ · SQL<br>
+**Frontend** · Next.js · React · React Native / Expo · Flutter · Tailwind CSS · GSAP<br>
+**Backend** · Node.js · Express · FastAPI · Prisma · REST · GraphQL · Socket.io<br>
+**AI and automation** · LLM agents · RAG · voice agents (Retell, Twilio) · n8n · LangChain · OpenAI · Claude · computer vision<br>
+**Data and infrastructure** · PostgreSQL · MongoDB · Redis · Docker · Kubernetes · Electron · GitHub Actions · Vercel · Linux
+
+<br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/streak-dark.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/streak-light.svg" height="195" alt="Contribution streak"/>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg">
+  <img src="dist/github-snake.svg" width="100%" alt="Animated snake eating the last year of contributions, private ones included.">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/langs-dark.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/stats/langs-light.svg" height="195" alt="Top languages"/>
-</picture>
-
-</div>
-
----
-
-### 📈 Contribution Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/profile-3d-contrib/profile-night-rainbow.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar"/>
-</picture>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/github-snake-dark.svg"/>
-  <img src="https://cdn.jsdelivr.net/gh/umer-jahangier/umer-jahangier@main/dist/github-snake.svg" width="100%" alt="Contribution snake"/>
-</picture>
-
-</div>
-
----
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=umer-jahangier&theme=onedark&row=1&column=7&no-bg=true"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=umer-jahangier&theme=flat&row=1&column=7&no-bg=true" alt="GitHub trophies"/>
-</picture>
-
-</div>
-
----
-
-### 🚀 Featured Work
-
-| Project | Description | Link |
-| :--- | :--- | :---: |
-| **Studio** | AI automation agency — SaaS, agents, and production systems for businesses | [Visit →](https://example.com) |
-| **AlphaVenue AI** | AI-powered venue & event management platform | 🔒 Private |
-| **SocialSync** | Social media automation & scheduling platform | 🔒 Private |
-| **Elio** | SaaS marketplace connecting **contractors**, **homeowners**, and **vendors** — project posting, milestone quotes, scheduling, invoicing & payouts (Flutter mobile + React web) | 🔒 Private |
-| **madaddGar** | On-demand **home services marketplace** (Uber-style) — book electricians, plumbers & more; providers bid, worker arrives on appointment, OTP-verified completion, then payment · Node.js · MongoDB · Socket.io | 🔒 Private |
-| **HRIA-DMS** | Donation management system for humanitarian operations | 🔒 Private |
-| **[Face Recognition](https://github.com/umer-jahangier/Face-Recognition-Project)** | CNN-based real-time attendance system (Python · TensorFlow · OpenCV) | [Repo →](https://github.com/umer-jahangier/Face-Recognition-Project) |
-| **[Bobby Tailor Automation](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0)** | Production workflow automation showcase (public) | [Repo →](https://github.com/umer-jahangier/Bobby-Tailor-Automation-2.0) |
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&height=80&section=footer&reversal=true&color=0:0d1117,100:ff0080&fontSize=0"/>
-  <img src="https://capsule-render.vercel.app/api?type=soft&height=80&section=footer&reversal=true&color=0:f8f4ff,100:ffd6f0&fontSize=0" width="100%" alt="Profile footer — engineered at Studio"/>
-</picture>
-
-**`// built with intent · powered by automation · engineered @ Studio`**
-
-<br/>
-
-### 🌐 Let's Connect
-
-[![Studio](https://img.shields.io/badge/Studio-example.com-00FFF5?style=flat&logo=google-chrome&logoColor=0d0221)](https://example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-FF0080?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umer-jahangier/)
-[![Email](https://img.shields.io/badge/Email-hello%40example.com-BF00FF?style=flat&logo=gmail&logoColor=white)](mailto:hello@example.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%40umer__jahangier-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/umer_jahangier)
-
-<br/><br/>
-
-⭐️ From [Muhammad Umer](https://github.com/umer-jahangier)
-
-</div>
+Have something to build, or a role to talk about? Email **[umer.jahangier@gmail.com](mailto:umer.jahangier@gmail.com)** or [connect on LinkedIn](https://www.linkedin.com/in/muhammad-umer-jahangier/).
