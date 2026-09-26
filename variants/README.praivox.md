@@ -1,14 +1,14 @@
-<!-- Generated from variants/README.personal.md by .github/workflows/profile.yml. Edit the variant, not this file. -->
+<!-- Generated from variants/README.praivox.md by .github/workflows/profile.yml. Edit the variant, not this file. -->
 
 <picture>
-  <source media="(max-width: 600px)" srcset="dist/cover-personal-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="dist/cover-personal-dark.svg">
-  <img src="dist/cover-personal-light.svg" width="100%" alt="Muhammad Umer, AI, Automation and Full-Stack Engineer. Live graph of the last 52 weeks of contributions, with the share made in private repositories.">
+  <source media="(max-width: 600px)" srcset="dist/cover-praivox-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/cover-praivox-dark.svg">
+  <img src="dist/cover-praivox-light.svg" width="100%" alt="Muhammad Umer, AI, Automation and Full-Stack Engineer. Live graph of the last 52 weeks of contributions, with the share made in private repositories.">
 </picture>
 
-<a href="mailto:umer.jahangier@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-dark.svg"><img src="dist/btn-email-light.svg" height="48" alt="Email umer.jahangier@gmail.com"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="48" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="48" alt="Instagram"></picture></a>
+<a href="mailto:hello@praivox.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-praivox-dark.svg"><img src="dist/btn-email-praivox-light.svg" height="48" alt="Email hello@praivox.com"></picture></a>&nbsp;<a href="https://praivox.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-praivox-dark.svg"><img src="dist/btn-praivox-light.svg" height="48" alt="praivox.com"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="48" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="48" alt="Instagram"></picture></a>
 
-I build AI agents, automations and the full-stack products around them, from the first schema to the production deploy. Most of that work ships in private repositories for clients and for products I own, so the numbers on this page count private work too.
+I founded **[Praivox](https://praivox.com)**, where we build AI agents, automations and the full-stack products around them for businesses, from the first schema to the production deploy. Most of that work ships in private repositories, so the numbers on this page count private work too.
 
 ### Selected work
 
@@ -50,4 +50,4 @@ I build AI agents, automations and the full-stack products around them, from the
   <img src="dist/github-snake.svg" width="100%" alt="Animated snake eating the last year of contributions, private ones included.">
 </picture>
 
-Have something to build, or a role to talk about? Email **[umer.jahangier@gmail.com](mailto:umer.jahangier@gmail.com)** or [connect on LinkedIn](https://www.linkedin.com/in/muhammad-umer-jahangier/).
+Have something to build? Email **[hello@praivox.com](mailto:hello@praivox.com)**, visit [praivox.com](https://praivox.com) or [connect on LinkedIn](https://www.linkedin.com/in/muhammad-umer-jahangier/).

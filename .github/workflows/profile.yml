@@ -1,0 +1,85 @@
+name: Profile
+
+# One job builds every card, the snake and the README, then commits once.
+# (Three separate workflows used to race each other and fail on rebase.)
+
+on:
+  schedule:
+    - cron: "17 1 * * *" # 06:17 in Lahore
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: "README variant to publish"
+        type: choice
+        options: [keep current, personal, praivox]
+        default: keep current
+  push:
+    branches: [main]
+    paths:
+      - "variants/**"
+      - "scripts/**"
+      - "assets/fonts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Switch variant
+        if: github.event_name == 'workflow_dispatch' && inputs.variant != 'keep current'
+        run: echo "${{ inputs.variant }}" > variants/ACTIVE
+
+      - name: Generate cards
+        env:
+          # Classic PAT with `repo` + `read:user`: adds private repo languages.
+          # Without it the script falls back to the built-in token (public languages only).
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/profile.py
+
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: umer-jahangier
+          github_token: ${{ secrets.PROFILE_TOKEN || github.token }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#2340F0&color_dots=#EEF0F4,#C9D0FB,#93A1F8,#5C72F4,#2340F0
+            dist/github-snake-dark.svg?color_snake=#B9C3FF&color_dots=#161B22,#1E2A70,#2E43C4,#4F68FF,#93A3FF
+
+      - name: Publish active variant
+        run: |
+          variant=$(tr -d '[:space:]' < variants/ACTIVE)
+          if [ ! -f "variants/README.$variant.md" ]; then
+            echo "::error::variants/ACTIVE says '$variant', but variants/README.$variant.md does not exist"
+            exit 1
+          fi
+          cp "variants/README.$variant.md" README.md
+          echo "Published the $variant variant" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist README.md variants/ACTIVE
+          if git diff --staged --quiet; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh cards"
+          # Commit first, then rebase: a dirty tree is what broke the old workflows.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push after 3 attempts"
+          exit 1

@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-26T22:50:41+00:00",
+  "title": "Design System: umer-jahangier profile",
+  "extensions": {
+    "colorMeta": {
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Report Cobalt",
+        "canonical": "#2340F0",
+        "oklch": "oklch(49.1% 0.259 266.8)",
+        "tonalRamp": [
+          "oklch(15% 0.116 266.8)",
+          "oklch(26% 0.164 266.8)",
+          "oklch(37% 0.211 266.8)",
+          "oklch(48% 0.259 266.8)",
+          "oklch(59% 0.259 266.8)",
+          "oklch(70% 0.224 266.8)",
+          "oklch(82% 0.173 266.8)",
+          "oklch(95% 0.116 266.8)"
+        ]
+      },
+      "cobalt-2": {
+        "role": "secondary",
+        "displayName": "Cobalt Rank 2",
+        "canonical": "#4A62F2",
+        "oklch": "oklch(56.4% 0.216 270.6)",
+        "tonalRamp": [
+          "oklch(15% 0.102 270.6)",
+          "oklch(26% 0.142 270.6)",
+          "oklch(37% 0.181 270.6)",
+          "oklch(48% 0.216 270.6)",
+          "oklch(59% 0.216 270.6)",
+          "oklch(70% 0.192 270.6)",
+          "oklch(82% 0.149 270.6)",
+          "oklch(95% 0.102 270.6)"
+        ]
+      },
+      "cobalt-3": {
+        "role": "secondary",
+        "displayName": "Cobalt Rank 3",
+        "canonical": "#6479F4",
+        "oklch": "oklch(62.3% 0.184 272.6)",
+        "tonalRamp": [
+          "oklch(15% 0.091 272.6)",
+          "oklch(26% 0.125 272.6)",
+          "oklch(37% 0.159 272.6)",
+          "oklch(48% 0.184 272.6)",
+          "oklch(59% 0.184 272.6)",
+          "oklch(70% 0.168 272.6)",
+          "oklch(82% 0.131 272.6)",
+          "oklch(95% 0.091 272.6)"
+        ]
+      },
+      "cobalt-rest": {
+        "role": "secondary",
+        "displayName": "Cobalt Rest",
+        "canonical": "#7487F4",
+        "oklch": "oklch(66.0% 0.162 273.7)",
+        "tonalRamp": [
+          "oklch(15% 0.084 273.7)",
+          "oklch(26% 0.114 273.7)",
+          "oklch(37% 0.144 273.7)",
+          "oklch(48% 0.162 273.7)",
+          "oklch(59% 0.162 273.7)",
+          "oklch(70% 0.152 273.7)",
+          "oklch(82% 0.119 273.7)",
+          "oklch(95% 0.084 273.7)"
+        ]
+      },
+      "on-field-muted": {
+        "role": "secondary",
+        "displayName": "Field Mist",
+        "canonical": "#DDE2FF",
+        "oklch": "oklch(91.8% 0.040 277.8)",
+        "tonalRamp": [
+          "oklch(15% 0.040 277.8)",
+          "oklch(26% 0.040 277.8)",
+          "oklch(37% 0.040 277.8)",
+          "oklch(48% 0.040 277.8)",
+          "oklch(59% 0.040 277.8)",
+          "oklch(70% 0.040 277.8)",
+          "oklch(82% 0.040 277.8)",
+          "oklch(95% 0.040 277.8)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#FFFFFF",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(26% 0.000 89.9)",
+          "oklch(37% 0.000 89.9)",
+          "oklch(48% 0.000 89.9)",
+          "oklch(59% 0.000 89.9)",
+          "oklch(70% 0.000 89.9)",
+          "oklch(82% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0B0D12",
+        "oklch": "oklch(15.9% 0.011 268.0)",
+        "tonalRamp": [
+          "oklch(15% 0.011 268.0)",
+          "oklch(26% 0.011 268.0)",
+          "oklch(37% 0.011 268.0)",
+          "oklch(48% 0.011 268.0)",
+          "oklch(59% 0.011 268.0)",
+          "oklch(70% 0.011 268.0)",
+          "oklch(82% 0.011 268.0)",
+          "oklch(95% 0.011 268.0)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Report Grey",
+        "canonical": "#5A6170",
+        "oklch": "oklch(49.2% 0.026 265.6)",
+        "tonalRamp": [
+          "oklch(15% 0.026 265.6)",
+          "oklch(26% 0.026 265.6)",
+          "oklch(37% 0.026 265.6)",
+          "oklch(48% 0.026 265.6)",
+          "oklch(59% 0.026 265.6)",
+          "oklch(70% 0.026 265.6)",
+          "oklch(82% 0.026 265.6)",
+          "oklch(95% 0.026 265.6)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#D9DCE3",
+        "oklch": "oklch(89.4% 0.010 267.4)",
+        "tonalRamp": [
+          "oklch(15% 0.010 267.4)",
+          "oklch(26% 0.010 267.4)",
+          "oklch(37% 0.010 267.4)",
+          "oklch(48% 0.010 267.4)",
+          "oklch(59% 0.010 267.4)",
+          "oklch(70% 0.010 267.4)",
+          "oklch(82% 0.010 267.4)",
+          "oklch(95% 0.010 267.4)"
+        ]
+      },
+      "slate-5": {
+        "role": "neutral",
+        "displayName": "Slate 5",
+        "canonical": "#6E7482",
+        "oklch": "oklch(55.9% 0.023 267.1)",
+        "tonalRamp": [
+          "oklch(15% 0.023 267.1)",
+          "oklch(26% 0.023 267.1)",
+          "oklch(37% 0.023 267.1)",
+          "oklch(48% 0.023 267.1)",
+          "oklch(59% 0.023 267.1)",
+          "oklch(70% 0.023 267.1)",
+          "oklch(82% 0.023 267.1)",
+          "oklch(95% 0.023 267.1)"
+        ]
+      },
+      "slate-6": {
+        "role": "neutral",
+        "displayName": "Slate 6",
+        "canonical": "#838997",
+        "oklch": "oklch(63.0% 0.022 267.2)",
+        "tonalRamp": [
+          "oklch(15% 0.022 267.2)",
+          "oklch(26% 0.022 267.2)",
+          "oklch(37% 0.022 267.2)",
+          "oklch(48% 0.022 267.2)",
+          "oklch(59% 0.022 267.2)",
+          "oklch(70% 0.022 267.2)",
+          "oklch(82% 0.022 267.2)",
+          "oklch(95% 0.022 267.2)"
+        ]
+      },
+      "night-ground": {
+        "role": "neutral",
+        "displayName": "Ink Ground",
+        "canonical": "#0D1117",
+        "oklch": "oklch(17.6% 0.014 258.4)",
+        "tonalRamp": [
+          "oklch(15% 0.014 258.4)",
+          "oklch(26% 0.014 258.4)",
+          "oklch(37% 0.014 258.4)",
+          "oklch(48% 0.014 258.4)",
+          "oklch(59% 0.014 258.4)",
+          "oklch(70% 0.014 258.4)",
+          "oklch(82% 0.014 258.4)",
+          "oklch(95% 0.014 258.4)"
+        ]
+      },
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#E8ECF2",
+        "oklch": "oklch(94.2% 0.009 258.3)",
+        "tonalRamp": [
+          "oklch(15% 0.009 258.3)",
+          "oklch(26% 0.009 258.3)",
+          "oklch(37% 0.009 258.3)",
+          "oklch(48% 0.009 258.3)",
+          "oklch(59% 0.009 258.3)",
+          "oklch(70% 0.009 258.3)",
+          "oklch(82% 0.009 258.3)",
+          "oklch(95% 0.009 258.3)"
+        ]
+      },
+      "night-muted": {
+        "role": "neutral",
+        "displayName": "Night Grey",
+        "canonical": "#9AA3B2",
+        "oklch": "oklch(71.3% 0.024 260.7)",
+        "tonalRamp": [
+          "oklch(15% 0.024 260.7)",
+          "oklch(26% 0.024 260.7)",
+          "oklch(37% 0.024 260.7)",
+          "oklch(48% 0.024 260.7)",
+          "oklch(59% 0.024 260.7)",
+          "oklch(70% 0.024 260.7)",
+          "oklch(82% 0.024 260.7)",
+          "oklch(95% 0.024 260.7)"
+        ]
+      },
+      "night-rule": {
+        "role": "neutral",
+        "displayName": "Night Hairline",
+        "canonical": "#2A313C",
+        "oklch": "oklch(31.1% 0.022 259.4)",
+        "tonalRamp": [
+          "oklch(15% 0.022 259.4)",
+          "oklch(26% 0.022 259.4)",
+          "oklch(37% 0.022 259.4)",
+          "oklch(48% 0.022 259.4)",
+          "oklch(59% 0.022 259.4)",
+          "oklch(70% 0.022 259.4)",
+          "oklch(82% 0.022 259.4)",
+          "oklch(95% 0.022 259.4)"
+        ]
+      },
+      "night-cobalt": {
+        "role": "primary",
+        "displayName": "Night Cobalt",
+        "canonical": "#2F4BFF",
+        "oklch": "oklch(52.6% 0.263 267.7)",
+        "tonalRamp": [
+          "oklch(15% 0.118 267.7)",
+          "oklch(26% 0.166 267.7)",
+          "oklch(37% 0.214 267.7)",
+          "oklch(48% 0.263 267.7)",
+          "oklch(59% 0.263 267.7)",
+          "oklch(70% 0.228 267.7)",
+          "oklch(82% 0.175 267.7)",
+          "oklch(95% 0.118 267.7)"
+        ]
+      },
+      "night-accent": {
+        "role": "primary",
+        "displayName": "Night Accent",
+        "canonical": "#93A3FF",
+        "oklch": "oklch(74.1% 0.134 275.2)",
+        "tonalRamp": [
+          "oklch(15% 0.075 275.2)",
+          "oklch(26% 0.099 275.2)",
+          "oklch(37% 0.124 275.2)",
+          "oklch(48% 0.134 275.2)",
+          "oklch(59% 0.134 275.2)",
+          "oklch(70% 0.131 275.2)",
+          "oklch(82% 0.104 275.2)",
+          "oklch(95% 0.075 275.2)"
+        ]
+      },
+      "night-peak": {
+        "role": "secondary",
+        "displayName": "Night Peak",
+        "canonical": "#B9C3FF",
+        "oklch": "oklch(83.0% 0.085 277.0)",
+        "tonalRamp": [
+          "oklch(15% 0.058 277.0)",
+          "oklch(26% 0.074 277.0)",
+          "oklch(37% 0.085 277.0)",
+          "oklch(48% 0.085 277.0)",
+          "oklch(59% 0.085 277.0)",
+          "oklch(70% 0.085 277.0)",
+          "oklch(82% 0.077 277.0)",
+          "oklch(95% 0.058 277.0)"
+        ]
+      },
+      "night-rest": {
+        "role": "secondary",
+        "displayName": "Night Rest",
+        "canonical": "#4F63E6",
+        "oklch": "oklch(55.9% 0.198 271.8)",
+        "tonalRamp": [
+          "oklch(15% 0.096 271.8)",
+          "oklch(26% 0.132 271.8)",
+          "oklch(37% 0.169 271.8)",
+          "oklch(48% 0.198 271.8)",
+          "oklch(59% 0.198 271.8)",
+          "oklch(70% 0.179 271.8)",
+          "oklch(82% 0.139 271.8)",
+          "oklch(95% 0.096 271.8)"
+        ]
+      },
+      "night-step-1": {
+        "role": "secondary",
+        "displayName": "Night Rank 1",
+        "canonical": "#A9B5FF",
+        "oklch": "oklch(79.1% 0.106 276.6)",
+        "tonalRamp": [
+          "oklch(15% 0.065 276.6)",
+          "oklch(26% 0.085 276.6)",
+          "oklch(37% 0.104 276.6)",
+          "oklch(48% 0.106 276.6)",
+          "oklch(59% 0.106 276.6)",
+          "oklch(70% 0.106 276.6)",
+          "oklch(82% 0.088 276.6)",
+          "oklch(95% 0.065 276.6)"
+        ]
+      },
+      "night-step-2": {
+        "role": "secondary",
+        "displayName": "Night Rank 2",
+        "canonical": "#8595FF",
+        "oklch": "oklch(70.4% 0.155 275.2)",
+        "tonalRamp": [
+          "oklch(15% 0.082 275.2)",
+          "oklch(26% 0.110 275.2)",
+          "oklch(37% 0.139 275.2)",
+          "oklch(48% 0.155 275.2)",
+          "oklch(59% 0.155 275.2)",
+          "oklch(70% 0.146 275.2)",
+          "oklch(82% 0.115 275.2)",
+          "oklch(95% 0.082 275.2)"
+        ]
+      },
+      "night-step-3": {
+        "role": "secondary",
+        "displayName": "Night Rank 3",
+        "canonical": "#6A7DFA",
+        "oklch": "oklch(63.8% 0.186 273.5)",
+        "tonalRamp": [
+          "oklch(15% 0.092 273.5)",
+          "oklch(26% 0.126 273.5)",
+          "oklch(37% 0.160 273.5)",
+          "oklch(48% 0.186 273.5)",
+          "oklch(59% 0.186 273.5)",
+          "oklch(70% 0.169 273.5)",
+          "oklch(82% 0.132 273.5)",
+          "oklch(95% 0.092 273.5)"
+        ]
+      },
+      "night-step-4": {
+        "role": "secondary",
+        "displayName": "Night Rank 4",
+        "canonical": "#5468F0",
+        "oklch": "oklch(57.9% 0.204 272.1)",
+        "tonalRamp": [
+          "oklch(15% 0.098 272.1)",
+          "oklch(26% 0.135 272.1)",
+          "oklch(37% 0.173 272.1)",
+          "oklch(48% 0.204 272.1)",
+          "oklch(59% 0.204 272.1)",
+          "oklch(70% 0.183 272.1)",
+          "oklch(82% 0.142 272.1)",
+          "oklch(95% 0.098 272.1)"
+        ]
+      },
+      "night-slate-5": {
+        "role": "neutral",
+        "displayName": "Night Slate 5",
+        "canonical": "#8A93A3",
+        "oklch": "oklch(66.1% 0.026 262.1)",
+        "tonalRamp": [
+          "oklch(15% 0.026 262.1)",
+          "oklch(26% 0.026 262.1)",
+          "oklch(37% 0.026 262.1)",
+          "oklch(48% 0.026 262.1)",
+          "oklch(59% 0.026 262.1)",
+          "oklch(70% 0.026 262.1)",
+          "oklch(82% 0.026 262.1)",
+          "oklch(95% 0.026 262.1)"
+        ]
+      },
+      "night-slate-6": {
+        "role": "neutral",
+        "displayName": "Night Slate 6",
+        "canonical": "#6B7383",
+        "oklch": "oklch(55.4% 0.027 264.3)",
+        "tonalRamp": [
+          "oklch(15% 0.027 264.3)",
+          "oklch(26% 0.027 264.3)",
+          "oklch(37% 0.027 264.3)",
+          "oklch(48% 0.027 264.3)",
+          "oklch(59% 0.027 264.3)",
+          "oklch(70% 0.027 264.3)",
+          "oklch(82% 0.027 264.3)",
+          "oklch(95% 0.027 264.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name, once, on two lines. 70px on phones."
+      },
+      "display-figure": {
+        "displayName": "Display figure",
+        "purpose": "The year's contribution total on the cobalt field. 58px on phones."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Role line under the name. 24px on phones."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Number-block heads over an ink rule; button labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Language names and ledger labels on 36px / 38px rows."
+      },
+      "body-figure": {
+        "displayName": "Body figure",
+        "purpose": "Right-aligned values paired with body labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Peak label, month and weekday ticks, colophon. 13-16px by layout."
+      },
+      "chip": {
+        "displayName": "Chip",
+        "purpose": "Private / Open source chip labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "sweep",
+        "value": "2.4s cubic-bezier(.45,0,.2,1) .3s both; translateX(0 -> chart span), opacity 0 -> 1 (10%) -> 1 (88%) -> 0",
+        "purpose": "The single oscilloscope pass across the cover chart; invisible at first and last frame; animation:none and opacity 0 under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "(max-width: 600px)",
+        "purpose": "First <picture> source; selects the adaptive SVG (600px canvas) that switches theme internally."
+      },
+      {
+        "name": "wide",
+        "value": "1200px canvas",
+        "purpose": "Default light <img> and dark prefers-color-scheme source."
+      }
+    ],
+    "fonts": [
+      {
+        "name": "A-display",
+        "file": "assets/fonts/archivo-display.woff2",
+        "instance": "Archivo wdth 125 wght 800"
+      },
+      {
+        "name": "A-text",
+        "file": "assets/fonts/archivo-text.woff2",
+        "instance": "Archivo wdth 100 wght 400"
+      },
+      {
+        "name": "A-medium",
+        "file": "assets/fonts/archivo-medium.woff2",
+        "instance": "Archivo wdth 100 wght 600"
+      }
+    ],
+    "strokes": [
+      {
+        "name": "hairline",
+        "value": "1px on .5 offsets",
+        "purpose": "Row dividers, colophon rule and ticks, chart baseline"
+      },
+      {
+        "name": "outline",
+        "value": "1.5px inset .75px",
+        "purpose": "Secondary buttons and Open source chips"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Email contact, the one solid button in the contact row under the cover.",
+      "html": "<a class='ds-btn ds-btn-primary' href='#'><svg width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'><rect x='1' y='3' width='18' height='14' rx='1.5' fill='none' stroke='currentColor' stroke-width='1.8'/><path d='M1.8 4.2 10 11l8.2-6.8' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/></svg><span>umer.jahangier@gmail.com</span><svg width='12' height='12' viewBox='0 0 12 12' aria-hidden='true'><path d='M2 10l8-8M3.5 2H10v6.5' fill='none' stroke='currentColor' stroke-width='1.7' stroke-linecap='square'/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 18px 0 20px;border-radius:0;font:600 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;text-decoration:none;box-sizing:border-box}.ds-btn-primary{background:#2340F0;color:#FFFFFF;border:0}.ds-btn-primary:hover{background:#2F4BFF}.ds-btn-primary:focus-visible{outline:2px solid #0B0D12;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "LinkedIn, Instagram, praivox.com: outlined in ink on the page ground.",
+      "html": "<a class='ds-btn ds-btn-secondary' href='#'><svg width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'><rect x='1.9' y='1.9' width='16.2' height='16.2' rx='4.6' fill='none' stroke='currentColor' stroke-width='1.8'/><circle cx='10' cy='10' r='3.7' fill='none' stroke='currentColor' stroke-width='1.8'/><circle cx='14.6' cy='5.4' r='1.1' fill='currentColor'/></svg><span>Instagram</span><svg width='12' height='12' viewBox='0 0 12 12' aria-hidden='true'><path d='M2 10l8-8M3.5 2H10v6.5' fill='none' stroke='currentColor' stroke-width='1.7' stroke-linecap='square'/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 18px 0 20px;border-radius:0;font:600 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;text-decoration:none;box-sizing:border-box}.ds-btn-secondary{background:#FFFFFF;color:#0B0D12;border:1.5px solid #0B0D12}.ds-btn-secondary:hover{background:#0B0D12;color:#FFFFFF}.ds-btn-secondary:focus-visible{outline:2px solid #2340F0;outline-offset:2px}"
+    },
+    {
+      "name": "Private Chip",
+      "kind": "chip",
+      "refersTo": "tag-private",
+      "description": "Marks a private repository in the selected-work table: solid cobalt.",
+      "html": "<span class='ds-tag ds-tag-private'>Private</span>",
+      "css": ".ds-tag{display:inline-flex;align-items:center;height:22px;padding:0 10px;border-radius:0;font:600 12px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box}.ds-tag-private{background:#2340F0;color:#FFFFFF}"
+    },
+    {
+      "name": "Open Source Chip",
+      "kind": "chip",
+      "refersTo": "tag-open",
+      "description": "Marks a public repository: the same chip as a 1.5px cobalt outline.",
+      "html": "<span class='ds-tag ds-tag-open'>Open source</span>",
+      "css": ".ds-tag{display:inline-flex;align-items:center;height:22px;padding:0 10px;border-radius:0;font:600 12px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box}.ds-tag-open{background:transparent;color:#2340F0;border:1.5px solid #2340F0}"
+    },
+    {
+      "name": "Cover Field",
+      "kind": "card",
+      "refersTo": "cover-field",
+      "description": "The cobalt field: display figure, 52 white weekly bars, and the solid/outline private split bar.",
+      "html": "<div class='ds-field'><div class='ds-field-fig'>2,785</div><div class='ds-field-cap'>contributions in the last 12 months</div><div class='ds-field-bars'><i style='height:8px'></i><i style='height:14px'></i><i style='height:6px'></i><i style='height:22px'></i><i style='height:30px'></i><i style='height:18px'></i><i style='height:40px'></i><i style='height:26px'></i><i style='height:12px'></i><i style='height:34px'></i><i style='height:52px'></i><i style='height:44px'></i><i style='height:60px'></i><i style='height:38px'></i><i style='height:20px'></i><i style='height:70px'></i><i style='height:48px'></i><i style='height:28px'></i><i style='height:16px'></i><i style='height:36px'></i><i style='height:24px'></i><i style='height:10px'></i><i style='height:42px'></i><i style='height:56px'></i><i style='height:32px'></i><i style='height:18px'></i></div><div class='ds-split'><b style='width:61%'></b><s></s></div><div class='ds-split-lab'><span>61% in private repositories</span><em>39% public</em></div></div>",
+      "css": ".ds-field{background:#2340F0;color:#FFFFFF;padding:32px;width:416px;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-field-fig{font:800 64px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;font-stretch:125%;letter-spacing:-1.5px}.ds-field-cap{margin-top:12px;font:600 17px/1.2 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#DDE2FF}.ds-field-bars{display:flex;align-items:flex-end;gap:2px;height:80px;margin-top:40px;border-bottom:1px solid rgba(255,255,255,.5)}.ds-field-bars i{display:block;width:14px;background:#FFFFFF}.ds-split{display:flex;gap:3px;height:12px;margin-top:40px}.ds-split b{background:#FFFFFF}.ds-split s{flex:1;border:1px solid #FFFFFF}.ds-split-lab{display:flex;justify-content:space-between;margin-top:14px;font:600 15px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-split-lab em{font-style:normal;font-weight:400;color:#DDE2FF}"
+    },
+    {
+      "name": "Ledger Block",
+      "kind": "custom",
+      "refersTo": "ledger-row",
+      "description": "'The year, counted': Title head over an ink rule, grey labels, semibold right-aligned values on hairlines.",
+      "html": "<div class='ds-ledger'><div class='ds-ledger-head'>The year, counted</div><div class='ds-ledger-row'><span>Current streak</span><b>2 days</b></div><div class='ds-ledger-row'><span>Longest streak</span><b>13 days</b></div><div class='ds-ledger-row'><span>Private contributions</span><b>1,706</b></div><div class='ds-ledger-row'><span>All time, since 2023</span><b>2,882</b></div></div>",
+      "css": ".ds-ledger{width:352px;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0D12}.ds-ledger-head{font:600 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;padding-bottom:16px;border-bottom:1px solid #0B0D12}.ds-ledger-row{display:flex;justify-content:space-between;align-items:center;height:38px;border-bottom:1px solid #D9DCE3;font:400 17px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-ledger-row span{color:#5A6170}.ds-ledger-row b{font-weight:600}"
+    },
+    {
+      "name": "Language Share",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Ranked stacked bar and swatch list: cobalt tints by rank, then slates.",
+      "html": "<div class='ds-langs'><div class='ds-langs-bar'><i style='flex:42.5;background:#2340F0'></i><i style='flex:27.2;background:#4A62F2'></i><i style='flex:10.4;background:#6479F4'></i><i style='flex:9.1;background:#7487F4'></i><i style='flex:9;background:#6E7482'></i><i style='flex:1.8;background:#838997'></i></div><div class='ds-langs-row'><i style='background:#2340F0'></i><span>TypeScript</span><b>42.5%</b></div><div class='ds-langs-row'><i style='background:#4A62F2'></i><span>Python</span><b>27.2%</b></div><div class='ds-langs-row'><i style='background:#6479F4'></i><span>Java</span><b>10.4%</b></div></div>",
+      "css": ".ds-langs{width:352px;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0D12}.ds-langs-bar{display:flex;gap:2px;height:18px;margin-bottom:20px}.ds-langs-bar i{display:block}.ds-langs-row{display:flex;align-items:center;gap:12px;height:36px;border-bottom:1px solid #D9DCE3;font:400 17px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-langs-row i{width:12px;height:12px}.ds-langs-row span{flex:1}.ds-langs-row b{font-weight:600}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Annual Report",
+    "overview": "The profile is typeset as a Swiss International Style annual report of one engineer's year. A white page (GitHub's ink ground in dark mode) carries one expanded name and one committed cobalt field that owns a whole region of the cover. Numbers are the evidence: the year's contributions, the private share, the languages, the weekly rhythm and a ledger are set as report figures, measured on hairline rules and tick marks, and rebuilt every day from the API.\n\nEverything visual is a generated SVG, because GitHub's sanitizer strips CSS from the page. The system lives in `scripts/profile.py`: two theme token sets, fixed geometry per layout, and a small set of builders (cover, three number blocks, buttons, chips). Density is report-like: generous ground on the left, a packed data field on the right, figures right-aligned against labels. The world rejects the neon-terminal dev profile and the badge wall.",
+    "keyCharacteristics": [
+      "One cobalt field per cover, holding the live 52-week chart in white.",
+      "A single visual code everywhere: solid means private (or primary), outline means public (or secondary).",
+      "Archivo embedded in three cut instances: expanded black for the name and the headline figure, normal-width semibold and regular for everything else.",
+      "Hairline rules and 80px tick marks; square corners; whole-pixel bar pitches.",
+      "Ink, cobalt tints and neutral slates only. No language brand colours.",
+      "One motion: a single oscilloscope sweep across the chart, invisible at its first and last frame."
+    ],
+    "rules": [
+      {
+        "name": "The One Field Rule",
+        "body": "Cobalt appears as a filled region or as a ranked datum. It never tints running text, never decorates, and there is one field per surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ranked Tint Rule",
+        "body": "Categorical series are coloured by rank in cobalt tints, then slates. Language brand colours (the GitHub rainbow) are never used.",
+        "section": "colors"
+      },
+      {
+        "name": "The Legible Mark Rule",
+        "body": "Text on any ground is at least 4.5:1; every chart mark is at least 3:1. A new tint earns its place by passing both in both themes.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Big Word Rule",
+        "body": "The expanded display cut is reserved for the name and the single headline figure. Nothing else is set expanded.",
+        "section": "typography"
+      },
+      {
+        "name": "The Figure Weight Rule",
+        "body": "Labels are regular, their values semibold and right-aligned; weight, not colour, separates a number from its caption.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fixed Budget Rule",
+        "body": "Every figure has a fixed geometry per layout; values change daily, the frame does not. New data must fit the existing box.",
+        "section": "layout"
+      },
+      {
+        "name": "The Whole Pixel Rule",
+        "body": "Bar pitches are whole pixels and hairlines sit on .5 offsets. No fractional bar widths on the cover.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Report Rule",
+        "body": "Surfaces are printed, not lifted. No drop shadows, glows or offset shadows on any element.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** generate every visual as an SVG from `THEMES` and `COVER_GEOMETRY` in `scripts/profile.py`, in a light, a dark and (for full-width visuals) an adaptive phone file.",
+      "**Do** keep solid for private or primary and outline for public or secondary, everywhere.",
+      "**Do** colour categorical data by rank in cobalt tints, then slates, and check every mark at 3:1 and every text pair at 4.5:1 in both themes.",
+      "**Do** embed only the Archivo instances a file uses, with the Helvetica stack as fallback.",
+      "**Do** keep bars on whole-pixel pitches and hairlines on half-pixel offsets.",
+      "**Do** make any animation invisible at its first and last frame and remove it under reduced motion."
+    ],
+    "donts": [
+      "**Don't** use language brand colours or any hue outside ink, cobalt tints and slates.",
+      "**Don't** set anything but the name and the headline figure in the expanded display cut.",
+      "**Don't** add shadows, glows or rounded corners to fields, bars, buttons or chips.",
+      "**Don't** put a second cobalt field on a surface or tint running text cobalt.",
+      "**Don't** load third-party image services or external fonts; everything renders from this repo.",
+      "**Don't** let a figure grow its box; values change inside a fixed geometry."
+    ]
+  }
+}
