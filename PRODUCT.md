@@ -48,7 +48,7 @@ Real projects (verified from repo READMEs, 2026-09-27):
 - **Reveal Your Intentions**: AI social-intelligence mobile app: Expo + Express AI orchestration API. Private.
 - **madaddGar**: on-demand home-services marketplace (providers bid, OTP-verified completion). Node, MongoDB, Socket.io. Private.
 - **Qalb-e-Saleem**: Flutter app for the majalis, writings and shajra of Hazrat Pir Syed Muhammad Abdullah Shah Mashhadi Qadri: audio player, reader. Private.
-- **RestaurantOS**: multi-tenant restaurant OS: POS, inventory, finance, HR, reporting. Public (repo name `ResturantOS`).
+- **RestaurantOS**: multi-tenant restaurant OS: POS, inventory, finance, HR, reporting. Private since 2026-09-27 (repo name `ResturantOS`); never link it.
 - **cursor-powered-up**: one-clone installer that powers up Cursor / VS Code / Antigravity with GSD workflows, agent memory, CodeGraph, MCP wiring. Public.
 - **domain-manager**: read-only Kubernetes hostname/DNS/certificate page, stdlib-only Python, multi-arch image on GHCR, Terra plugin. Public.
 - **Face-Recognition-Project**: CNN attendance system (TensorFlow, OpenCV). Public.
