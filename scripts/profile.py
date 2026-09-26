@@ -89,6 +89,10 @@ query($login: String!, $from: DateTime, $to: DateTime) {
       totalCommitContributions totalPullRequestContributions
       totalPullRequestReviewContributions totalIssueContributions
       restrictedContributionsCount
+      commitContributionsByRepository(maxRepositories: 100) { repository { isPrivate } contributions { totalCount } }
+      issueContributionsByRepository(maxRepositories: 100) { repository { isPrivate } contributions { totalCount } }
+      pullRequestContributionsByRepository(maxRepositories: 100) { repository { isPrivate } contributions { totalCount } }
+      pullRequestReviewContributionsByRepository(maxRepositories: 100) { repository { isPrivate } contributions { totalCount } }
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -169,11 +173,21 @@ def fetch(token, personal):
         all_time += coll["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
         start = end
 
+    # Private share. Contributions the token cannot see arrive only as the
+    # restricted count; ones it can see (a PAT acting as the user) arrive per
+    # repository. Summing both is right with either token.
+    visible_private = sum(
+        entry["contributions"]["totalCount"]
+        for kind in ("commit", "issue", "pullRequest", "pullRequestReview")
+        for entry in cc[f"{kind}ContributionsByRepository"]
+        if entry["repository"]["isPrivate"]
+    )
     langs, repos, private_repos = fetch_repos(token, personal)
     return dict(
         days=days,
         total=cc["contributionCalendar"]["totalContributions"],
-        private=cc["restrictedContributionsCount"],
+        private=min(cc["restrictedContributionsCount"] + visible_private,
+                    cc["contributionCalendar"]["totalContributions"]),
         commits=cc["totalCommitContributions"],
         prs=cc["totalPullRequestContributions"],
         reviews=cc["totalPullRequestReviewContributions"],
