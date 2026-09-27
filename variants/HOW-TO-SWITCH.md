@@ -33,4 +33,4 @@ Pick whichever is easiest:
 
 Edit the variant file itself (for example `README.personal.md`) and push. Content shared by both variants (selected work, toolbox) lives in both files, so change it in both.
 
-The cards in `dist/` are rebuilt every day by `scripts/profile.py`; the role line and location on the cover come from `VARIANTS` in that script.
+The images in `dist/` are rebuilt every day by `scripts/profile.py`. The role line and location on the cover come from `VARIANTS`, and the Selected work cards from `SHOWCASE`, both in `scripts/stage/scenes.py`. Project names are matched to repositories by keyword in `PROJECTS` in `scripts/stage/data.py`.

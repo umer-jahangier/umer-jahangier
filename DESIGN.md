@@ -1,289 +1,310 @@
 ---
 name: umer-jahangier profile
-description: A GitHub profile set as a Swiss annual report, one cobalt field and live numbers that count private work.
+description: A GitHub profile set as a cyclorama, a stage lit from night to day where light shows a year of mostly private work.
 colors:
+  night-sky: "#03040A"
+  night-sky-mid: "#080B22"
+  night-horizon-deep: "#131C5E"
+  night-cobalt: "#2A3DE0"
+  night-glow: "#3B5BFF"
+  night-horizon: "#5A76FF"
+  night-accent: "#6F87FF"
+  night-rose-glow: "#FF6F91"
+  night-rose: "#FF7A9A"
+  night-rose-soft: "#FFB8C8"
+  night-ground: "#0B1030"
+  night-ground-floor: "#04050C"
+  night-card: "#080A15"
+  night-card-line: "#1C2238"
+  night-ink: "#F2F3F8"
+  night-muted: "#A7AECC"
+  night-faint: "#6B7394"
+  night-building-front: "#10152E"
+  night-building-side: "#0A0E22"
+  night-building-roof: "#1D2552"
+  night-window-private: "#FFC4D2"
+  night-window-public: "#8FA2FF"
+  night-window-off: "#161C3A"
+  night-dial-day: "#1A1530"
+  night-dial-night: "#0C1030"
+  moon: "#F6F2FF"
+  day-sky: "#FFFFFF"
+  day-sky-mid: "#FCFCFF"
+  day-haze-pale: "#FFE8EE"
+  day-haze: "#FFCBD7"
+  day-glow: "#FF9DB3"
+  day-periwinkle: "#6D80F6"
   cobalt: "#2340F0"
-  cobalt-2: "#4A62F2"
-  cobalt-3: "#6479F4"
-  cobalt-rest: "#7487F4"
-  on-field-muted: "#DDE2FF"
-  paper: "#FFFFFF"
-  ink: "#0B0D12"
-  muted: "#5A6170"
-  rule: "#D9DCE3"
-  slate-5: "#6E7482"
-  slate-6: "#838997"
-  night-ground: "#0D1117"
-  night-ink: "#E8ECF2"
-  night-muted: "#9AA3B2"
-  night-rule: "#2A313C"
-  night-cobalt: "#2F4BFF"
-  night-accent: "#93A3FF"
-  night-peak: "#B9C3FF"
-  night-rest: "#4F63E6"
-  night-step-1: "#A9B5FF"
-  night-step-2: "#8595FF"
-  night-step-3: "#6A7DFA"
-  night-step-4: "#5468F0"
-  night-slate-5: "#8A93A3"
-  night-slate-6: "#6B7383"
+  cobalt-deep: "#1627B0"
+  cobalt-roof: "#7486F7"
+  day-window-off: "#3550F2"
+  day-window-private: "#FF93AE"
+  day-window-public: "#DCE3FF"
+  day-rose: "#C8325A"
+  sun: "#FF7C9C"
+  day-ground: "#FFEFF3"
+  day-card: "#FFFFFF"
+  day-card-line: "#E1E4F0"
+  day-track: "#E7EAF4"
+  day-ink: "#0B0D1A"
+  day-muted: "#545B73"
+  day-faint: "#8C92A8"
+  day-dial-day: "#FFF1F5"
+  day-dial-night: "#EDF0FD"
 typography:
   display:
     fontFamily: "Archivo Expanded (embedded 'A-display'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
-    fontSize: "86px"
-    fontWeight: 800
-    lineHeight: "90px"
+    fontSize: "82px"
+    lineHeight: 1
     letterSpacing: "-2px"
-    fontVariation: "'wdth' 125, 'wght' 800"
-  display-figure:
+  figure:
     fontFamily: "Archivo Expanded (embedded 'A-display'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
-    fontSize: "64px"
-    fontWeight: 800
-    letterSpacing: "-1.5px"
-    fontVariation: "'wdth' 125, 'wght' 800"
+    fontSize: "44px"
+    lineHeight: 1
+    letterSpacing: "-1px"
   headline:
-    fontFamily: "Archivo (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
-    fontSize: "27px"
-    fontWeight: 600
-    fontVariation: "'wdth' 100, 'wght' 600"
+    fontFamily: "Archivo Medium (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
+    fontSize: "26px"
+    fontWeight: 500
+    lineHeight: 1.2
   title:
-    fontFamily: "Archivo (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
-    fontSize: "16px"
-    fontWeight: 600
-    fontVariation: "'wdth' 100, 'wght' 600"
+    fontFamily: "Archivo Medium (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
+    fontSize: "20px"
+    fontWeight: 500
+    lineHeight: 1.2
   body:
     fontFamily: "Archivo (embedded 'A-text'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
-    fontSize: "17px"
+    fontSize: "15px"
     fontWeight: 400
-    lineHeight: "36px"
-    fontVariation: "'wdth' 100, 'wght' 400"
-  body-figure:
-    fontFamily: "Archivo (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
-    fontSize: "17px"
-    fontWeight: 600
-    fontVariation: "'wdth' 100, 'wght' 600"
+    lineHeight: 1.45
+  caption:
+    fontFamily: "Archivo (embedded 'A-text'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
+    fontSize: "14px"
+    fontWeight: 400
+    lineHeight: 1.4
   label:
     fontFamily: "Archivo (embedded 'A-text'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
     fontSize: "13px"
     fontWeight: 400
-    fontVariation: "'wdth' 100, 'wght' 400"
+    lineHeight: 1.3
   chip:
-    fontFamily: "Archivo (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
+    fontFamily: "Archivo Medium (embedded 'A-medium'), 'Helvetica Neue', Helvetica, Arial, sans-serif"
     fontSize: "12px"
-    fontWeight: 600
-    fontVariation: "'wdth' 100, 'wght' 600"
+    fontWeight: 500
+    lineHeight: 1
 rounded:
-  none: "0px"
+  hero: "22px"
+  card: "18px"
+  button: "14px"
+  chip: "11px"
 spacing:
-  bar-gap: "2px"
-  grid: "8px"
-  button-inset: "20px"
-  field-pad: "32px"
-  field-pad-narrow: "40px"
-  row: "36px"
-  block-gutter: "72px"
-  tick: "80px"
+  card-inset: "30px"
+  work-inset: "28px"
+  gutter: "40px"
+  work-row: "24px"
+  bento-row: "20px"
+  row-pitch: "40px"
 components:
   button-primary:
     backgroundColor: "{colors.cobalt}"
-    textColor: "{colors.paper}"
+    textColor: "{colors.day-card}"
     typography: "{typography.title}"
-    rounded: "{rounded.none}"
-    padding: "0 30px 0 20px"
-    height: "48px"
-  button-primary-dark:
-    backgroundColor: "{colors.night-cobalt}"
-    textColor: "{colors.paper}"
-    typography: "{typography.title}"
-    rounded: "{rounded.none}"
-    height: "48px"
+    rounded: "{rounded.button}"
+    height: "50px"
+    padding: "0 46px 0 20px"
+  button-primary-night:
+    backgroundColor: "{colors.night-glow}"
+    textColor: "{colors.day-card}"
+    rounded: "{rounded.button}"
+    height: "50px"
+    padding: "0 46px 0 20px"
   button-secondary:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    typography: "{typography.title}"
-    rounded: "{rounded.none}"
-    padding: "0 30px 0 20px"
-    height: "48px"
-  button-secondary-dark:
-    backgroundColor: "{colors.night-ground}"
+    backgroundColor: "{colors.day-card}"
+    textColor: "{colors.day-ink}"
+    rounded: "{rounded.button}"
+    height: "50px"
+    padding: "0 46px 0 20px"
+  button-secondary-night:
+    backgroundColor: "{colors.night-card}"
     textColor: "{colors.night-ink}"
-    typography: "{typography.title}"
-    rounded: "{rounded.none}"
-    height: "48px"
-  tag-private:
+    rounded: "{rounded.button}"
+    height: "50px"
+    padding: "0 46px 0 20px"
+  chip-private:
     backgroundColor: "{colors.cobalt}"
-    textColor: "{colors.paper}"
+    textColor: "{colors.day-card}"
     typography: "{typography.chip}"
-    rounded: "{rounded.none}"
-    padding: "0 10px"
+    rounded: "{rounded.chip}"
     height: "22px"
-  tag-private-dark:
-    backgroundColor: "{colors.night-cobalt}"
-    textColor: "{colors.paper}"
-    typography: "{typography.chip}"
-    rounded: "{rounded.none}"
-    height: "22px"
-  tag-open:
+    padding: "0 11px"
+  chip-open:
     textColor: "{colors.cobalt}"
     typography: "{typography.chip}"
-    rounded: "{rounded.none}"
-    padding: "0 10px"
+    rounded: "{rounded.chip}"
     height: "22px"
-  tag-open-dark:
-    textColor: "{colors.night-accent}"
-    typography: "{typography.chip}"
-    rounded: "{rounded.none}"
+    padding: "0 11px"
+  chip-open-night:
+    textColor: "{colors.night-window-public}"
+    rounded: "{rounded.chip}"
     height: "22px"
-  cover-field:
-    backgroundColor: "{colors.cobalt}"
-    textColor: "{colors.paper}"
-    padding: "{spacing.field-pad}"
-    width: "480px"
-    height: "440px"
-  cover-field-dark:
-    backgroundColor: "{colors.night-cobalt}"
-    textColor: "{colors.paper}"
-    padding: "{spacing.field-pad}"
-  ledger-row:
-    textColor: "{colors.ink}"
-    typography: "{typography.body}"
-    height: "38px"
-    width: "352px"
+    padding: "0 11px"
+  stage-card:
+    backgroundColor: "{colors.day-card}"
+    rounded: "{rounded.card}"
+    padding: "{spacing.card-inset}"
+  stage-card-night:
+    backgroundColor: "{colors.night-card}"
+    rounded: "{rounded.card}"
+    padding: "{spacing.card-inset}"
+  hero-stage:
+    rounded: "{rounded.hero}"
+    width: "1200px"
+    height: "640px"
 ---
 
 # Design System: umer-jahangier profile
 
 ## Overview
 
-**Creative North Star: "The Annual Report"**
+**Creative North Star: "The Cyclorama"**
 
-The profile is typeset as a Swiss International Style annual report of one engineer's year. A white page (GitHub's ink ground in dark mode) carries one expanded name and one committed cobalt field that owns a whole region of the cover. Numbers are the evidence: the year's contributions, the private share, the languages, the weekly rhythm and a ledger are set as report figures, measured on hairline rules and tick marks, and rebuilt every day from the API.
+The profile is a stage backdrop lit from night to day. Light shows a year of mostly private work. Dark mode is the night cue: a depthless black sky that deepens to a low cobalt horizon, rose light gathering above it, and a field of stars. Light mode is the day cue: a white wash, rose haze at the horizon, and cobalt architecture. Every chart is a piece of set. The year is a skyline of 52 weekly buildings, with lit windows for contributions and warm windows for private work. The day is the sun's path. Languages are strata of sky. Each named project stands on its own miniature skyline.
 
-Everything visual is a generated SVG, because GitHub's sanitizer strips CSS from the page. The system lives in `scripts/profile.py`: two theme token sets, fixed geometry per layout, and a small set of builders (cover, three number blocks, buttons, chips). Density is report-like: generous ground on the left, a packed data field on the right, figures right-aligned against labels. The world rejects the neon-terminal dev profile and the badge wall.
+The world rejects two things by construction: the neon-terminal developer profile and the flat grid of stat cards. Depth comes from isometric buildings, a reflection in still water, and the horizon haze that rises from every card floor, never from drop shadows. Type is quiet except in two places: the name and the headline figures, set in an expanded heavy Archivo that spans the sky like a title card.
+
+The medium is fixed and it shapes everything. GitHub sanitizes README markdown, so every visual is a generated SVG loaded through `<img>` inside a `<picture>`. Each SVG embeds its own Archivo subset as base64 WOFF2 and positions text from measured glyph widths, because an `<img>` SVG cannot load external fonts. Desktop gets separate `-light` and `-dark` files switched by `prefers-color-scheme`. Phones get one `-mobile` file through a `(max-width: 600px)` source. GitHub's themed picture leaves that plain media query alone, so the mobile file carries both cues and switches internally.
 
 **Key Characteristics:**
-- One cobalt field per cover, holding the live 52-week chart in white.
-- A single visual code everywhere: solid means private (or primary), outline means public (or secondary).
-- Archivo embedded in three cut instances: expanded black for the name and the headline figure, normal-width semibold and regular for everything else.
-- Hairline rules and 80px tick marks; square corners; whole-pixel bar pitches.
-- Ink, cobalt tints and neutral slates only. No language brand colours.
-- One motion: a single oscilloscope sweep across the chart, invisible at its first and last frame.
+- Two lighting cues of one stage, night (dark) and day (light), always shipped as a pair.
+- Isometric skylines as data: height and lit windows encode contributions; warm windows encode private work.
+- Horizon haze rising from the floor of every card; hairline edges; no shadows.
+- Expanded heavy Archivo for the name and figures only; Archivo Medium and Text for everything else.
+- Ambient motion only (twinkling windows and stars, a breathing horizon, a live-push pulse), and every loop starts from the finished frame.
 
 ## Colors
 
-A two-theme palette of paper, ink and one cobalt, with cobalt tints and slates doing all data work.
+The palette is cobalt and rose on black or white. Cobalt is architecture and structure; rose is light and warmth. The two themes are two cues on the same stage, not an inverted copy of each other.
 
 ### Primary
-- **Report Cobalt** (cobalt): the field. Fills the cover's right 40% (below the name on phones), the primary contact button, the Private chip, the top-ranked language and the busiest weekday bar. White on it measures 6.86:1.
-- **Night Cobalt** (night-cobalt): the same field in dark mode, lifted slightly so it holds against GitHub's ink ground; white on it measures 5.88:1.
-- **Night Accent** (night-accent): cobalt as a line on dark ground, used for the Open source chip outline and its label (8.04:1).
+- **Cyc Cobalt** (cobalt / night-cobalt / night-glow): the day cue's architecture (building fronts, primary buttons, solid chips, accent bars, the horizon line), and at night the horizon floor and the glow that lights the skyline from below. Deep and roof shades (cobalt-deep, cobalt-roof; night-building-side, night-building-roof) give the isometric side and top faces.
+- **Horizon Periwinkle** (night-horizon, night-accent): the lit horizon line and ground ripples at night, and the night-tone accent for sun-dial night hours and push bars.
 
 ### Secondary
-- **Cobalt Rank Tints** (cobalt-2, cobalt-3, cobalt-rest; dark: night-step-1 to night-step-4): language shares by rank, and the non-peak weekday bars (cobalt-rest light, night-rest dark). Salience follows share. Every mark is at least 3:1 on its ground.
-- **Field Mist** (on-field-muted): secondary text on the cobalt field (the contributions label, month ticks, peak label, public share). 5.35:1 on cobalt, 4.59:1 on night cobalt.
+- **Stage Rose** (day-rose, night-rose, night-rose-glow, day-glow): the warm light. It is the day haze and the sun's glow, the second tint that drifts above the horizon at night, day hours on the sun dial, the "today" call-sheet dot and its pulse, and the short credit rule under the hero stats. Day rose (the deep shade) is the only rose used for text on white.
+- **Sun and Moon** (sun, moon): the single celestial body placed where the name ends, a rose disc with two halo rings by day and a crescent by night.
+
+### Tertiary
+- **Window Light** (day-window-private / night-window-private warm, day-window-public / night-window-public cool, *-window-off unlit): the private/public encoding. Warm pink windows are private work and cool periwinkle windows are public work. Unlit windows sink into the building face.
 
 ### Neutral
-- **Paper** (paper) / **Ink Ground** (night-ground): the page. The dark ground matches GitHub's own dark canvas so the cover bleeds into it.
-- **Ink** (ink) / **Night Ink** (night-ink): names, figures, row values, block heads and the block-head rule.
-- **Report Grey** (muted) / **Night Grey** (night-muted): role line, ledger labels, colophon, unselected weekday labels (6.22:1 and 7.44:1).
-- **Hairline** (rule) / **Night Hairline** (night-rule): row dividers, the colophon rule and its ticks. Decorative dividers only, never a text colour.
-- **Slates** (slate-5, slate-6; dark: night-slate-5, night-slate-6): the fifth language and "Other", so the tail reads as neutral rather than as another brand hue.
+- **Night Sky and Ground** (night-sky → night-sky-mid → night-horizon-deep → night-cobalt; night-ground → night-ground-floor): the vertical gradients of the night stage.
+- **Day Wash** (day-sky → day-sky-mid → day-haze-pale → day-haze; day-ground → day-sky): the vertical gradients of the day stage.
+- **Stage Card** (night-card, day-card) with **Hairline** (night-card-line, day-card-line): tile backgrounds and their 1px edges, which also serve as ledger dividers and dial centers.
+- **Ink, Muted, Faint** (night-/day-ink, -muted, -faint): primary text, secondary text and axis labels, and idle status dots.
+- **Dial Halves and Track** (*-dial-day, *-dial-night, day-track): the tinted day and night half-discs of the sun dial and empty progress tracks.
 
 ### Named Rules
-**The One Field Rule.** Cobalt appears as a filled region or as a ranked datum. It never tints running text, never decorates, and there is one field per surface.
+**The Warm Window Rule.** Private is warm and public is cool, everywhere the distinction is drawn: warm windows for private work and cool windows for public work, in the hero skyline and every work card. Chips carry the same split as fill: solid for private, outlined for open source. Never swap the two, and never draw the distinction with a third color.
 
-**The Ranked Tint Rule.** Categorical series are coloured by rank in cobalt tints, then slates. Language brand colours (the GitHub rainbow) are never used.
-
-**The Legible Mark Rule.** Text on any ground is at least 4.5:1; every chart mark is at least 3:1. A new tint earns its place by passing both in both themes.
+**The Two Cues Rule.** Every surface ships both cues from the same builder with the same geometry; only the THEMES tokens change. A color that exists in only one cue is a bug unless it is the sky itself (stars and moon at night, sun by day).
 
 ## Typography
 
-**Display Font:** Archivo, expanded black instance (wdth 125, wght 800), embedded as base64 woff2 subset (with 'Helvetica Neue', Helvetica, Arial)
-**Body Font:** Archivo, normal width, regular (wdth 100, wght 400) and semibold (wdth 100, wght 600) instances, embedded the same way
+**Display Font:** Archivo, expanded heavy cut (embedded as `A-display`), falling back to Helvetica Neue, Helvetica, Arial
+**Body Font:** Archivo Text (`A-text`) with the same fallback
+**Label Font:** Archivo Medium (`A-medium`)
 
-**Character:** One grotesque family in two widths. The expanded black is the report's masthead voice; the normal width is the report's reading and figure voice. Each SVG embeds only the instances it uses.
+**Character:** A wide title card over a calm grotesque. The expanded display cut is roughly a third wider than the text cut and carries the name and the numbers. Medium and Text do all the reading.
 
 ### Hierarchy
-- **Display** (800 expanded, 86px wide / 70px phone, -2px tracking, 90px / 78px baseline step): the name, set once on two lines. The one word big enough to win.
-- **Display figure** (800 expanded, 64px wide / 58px phone, -1.5px tracking): the year's contribution total on the field. The only other use of the display cut.
-- **Headline** (600, 27px wide / 24px phone): the role line under the name.
-- **Title** (600, 16px): number-block heads above an ink rule, and button labels.
-- **Body** (400, 17px on a 36px row; ledger 38px): language names and ledger labels; the paired value on the same row is Body figure (600, 17px), right-aligned.
-- **Label** (400, 13–15px): peak label, month ticks, weekday labels, colophon, secondary lines. City line is 19px regular in Report Grey.
-- **Chip** (600, 12px): the Private / Open source chips.
-
-The markdown between the SVGs (section heads, table, toolbox, paragraph) renders in GitHub's own type; the medium does not allow it to be restyled.
+- **Display** (expanded heavy, 82px desktop / 66px phone on two lines, -2px tracking): the name only, set in one line across the sky.
+- **Figure** (expanded heavy, 44px desktop / 40px phone, -1px tracking; 22px for work-card commit counts): headline numbers such as busiest hour, share after dark, and project commits.
+- **Headline** (Medium 500, 26px desktop / 22px phone): the role line under the name.
+- **Title** (Medium 500, 20px tile headings, 22px work-card names, 17px list rows, 16px button labels and ledger values).
+- **Body** (Text 400, 15–16px): work-card descriptions (at 0.86 ink opacity) and ledger labels in muted.
+- **Caption** (Text 400, 14px, muted): tile sub-lines, wrapped to at most two lines.
+- **Label** (Text 400, 13px; 11–12px for dial and count captions): axis ticks, legends, stacks, and timestamps.
+- **Chip** (Medium 500, 12px).
 
 ### Named Rules
-**The One Big Word Rule.** The expanded display cut is reserved for the name and the single headline figure. Nothing else is set expanded.
+**The Expanded Name Rule.** The expanded display cut is reserved for the name and for numbers. Headings, labels, and prose never use it.
 
-**The Figure Weight Rule.** Labels are regular, their values semibold and right-aligned; weight, not colour, separates a number from its caption.
+**The Measured Text Rule.** Every string is embedded, not linked, and laid out from `metrics.json` glyph widths. It wraps to a fixed line budget and ends in an ellipsis rather than overflowing. Never position text by guessing, and never rely on a system font rendering the same way.
 
 ## Layout
 
-Two fixed canvases per visual, never fluid. Wide covers are 1200 x 440: name block on the left 60% (x 0 to 640), cobalt field from x 720 to the right edge, 32px field padding. Phone covers are 600 x 860: name on top, field full-width from y 320, 40px padding. The number band is 1200 x 360 wide (three 352px blocks on a 72px gutter, at x 0 / 424 / 848) and 600 x 1390 on phones (the same blocks stacked and scaled 1.25x).
+The canvas is 1200px wide on desktop and 600px on phones. The README stacks full-width `<picture>` panels. There is a hero stage (1200×640), a contact button row, one line of prose, two asymmetric bento rows, a selected-work grid, a markdown toolbox, the snake, and a closing contact line.
 
-Rhythm is on an 8px grid with integer edges: 36px list rows, 38px ledger rows, 80px colophon ticks, 48px buttons, 22px chips. Bar charts divide their span into 52 whole-pixel pitches (8px = 6 + 2 wide, 10px = 8 + 2 phone) so every bar edge is crisp; 1px hairlines sit on half-pixel offsets.
+- **Hero geometry:** the horizon sits at y=500 of 640 desktop (820 of 1010 phone). The name baseline is at 118 from a 54px left edge, followed by role, location line, credit line, and a 56×3 rose rule. 52 buildings span x 48–1152 (14px wide, 7px isometric depth, up to 232px tall; 7px, 4px, 340px on phones). The legend and "Updated" colophon sit on the ground at y=606.
+- **Bento rows:** tiles are 440px tall. The first row is 700 | 460 and the second is 460 | 700, with a 40px gutter and 20px of air below each row. On phones the pair stacks and scales 460→600 (factor 1.304), with 24px between tiles.
+- **Work grid:** two 580px columns on a 620px pitch (40px gutter), 246px cards, and 24px row gaps. On phones there is one column scaled to 600, 270px cards, and 20px gaps.
+- **Insets:** tile content starts 30px in from the card edge and work-card content 28px in. Ledger rows run on a 40px pitch and call-sheet rows on a 60px pitch.
 
-Responsive behaviour follows the sanitizer. Each full-width visual is a `<picture>` whose first source is `(max-width: 600px)` pointing at a single adaptive SVG that carries both themes and switches internally on `prefers-color-scheme`; the next source is the dark wide SVG; the `<img>` is the light wide SVG. Buttons and chips use a plain two-source `<picture>`. Page order: cover, contact row, one paragraph, selected work table, numbers, toolbox, contribution snake, closing contact line.
-
-### Named Rules
-**The Fixed Budget Rule.** Every figure has a fixed geometry per layout; values change daily, the frame does not. New data must fit the existing box.
-
-**The Whole Pixel Rule.** Bar pitches are whole pixels and hairlines sit on .5 offsets. No fractional bar widths on the cover.
+**The Asymmetric Bento Rule.** Paired tiles are never equal. The wide tile alternates sides row to row (700/460, then 460/700), so the eye zig-zags down the stage.
 
 ## Elevation & Depth
 
-Flat. There are no shadows anywhere; depth is carried by the cobalt field against the ground and by hairline rules. The only translucency is in-field: zero-contribution weeks at 35% white, the chart baseline at 50%, month ticks at 70%, and the sweep's trailing band at 14%.
+The system has no shadows. Depth is built from the stage itself. Vertical sky and ground gradients meet at a bright 2px horizon. Isometric side and roof faces on every building run one shade darker and one shade lighter than the front. The skyline is mirrored at the horizon at 0.5 opacity and faded by a luminance mask. Five dashed ripple lines widen as they approach the viewer. Radial glows (horizon glow at 0.9→0 opacity, second tint at 0.55→0) light the backdrop. On cards, a linear haze in the theme's haze color rises from 0 to 0.16 opacity over the bottom 110px.
 
-### Named Rules
-**The Flat Report Rule.** Surfaces are printed, not lifted. No drop shadows, glows or offset shadows on any element.
+**The One Horizon Rule.** Every card is a small stage and carries the theme's horizon haze on its floor: cobalt at night, rose by day. The horizon is the only light source, so a surface lifts by standing on it, never by casting a shadow.
+
+**The Hairline Rule.** Containers are defined by a 1px card-line edge (1.5px on outlined buttons and chips). Nothing gets a drop shadow, an offset shadow, or a glow on its edge.
 
 ## Shapes
 
-Square everything: fields, bars, buttons, chips, swatches and the split bar have 0 radius. Outlines are 1.5px strokes inset by 0.75px so they land on whole pixels; hairlines are 1px. The private/public split bar is a 12px solid segment followed, after a 3px gap, by a 1px outlined segment. Rounding appears only inside the drawn LinkedIn, Instagram and mail marks, which are reproductions of those marks, not a corner style.
+Soft rounded rectangles hold hard-edged architecture. The hero stage has a 22px radius, tiles and work cards 18px, buttons 14px, and chips are full pills (11px on a 22px height). Everything drawn inside the stages is square: buildings, windows (3×3.2px hero, 1.8px work cards), strata bands separated by 3px gaps, and progress tracks 5px tall. The sun-dial wedges are annular sectors with 0.9° gaps. Status dots are circles with a 5px radius.
 
 ## Components
 
 ### Buttons
-Contact is one row of 48px-tall SVG buttons directly under the cover.
-- **Shape:** square corners (0px), height 48px, width fits the label.
-- **Primary:** Report Cobalt fill, white label (Title, 16px semibold); email only. Dark: Night Cobalt.
-- **Secondary:** page-ground fill with a 1.5px ink outline, ink label; LinkedIn, Instagram, praivox.com. Dark: ink ground, night-ink outline.
-- **Anatomy:** a 20px drawn mark at x 20, the label at x 52, a drawn north-east arrow 30px from the right edge in the label colour.
-- **States:** none; these are images inside links, and GitHub owns hover and focus.
+Contact is the one action, so buttons are calm, wide, and explicit.
+- **Shape:** gently rounded (14px), 50px tall. The width is measured from the label (label width + 98px).
+- **Primary (email):** solid cobalt fill (night-glow at night) with white label and glyph. A 20px inline SVG mail icon sits at x=20, the label at x=52, and an up-right arrow stroke 30px from the right edge.
+- **Secondary (LinkedIn, Instagram, praivox.com):** card fill with a 1.5px hairline edge and ink label, icon, and arrow.
+- **States:** none. The buttons are images inside `<a>` links, and GitHub gives them no hover or focus styling beyond its own.
 
 ### Chips
-- **Private:** solid cobalt rectangle, white 12px semibold label, 22px tall.
-- **Open source:** 1.5px cobalt outline (Night Accent in dark), label in the outline colour.
-- **Use:** under each project name in the selected-work table. The chip code matches the cover's split bar.
+- **Private:** a solid cobalt pill (night-glow at night) with a white 12px Medium label.
+- **Open source:** an outlined pill, 1.5px cobalt edge (night-window-public at night), with the label in the edge color.
+- Chips sit top-right on work cards, right-aligned 28px from the edge.
 
-### Cover
-The signature component. Left: name in Display, role in Headline, city line in Report Grey, then (wide only) an 80px-ticked hairline colophon with the profile URL and update date. Right: the cobalt field with the display figure, its label in Field Mist, 52 white weekly bars on a square-root scale with a peak tick and label, quarter month ticks, and the private/public split bar with its two labels. On phones the colophon moves inside the field's foot.
+### Stage Cards (tiles)
+- **Corner Style:** 18px.
+- **Background:** stage card color, a 1px hairline, and floor haze (see Elevation).
+- **Heading block:** a 20px Medium title at (30, 50) and a 14px muted sub-line at 76, wrapped to two lines.
+- **Tiles in use:** *When I build* (the sun path: 24 annular wedges over a day/night split disc, rose for 06–18 and cobalt for night, the peak hour at full opacity and the rest at 0.78; a 24h hub; two display figures). *Languages* (strata: stacked ramp bands with leader lines to labels). *On stage now* (call sheet: five latest pushes, a rose pulsing dot for today or yesterday, a faint dot otherwise, a 30-day commit bar in accent on a track). *The year, counted* (ledger: seven muted-label, ink-value rows with hairline dividers).
 
-### Number blocks
-Three blocks, each opened by a Title head over a full-width 1px ink rule.
-- **Languages:** an 18px stacked share bar (2px gaps), then 12px square swatches with names left and semibold percentages right, one hairline per row.
-- **Weekly rhythm:** seven bars on a 12px gap, the busiest day in the peak colour with an ink label, the rest in the rest colour with grey labels; a semibold sentence and grey caption below.
-- **Ledger ("The year, counted"):** grey label left, semibold ink value right, hairline under each 38px row.
+### Work Card (signature)
+A 580×246 stage holding the project name (22px Medium), a chip, a description (15px, 2–3 lines), a 13px muted stack line, and the project's own 52-week miniature skyline standing on a haze-colored baseline. The skyline uses the theme's mini triad for front, side, and roof, with one window column per building, lit warm for private and cool for public. A display-cut commit count sits bottom-right.
 
-### Sweep (motion)
-One oscilloscope pass across the chart: a 2px white scan line with a 24px band at 14%, 2.4s `cubic-bezier(.45,0,.2,1)` after a .3s delay, opacity 0 at the first and last keyframe so a renderer that never advances time shows the finished chart. Removed under `prefers-reduced-motion`.
+**The Honest Silence Rule.** Under 20 matched commits the card draws only the empty baseline and makes no activity claim. An empty stage is correct; never fill it with invented or placeholder bars.
+
+### Hero Stage (signature)
+The first viewport: sky gradient, horizon glow, stars and moon (night) or haloed sun (day) at the end of the name, the 52-building skyline with its reflection and ripples, and a peak-week callout on the tallest tower. Quarter-month ticks run on the ground, followed by the private/public legend, a one-line key, and the updated date.
+
+### Motion
+All motion is CSS inside the SVG and is ambient. Lit windows twinkle (about 7% of them, 5.2s), stars twinkle (22% of them, 7s), the horizon glow breathes (9s, opacity 1→0.72), and today's call-sheet dot pulses (2.4s scale to 2.6 and fade). Delays are deterministic hashes, so the scene never reshuffles between daily builds.
+
+**The Finished Frame Rule.** Every loop starts and ends at full opacity on the finished frame, so a static render, a first paint, or a screenshot is always the complete picture. `prefers-reduced-motion: reduce` turns every animation off and hides the pulse ring.
+
+### Snake
+The contribution snake is recolored to the world: a day-rose snake over cobalt dots on pale grounds by day, and a rose-soft snake over cobalt dots on night navy (steps listed in the sidecar).
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** generate every visual as an SVG from `THEMES` and `COVER_GEOMETRY` in `scripts/profile.py`, in a light, a dark and (for full-width visuals) an adaptive phone file.
-- **Do** keep solid for private or primary and outline for public or secondary, everywhere.
-- **Do** colour categorical data by rank in cobalt tints, then slates, and check every mark at 3:1 and every text pair at 4.5:1 in both themes.
-- **Do** embed only the Archivo instances a file uses, with the Helvetica stack as fallback.
-- **Do** keep bars on whole-pixel pitches and hairlines on half-pixel offsets.
-- **Do** make any animation invisible at its first and last frame and remove it under reduced motion.
+- **Do** ship every new visual as a pair of cues from one builder: `-light` and `-dark` at 1200 wide, plus a `-mobile` file at 600 wide that carries both cues and switches on `prefers-color-scheme`.
+- **Do** encode private as warm windows and solid chips, and public as cool windows and outlined chips.
+- **Do** give every new tile the 18px stage card, the hairline, the floor haze, and the 30px heading block.
+- **Do** keep paired tiles asymmetric (700/460 or 460/700) with a 40px gutter.
+- **Do** start every animation loop from the finished frame and disable it under reduced motion.
+- **Do** embed Archivo and measure every string; wrap to a line budget and ellipsize.
+- **Do** draw data as set pieces on the stage: buildings, horizon, sky, sun path.
 
 ### Don't:
-- **Don't** use language brand colours or any hue outside ink, cobalt tints and slates.
-- **Don't** set anything but the name and the headline figure in the expanded display cut.
-- **Don't** add shadows, glows or rounded corners to fields, bars, buttons or chips.
-- **Don't** put a second cobalt field on a surface or tint running text cobalt.
-- **Don't** load third-party image services or external fonts; everything renders from this repo.
-- **Don't** let a figure grow its box; values change inside a fixed geometry.
+- **Don't** use drop shadows or offset shadows. Depth comes from the horizon, reflections, and isometric faces.
+- **Don't** set headings, labels, or prose in the expanded display cut. It is for the name and numbers only.
+- **Don't** make the night cue a neon terminal: no monospace, no green on black, no glow on type. Glow belongs to the horizon.
+- **Don't** fall back to a flat grid of equal stat cards.
+- **Don't** rely on markdown styling, external fonts, or interactivity. GitHub strips `<style>` from the README, and `<img>` SVGs cannot load resources.
+- **Don't** draw activity for a project under 20 matched commits.

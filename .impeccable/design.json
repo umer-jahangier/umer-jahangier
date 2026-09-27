@@ -1,620 +1,1042 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-26T22:50:41+00:00",
+  "generatedAt": "2026-09-27T00:01:00+00:00",
   "title": "Design System: umer-jahangier profile",
   "extensions": {
     "colorMeta": {
-      "cobalt": {
+      "night-sky": {
+        "role": "neutral",
+        "displayName": "Depthless Night",
+        "canonical": "#03040A",
+        "tonalRamp": [
+          "#090B13",
+          "#21242D",
+          "#3C3F4A",
+          "#5A5D68",
+          "#797D88",
+          "#9A9EAA",
+          "#C0C4D0",
+          "#EAEEFB"
+        ]
+      },
+      "night-sky-mid": {
+        "role": "neutral",
+        "displayName": "Upper Night Blue",
+        "canonical": "#080B22",
+        "tonalRamp": [
+          "#06081F",
+          "#1D223B",
+          "#383E59",
+          "#555C79",
+          "#747C9A",
+          "#959DBD",
+          "#BAC3E4",
+          "#E9EEFE"
+        ]
+      },
+      "night-horizon-deep": {
+        "role": "neutral",
+        "displayName": "Low Night Indigo",
+        "canonical": "#131C5E",
+        "tonalRamp": [
+          "#030132",
+          "#11195B",
+          "#29387C",
+          "#45589F",
+          "#6378C3",
+          "#829AE7",
+          "#AFC2FC",
+          "#E9EEFE"
+        ]
+      },
+      "night-cobalt": {
         "role": "primary",
-        "displayName": "Report Cobalt",
-        "canonical": "#2340F0",
-        "oklch": "oklch(49.1% 0.259 266.8)",
+        "displayName": "Night Horizon Cobalt",
+        "canonical": "#2A3DE0",
         "tonalRamp": [
-          "oklch(15% 0.116 266.8)",
-          "oklch(26% 0.164 266.8)",
-          "oklch(37% 0.211 266.8)",
-          "oklch(48% 0.259 266.8)",
-          "oklch(59% 0.259 266.8)",
-          "oklch(70% 0.224 266.8)",
-          "oklch(82% 0.173 266.8)",
-          "oklch(95% 0.116 266.8)"
+          "#020132",
+          "#0C0A6F",
+          "#1B06BC",
+          "#2B40E3",
+          "#496CFC",
+          "#7999F7",
+          "#ADC3FC",
+          "#E8EEFE"
         ]
       },
-      "cobalt-2": {
+      "night-glow": {
+        "role": "primary",
+        "displayName": "Cyc Glow Cobalt",
+        "canonical": "#3B5BFF",
+        "tonalRamp": [
+          "#020132",
+          "#0B096F",
+          "#1A03BD",
+          "#2A3FE4",
+          "#486CFD",
+          "#7899F8",
+          "#ADC3FC",
+          "#E8EEFE"
+        ]
+      },
+      "night-horizon": {
+        "role": "primary",
+        "displayName": "Lit Horizon Periwinkle",
+        "canonical": "#5A76FF",
+        "tonalRamp": [
+          "#040033",
+          "#110372",
+          "#2121A9",
+          "#3749CE",
+          "#526DF5",
+          "#7C97FB",
+          "#AEC2FE",
+          "#E9EEFE"
+        ]
+      },
+      "night-accent": {
+        "role": "primary",
+        "displayName": "Night Accent Periwinkle",
+        "canonical": "#6F87FF",
+        "tonalRamp": [
+          "#040032",
+          "#14056F",
+          "#262A9B",
+          "#3F4DC0",
+          "#5B70E6",
+          "#8097F8",
+          "#B1C1FC",
+          "#E9EEFE"
+        ]
+      },
+      "night-rose-glow": {
         "role": "secondary",
-        "displayName": "Cobalt Rank 2",
-        "canonical": "#4A62F2",
-        "oklch": "oklch(56.4% 0.216 270.6)",
+        "displayName": "Rose Gathering",
+        "canonical": "#FF6F91",
         "tonalRamp": [
-          "oklch(15% 0.102 270.6)",
-          "oklch(26% 0.142 270.6)",
-          "oklch(37% 0.181 270.6)",
-          "oklch(48% 0.216 270.6)",
-          "oklch(59% 0.216 270.6)",
-          "oklch(70% 0.192 270.6)",
-          "oklch(82% 0.149 270.6)",
-          "oklch(95% 0.102 270.6)"
+          "#1D0107",
+          "#46061B",
+          "#780631",
+          "#A8194A",
+          "#CF4369",
+          "#F66789",
+          "#FAABB8",
+          "#FEE8EB"
         ]
       },
-      "cobalt-3": {
+      "night-rose": {
         "role": "secondary",
-        "displayName": "Cobalt Rank 3",
-        "canonical": "#6479F4",
-        "oklch": "oklch(62.3% 0.184 272.6)",
+        "displayName": "Night Stage Rose",
+        "canonical": "#FF7A9A",
         "tonalRamp": [
-          "oklch(15% 0.091 272.6)",
-          "oklch(26% 0.125 272.6)",
-          "oklch(37% 0.159 272.6)",
-          "oklch(48% 0.184 272.6)",
-          "oklch(59% 0.184 272.6)",
-          "oklch(70% 0.168 272.6)",
-          "oklch(82% 0.131 272.6)",
-          "oklch(95% 0.091 272.6)"
+          "#1D0107",
+          "#47051C",
+          "#790132",
+          "#A3244E",
+          "#C94A6D",
+          "#F06D8D",
+          "#FBAAB9",
+          "#FEE8EC"
         ]
       },
-      "cobalt-rest": {
+      "night-rose-soft": {
         "role": "secondary",
-        "displayName": "Cobalt Rest",
-        "canonical": "#7487F4",
-        "oklch": "oklch(66.0% 0.162 273.7)",
+        "displayName": "Soft Rose",
+        "canonical": "#FFB8C8",
         "tonalRamp": [
-          "oklch(15% 0.084 273.7)",
-          "oklch(26% 0.114 273.7)",
-          "oklch(37% 0.144 273.7)",
-          "oklch(48% 0.162 273.7)",
-          "oklch(59% 0.162 273.7)",
-          "oklch(70% 0.152 273.7)",
-          "oklch(82% 0.119 273.7)",
-          "oklch(95% 0.084 273.7)"
-        ]
-      },
-      "on-field-muted": {
-        "role": "secondary",
-        "displayName": "Field Mist",
-        "canonical": "#DDE2FF",
-        "oklch": "oklch(91.8% 0.040 277.8)",
-        "tonalRamp": [
-          "oklch(15% 0.040 277.8)",
-          "oklch(26% 0.040 277.8)",
-          "oklch(37% 0.040 277.8)",
-          "oklch(48% 0.040 277.8)",
-          "oklch(59% 0.040 277.8)",
-          "oklch(70% 0.040 277.8)",
-          "oklch(82% 0.040 277.8)",
-          "oklch(95% 0.040 277.8)"
-        ]
-      },
-      "paper": {
-        "role": "neutral",
-        "displayName": "Paper",
-        "canonical": "#FFFFFF",
-        "oklch": "oklch(100.0% 0.000 89.9)",
-        "tonalRamp": [
-          "oklch(15% 0.000 89.9)",
-          "oklch(26% 0.000 89.9)",
-          "oklch(37% 0.000 89.9)",
-          "oklch(48% 0.000 89.9)",
-          "oklch(59% 0.000 89.9)",
-          "oklch(70% 0.000 89.9)",
-          "oklch(82% 0.000 89.9)",
-          "oklch(95% 0.000 89.9)"
-        ]
-      },
-      "ink": {
-        "role": "neutral",
-        "displayName": "Ink",
-        "canonical": "#0B0D12",
-        "oklch": "oklch(15.9% 0.011 268.0)",
-        "tonalRamp": [
-          "oklch(15% 0.011 268.0)",
-          "oklch(26% 0.011 268.0)",
-          "oklch(37% 0.011 268.0)",
-          "oklch(48% 0.011 268.0)",
-          "oklch(59% 0.011 268.0)",
-          "oklch(70% 0.011 268.0)",
-          "oklch(82% 0.011 268.0)",
-          "oklch(95% 0.011 268.0)"
-        ]
-      },
-      "muted": {
-        "role": "neutral",
-        "displayName": "Report Grey",
-        "canonical": "#5A6170",
-        "oklch": "oklch(49.2% 0.026 265.6)",
-        "tonalRamp": [
-          "oklch(15% 0.026 265.6)",
-          "oklch(26% 0.026 265.6)",
-          "oklch(37% 0.026 265.6)",
-          "oklch(48% 0.026 265.6)",
-          "oklch(59% 0.026 265.6)",
-          "oklch(70% 0.026 265.6)",
-          "oklch(82% 0.026 265.6)",
-          "oklch(95% 0.026 265.6)"
-        ]
-      },
-      "rule": {
-        "role": "neutral",
-        "displayName": "Hairline",
-        "canonical": "#D9DCE3",
-        "oklch": "oklch(89.4% 0.010 267.4)",
-        "tonalRamp": [
-          "oklch(15% 0.010 267.4)",
-          "oklch(26% 0.010 267.4)",
-          "oklch(37% 0.010 267.4)",
-          "oklch(48% 0.010 267.4)",
-          "oklch(59% 0.010 267.4)",
-          "oklch(70% 0.010 267.4)",
-          "oklch(82% 0.010 267.4)",
-          "oklch(95% 0.010 267.4)"
-        ]
-      },
-      "slate-5": {
-        "role": "neutral",
-        "displayName": "Slate 5",
-        "canonical": "#6E7482",
-        "oklch": "oklch(55.9% 0.023 267.1)",
-        "tonalRamp": [
-          "oklch(15% 0.023 267.1)",
-          "oklch(26% 0.023 267.1)",
-          "oklch(37% 0.023 267.1)",
-          "oklch(48% 0.023 267.1)",
-          "oklch(59% 0.023 267.1)",
-          "oklch(70% 0.023 267.1)",
-          "oklch(82% 0.023 267.1)",
-          "oklch(95% 0.023 267.1)"
-        ]
-      },
-      "slate-6": {
-        "role": "neutral",
-        "displayName": "Slate 6",
-        "canonical": "#838997",
-        "oklch": "oklch(63.0% 0.022 267.2)",
-        "tonalRamp": [
-          "oklch(15% 0.022 267.2)",
-          "oklch(26% 0.022 267.2)",
-          "oklch(37% 0.022 267.2)",
-          "oklch(48% 0.022 267.2)",
-          "oklch(59% 0.022 267.2)",
-          "oklch(70% 0.022 267.2)",
-          "oklch(82% 0.022 267.2)",
-          "oklch(95% 0.022 267.2)"
+          "#1E0008",
+          "#430C1F",
+          "#632A3A",
+          "#854858",
+          "#A86877",
+          "#CC8898",
+          "#F4AEBE",
+          "#FEE8EC"
         ]
       },
       "night-ground": {
         "role": "neutral",
-        "displayName": "Ink Ground",
-        "canonical": "#0D1117",
-        "oklch": "oklch(17.6% 0.014 258.4)",
+        "displayName": "Night Water",
+        "canonical": "#0B1030",
         "tonalRamp": [
-          "oklch(15% 0.014 258.4)",
-          "oklch(26% 0.014 258.4)",
-          "oklch(37% 0.014 258.4)",
-          "oklch(48% 0.014 258.4)",
-          "oklch(59% 0.014 258.4)",
-          "oklch(70% 0.014 258.4)",
-          "oklch(82% 0.014 258.4)",
-          "oklch(95% 0.014 258.4)"
+          "#050625",
+          "#1A2143",
+          "#343D61",
+          "#515B82",
+          "#707BA4",
+          "#909DC7",
+          "#B5C2EE",
+          "#E9EEFE"
+        ]
+      },
+      "night-ground-floor": {
+        "role": "neutral",
+        "displayName": "Night Floor",
+        "canonical": "#04050C",
+        "tonalRamp": [
+          "#090B13",
+          "#21232D",
+          "#3D3F4A",
+          "#5A5D68",
+          "#7A7D89",
+          "#9B9EAA",
+          "#C0C3D1",
+          "#EAEEFB"
+        ]
+      },
+      "night-card": {
+        "role": "neutral",
+        "displayName": "Night Stage Card",
+        "canonical": "#080A15",
+        "tonalRamp": [
+          "#080A15",
+          "#202330",
+          "#3C3F4D",
+          "#595D6C",
+          "#797C8C",
+          "#9A9EAE",
+          "#BFC3D4",
+          "#EAEEFE"
+        ]
+      },
+      "night-card-line": {
+        "role": "neutral",
+        "displayName": "Night Hairline",
+        "canonical": "#1C2238",
+        "tonalRamp": [
+          "#06091D",
+          "#1D2339",
+          "#373F57",
+          "#555D76",
+          "#747C97",
+          "#959DBA",
+          "#BAC3E1",
+          "#E9EEFE"
         ]
       },
       "night-ink": {
         "role": "neutral",
         "displayName": "Night Ink",
-        "canonical": "#E8ECF2",
-        "oklch": "oklch(94.2% 0.009 258.3)",
+        "canonical": "#F2F3F8",
         "tonalRamp": [
-          "oklch(15% 0.009 258.3)",
-          "oklch(26% 0.009 258.3)",
-          "oklch(37% 0.009 258.3)",
-          "oklch(48% 0.009 258.3)",
-          "oklch(59% 0.009 258.3)",
-          "oklch(70% 0.009 258.3)",
-          "oklch(82% 0.009 258.3)",
-          "oklch(95% 0.009 258.3)"
+          "#0A0B0E",
+          "#232427",
+          "#3F3F43",
+          "#5C5D61",
+          "#7C7D81",
+          "#9D9EA3",
+          "#C3C4C8",
+          "#EDEEF3"
         ]
       },
       "night-muted": {
         "role": "neutral",
-        "displayName": "Night Grey",
-        "canonical": "#9AA3B2",
-        "oklch": "oklch(71.3% 0.024 260.7)",
+        "displayName": "Night Muted",
+        "canonical": "#A7AECC",
         "tonalRamp": [
-          "oklch(15% 0.024 260.7)",
-          "oklch(26% 0.024 260.7)",
-          "oklch(37% 0.024 260.7)",
-          "oklch(48% 0.024 260.7)",
-          "oklch(59% 0.024 260.7)",
-          "oklch(70% 0.024 260.7)",
-          "oklch(82% 0.024 260.7)",
-          "oklch(95% 0.024 260.7)"
+          "#07091D",
+          "#1E2239",
+          "#393E57",
+          "#565C77",
+          "#757C98",
+          "#969DBA",
+          "#BBC3E1",
+          "#EAEEFF"
         ]
       },
-      "night-rule": {
+      "night-faint": {
         "role": "neutral",
-        "displayName": "Night Hairline",
-        "canonical": "#2A313C",
-        "oklch": "oklch(31.1% 0.022 259.4)",
+        "displayName": "Night Faint",
+        "canonical": "#6B7394",
         "tonalRamp": [
-          "oklch(15% 0.022 259.4)",
-          "oklch(26% 0.022 259.4)",
-          "oklch(37% 0.022 259.4)",
-          "oklch(48% 0.022 259.4)",
-          "oklch(59% 0.022 259.4)",
-          "oklch(70% 0.022 259.4)",
-          "oklch(82% 0.022 259.4)",
-          "oklch(95% 0.022 259.4)"
+          "#060821",
+          "#1C223D",
+          "#373E5B",
+          "#545C7B",
+          "#737B9D",
+          "#949DC0",
+          "#B9C2E7",
+          "#E9EEFE"
         ]
       },
-      "night-cobalt": {
+      "night-building-front": {
+        "role": "neutral",
+        "displayName": "Night Facade",
+        "canonical": "#10152E",
+        "tonalRamp": [
+          "#060820",
+          "#1C223C",
+          "#373E5A",
+          "#545C7A",
+          "#737C9C",
+          "#949DBE",
+          "#B9C3E5",
+          "#E9EEFE"
+        ]
+      },
+      "night-building-side": {
+        "role": "neutral",
+        "displayName": "Night Side Face",
+        "canonical": "#0A0E22",
+        "tonalRamp": [
+          "#06091D",
+          "#1D2238",
+          "#383E56",
+          "#555C76",
+          "#757C97",
+          "#959DB9",
+          "#BBC3E0",
+          "#E9EEFE"
+        ]
+      },
+      "night-building-roof": {
+        "role": "neutral",
+        "displayName": "Night Roof",
+        "canonical": "#1D2552",
+        "tonalRamp": [
+          "#04032D",
+          "#181F4B",
+          "#313C6B",
+          "#4E5A8C",
+          "#6D7AAF",
+          "#8D9BD2",
+          "#B2C1FA",
+          "#E9EEFF"
+        ]
+      },
+      "night-window-private": {
+        "role": "tertiary",
+        "displayName": "Warm Window (night)",
+        "canonical": "#FFC4D2",
+        "tonalRamp": [
+          "#1C0109",
+          "#3E1321",
+          "#5E2F3C",
+          "#7E4D5A",
+          "#A16C79",
+          "#C48D9A",
+          "#ECB2C0",
+          "#FEE8ED"
+        ]
+      },
+      "night-window-public": {
+        "role": "tertiary",
+        "displayName": "Cool Window (night)",
+        "canonical": "#8FA2FF",
+        "tonalRamp": [
+          "#050130",
+          "#161164",
+          "#2C3386",
+          "#4754A9",
+          "#6575CD",
+          "#8497F3",
+          "#B2C0FF",
+          "#E9EEFE"
+        ]
+      },
+      "night-window-off": {
+        "role": "tertiary",
+        "displayName": "Dark Window (night)",
+        "canonical": "#161C3A",
+        "tonalRamp": [
+          "#050723",
+          "#1B2140",
+          "#353D5E",
+          "#525C7F",
+          "#717BA0",
+          "#929DC3",
+          "#B7C2EB",
+          "#E9EEFE"
+        ]
+      },
+      "night-dial-day": {
+        "role": "neutral",
+        "displayName": "Dial Day Half (night)",
+        "canonical": "#1A1530",
+        "tonalRamp": [
+          "#0C061F",
+          "#241F3B",
+          "#3F3B59",
+          "#5D5979",
+          "#7C789A",
+          "#9D99BD",
+          "#C3BFE4",
+          "#EEECFF"
+        ]
+      },
+      "night-dial-night": {
+        "role": "neutral",
+        "displayName": "Dial Night Half (night)",
+        "canonical": "#0C1030",
+        "tonalRamp": [
+          "#050625",
+          "#1B2142",
+          "#353D61",
+          "#525B82",
+          "#717BA3",
+          "#919CC7",
+          "#B6C2EE",
+          "#E9EEFE"
+        ]
+      },
+      "moon": {
+        "role": "secondary",
+        "displayName": "Moonlight",
+        "canonical": "#F6F2FF",
+        "tonalRamp": [
+          "#0C0912",
+          "#25222B",
+          "#413E48",
+          "#5F5C66",
+          "#7F7B87",
+          "#A09CA8",
+          "#C6C2CE",
+          "#F0ECF9"
+        ]
+      },
+      "day-sky": {
+        "role": "neutral",
+        "displayName": "Day Wash",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "day-sky-mid": {
+        "role": "neutral",
+        "displayName": "Upper Day White",
+        "canonical": "#FCFCFF",
+        "tonalRamp": [
+          "#0B0B0D",
+          "#242426",
+          "#3F3F42",
+          "#5D5D60",
+          "#7D7D7F",
+          "#9E9EA1",
+          "#C4C4C6",
+          "#EEEEF1"
+        ]
+      },
+      "day-haze-pale": {
+        "role": "secondary",
+        "displayName": "Pale Rose Haze",
+        "canonical": "#FFE8EE",
+        "tonalRamp": [
+          "#14070B",
+          "#2F1F23",
+          "#4C3A3F",
+          "#6B585D",
+          "#8B777C",
+          "#AD989E",
+          "#D4BDC3",
+          "#FFE8EE"
+        ]
+      },
+      "day-haze": {
+        "role": "secondary",
+        "displayName": "Horizon Rose Haze",
+        "canonical": "#FFCBD7",
+        "tonalRamp": [
+          "#1D0009",
+          "#3B1621",
+          "#5A313D",
+          "#7B4F5A",
+          "#9D6E7A",
+          "#C08F9B",
+          "#E7B4C0",
+          "#FFE8ED"
+        ]
+      },
+      "day-glow": {
+        "role": "secondary",
+        "displayName": "Day Glow Rose",
+        "canonical": "#FF9DB3",
+        "tonalRamp": [
+          "#1D0108",
+          "#46051D",
+          "#6F1B37",
+          "#933C54",
+          "#B75C73",
+          "#DC7D94",
+          "#FAAABB",
+          "#FEE8EC"
+        ]
+      },
+      "day-periwinkle": {
         "role": "primary",
-        "displayName": "Night Cobalt",
-        "canonical": "#2F4BFF",
-        "oklch": "oklch(52.6% 0.263 267.7)",
+        "displayName": "Drifting Periwinkle",
+        "canonical": "#6D80F6",
         "tonalRamp": [
-          "oklch(15% 0.118 267.7)",
-          "oklch(26% 0.166 267.7)",
-          "oklch(37% 0.214 267.7)",
-          "oklch(48% 0.263 267.7)",
-          "oklch(59% 0.263 267.7)",
-          "oklch(70% 0.228 267.7)",
-          "oklch(82% 0.175 267.7)",
-          "oklch(95% 0.118 267.7)"
+          "#050031",
+          "#16056E",
+          "#292A9A",
+          "#424DBE",
+          "#5E6FE4",
+          "#8396F6",
+          "#B2C1FB",
+          "#EAEEFD"
         ]
       },
-      "night-accent": {
+      "cobalt": {
         "role": "primary",
-        "displayName": "Night Accent",
-        "canonical": "#93A3FF",
-        "oklch": "oklch(74.1% 0.134 275.2)",
+        "displayName": "Cyc Cobalt",
+        "canonical": "#2340F0",
         "tonalRamp": [
-          "oklch(15% 0.075 275.2)",
-          "oklch(26% 0.099 275.2)",
-          "oklch(37% 0.124 275.2)",
-          "oklch(48% 0.134 275.2)",
-          "oklch(59% 0.134 275.2)",
-          "oklch(70% 0.131 275.2)",
-          "oklch(82% 0.104 275.2)",
-          "oklch(95% 0.075 275.2)"
+          "#010034",
+          "#070474",
+          "#1315B8",
+          "#213BEC",
+          "#456FF8",
+          "#7399FD",
+          "#ACC3FA",
+          "#E7EEFF"
         ]
       },
-      "night-peak": {
+      "cobalt-deep": {
+        "role": "primary",
+        "displayName": "Cobalt Side Face",
+        "canonical": "#1627B0",
+        "tonalRamp": [
+          "#020034",
+          "#080374",
+          "#1422AC",
+          "#2A4AD2",
+          "#456FF8",
+          "#7399FD",
+          "#ACC3FA",
+          "#E7EEFF"
+        ]
+      },
+      "cobalt-roof": {
+        "role": "primary",
+        "displayName": "Cobalt Roof",
+        "canonical": "#7486F7",
+        "tonalRamp": [
+          "#05012F",
+          "#16096B",
+          "#2B2C96",
+          "#444EBA",
+          "#6170DF",
+          "#8295FB",
+          "#B2C0FE",
+          "#E9EEFE"
+        ]
+      },
+      "day-window-off": {
+        "role": "tertiary",
+        "displayName": "Dark Window (day)",
+        "canonical": "#3550F2",
+        "tonalRamp": [
+          "#020132",
+          "#0C0A6F",
+          "#1B06BC",
+          "#2C40E2",
+          "#496CFC",
+          "#7999F7",
+          "#ADC3FC",
+          "#E8EEFD"
+        ]
+      },
+      "day-window-private": {
+        "role": "tertiary",
+        "displayName": "Warm Window (day)",
+        "canonical": "#FF93AE",
+        "tonalRamp": [
+          "#1D0108",
+          "#46051E",
+          "#741237",
+          "#973654",
+          "#BC5773",
+          "#E27994",
+          "#FAAABC",
+          "#FEE8EC"
+        ]
+      },
+      "day-window-public": {
+        "role": "tertiary",
+        "displayName": "Cool Window (day)",
+        "canonical": "#DCE3FF",
+        "tonalRamp": [
+          "#07091B",
+          "#1E2237",
+          "#393E55",
+          "#575C74",
+          "#767C95",
+          "#979DB7",
+          "#BCC3DE",
+          "#E9EEFE"
+        ]
+      },
+      "day-rose": {
         "role": "secondary",
-        "displayName": "Night Peak",
-        "canonical": "#B9C3FF",
-        "oklch": "oklch(83.0% 0.085 277.0)",
+        "displayName": "Deep Stage Rose",
+        "canonical": "#C8325A",
         "tonalRamp": [
-          "oklch(15% 0.058 277.0)",
-          "oklch(26% 0.074 277.0)",
-          "oklch(37% 0.085 277.0)",
-          "oklch(48% 0.085 277.0)",
-          "oklch(59% 0.085 277.0)",
-          "oklch(70% 0.085 277.0)",
-          "oklch(82% 0.077 277.0)",
-          "oklch(95% 0.058 277.0)"
+          "#1E0006",
+          "#480318",
+          "#760F2E",
+          "#AC0C44",
+          "#D33D63",
+          "#FB6383",
+          "#FDA9B5",
+          "#FFE8EA"
         ]
       },
-      "night-rest": {
+      "sun": {
         "role": "secondary",
-        "displayName": "Night Rest",
-        "canonical": "#4F63E6",
-        "oklch": "oklch(55.9% 0.198 271.8)",
+        "displayName": "Sun Disc",
+        "canonical": "#FF7C9C",
         "tonalRamp": [
-          "oklch(15% 0.096 271.8)",
-          "oklch(26% 0.132 271.8)",
-          "oklch(37% 0.169 271.8)",
-          "oklch(48% 0.198 271.8)",
-          "oklch(59% 0.198 271.8)",
-          "oklch(70% 0.179 271.8)",
-          "oklch(82% 0.139 271.8)",
-          "oklch(95% 0.096 271.8)"
+          "#1D0107",
+          "#46051C",
+          "#780433",
+          "#A2264F",
+          "#C84B6E",
+          "#EF6E8E",
+          "#FAAABA",
+          "#FEE8EC"
         ]
       },
-      "night-step-1": {
-        "role": "secondary",
-        "displayName": "Night Rank 1",
-        "canonical": "#A9B5FF",
-        "oklch": "oklch(79.1% 0.106 276.6)",
-        "tonalRamp": [
-          "oklch(15% 0.065 276.6)",
-          "oklch(26% 0.085 276.6)",
-          "oklch(37% 0.104 276.6)",
-          "oklch(48% 0.106 276.6)",
-          "oklch(59% 0.106 276.6)",
-          "oklch(70% 0.106 276.6)",
-          "oklch(82% 0.088 276.6)",
-          "oklch(95% 0.065 276.6)"
-        ]
-      },
-      "night-step-2": {
-        "role": "secondary",
-        "displayName": "Night Rank 2",
-        "canonical": "#8595FF",
-        "oklch": "oklch(70.4% 0.155 275.2)",
-        "tonalRamp": [
-          "oklch(15% 0.082 275.2)",
-          "oklch(26% 0.110 275.2)",
-          "oklch(37% 0.139 275.2)",
-          "oklch(48% 0.155 275.2)",
-          "oklch(59% 0.155 275.2)",
-          "oklch(70% 0.146 275.2)",
-          "oklch(82% 0.115 275.2)",
-          "oklch(95% 0.082 275.2)"
-        ]
-      },
-      "night-step-3": {
-        "role": "secondary",
-        "displayName": "Night Rank 3",
-        "canonical": "#6A7DFA",
-        "oklch": "oklch(63.8% 0.186 273.5)",
-        "tonalRamp": [
-          "oklch(15% 0.092 273.5)",
-          "oklch(26% 0.126 273.5)",
-          "oklch(37% 0.160 273.5)",
-          "oklch(48% 0.186 273.5)",
-          "oklch(59% 0.186 273.5)",
-          "oklch(70% 0.169 273.5)",
-          "oklch(82% 0.132 273.5)",
-          "oklch(95% 0.092 273.5)"
-        ]
-      },
-      "night-step-4": {
-        "role": "secondary",
-        "displayName": "Night Rank 4",
-        "canonical": "#5468F0",
-        "oklch": "oklch(57.9% 0.204 272.1)",
-        "tonalRamp": [
-          "oklch(15% 0.098 272.1)",
-          "oklch(26% 0.135 272.1)",
-          "oklch(37% 0.173 272.1)",
-          "oklch(48% 0.204 272.1)",
-          "oklch(59% 0.204 272.1)",
-          "oklch(70% 0.183 272.1)",
-          "oklch(82% 0.142 272.1)",
-          "oklch(95% 0.098 272.1)"
-        ]
-      },
-      "night-slate-5": {
+      "day-ground": {
         "role": "neutral",
-        "displayName": "Night Slate 5",
-        "canonical": "#8A93A3",
-        "oklch": "oklch(66.1% 0.026 262.1)",
+        "displayName": "Day Water",
+        "canonical": "#FFEFF3",
         "tonalRamp": [
-          "oklch(15% 0.026 262.1)",
-          "oklch(26% 0.026 262.1)",
-          "oklch(37% 0.026 262.1)",
-          "oklch(48% 0.026 262.1)",
-          "oklch(59% 0.026 262.1)",
-          "oklch(70% 0.026 262.1)",
-          "oklch(82% 0.026 262.1)",
-          "oklch(95% 0.026 262.1)"
+          "#12080B",
+          "#2C2024",
+          "#483C3F",
+          "#675A5D",
+          "#87797D",
+          "#A99A9E",
+          "#CFBFC3",
+          "#FAEAEE"
         ]
       },
-      "night-slate-6": {
+      "day-card": {
         "role": "neutral",
-        "displayName": "Night Slate 6",
-        "canonical": "#6B7383",
-        "oklch": "oklch(55.4% 0.027 264.3)",
+        "displayName": "Day Stage Card",
+        "canonical": "#FFFFFF",
         "tonalRamp": [
-          "oklch(15% 0.027 264.3)",
-          "oklch(26% 0.027 264.3)",
-          "oklch(37% 0.027 264.3)",
-          "oklch(48% 0.027 264.3)",
-          "oklch(59% 0.027 264.3)",
-          "oklch(70% 0.027 264.3)",
-          "oklch(82% 0.027 264.3)",
-          "oklch(95% 0.027 264.3)"
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "day-card-line": {
+        "role": "neutral",
+        "displayName": "Day Hairline",
+        "canonical": "#E1E4F0",
+        "tonalRamp": [
+          "#090B12",
+          "#21242C",
+          "#3D3F49",
+          "#5B5D67",
+          "#7A7D87",
+          "#9B9EA9",
+          "#C1C3CF",
+          "#EBEEFA"
+        ]
+      },
+      "day-track": {
+        "role": "neutral",
+        "displayName": "Day Track",
+        "canonical": "#E7EAF4",
+        "tonalRamp": [
+          "#090B11",
+          "#22242B",
+          "#3D3F47",
+          "#5B5D66",
+          "#7A7D86",
+          "#9B9EA7",
+          "#C1C4CD",
+          "#EBEEF8"
+        ]
+      },
+      "day-ink": {
+        "role": "neutral",
+        "displayName": "Day Ink",
+        "canonical": "#0B0D1A",
+        "tonalRamp": [
+          "#080A17",
+          "#202331",
+          "#3C3F4F",
+          "#595D6E",
+          "#787C8E",
+          "#999DB0",
+          "#BFC3D6",
+          "#EAEEFE"
+        ]
+      },
+      "day-muted": {
+        "role": "neutral",
+        "displayName": "Day Muted",
+        "canonical": "#545B73",
+        "tonalRamp": [
+          "#06091C",
+          "#1D2337",
+          "#383F55",
+          "#565D75",
+          "#757C96",
+          "#959DB8",
+          "#BBC3DF",
+          "#E9EEFF"
+        ]
+      },
+      "day-faint": {
+        "role": "neutral",
+        "displayName": "Day Faint",
+        "canonical": "#8C92A8",
+        "tonalRamp": [
+          "#070A19",
+          "#1F2334",
+          "#3A3F52",
+          "#575D71",
+          "#777C92",
+          "#979DB4",
+          "#BDC3DA",
+          "#E9EEFE"
+        ]
+      },
+      "day-dial-day": {
+        "role": "neutral",
+        "displayName": "Dial Day Half (day)",
+        "canonical": "#FFF1F5",
+        "tonalRamp": [
+          "#11080B",
+          "#2B2124",
+          "#473C40",
+          "#665A5D",
+          "#86797D",
+          "#A79A9E",
+          "#CDC0C4",
+          "#F8EAEE"
+        ]
+      },
+      "day-dial-night": {
+        "role": "neutral",
+        "displayName": "Dial Night Half (day)",
+        "canonical": "#EDF0FD",
+        "tonalRamp": [
+          "#090B13",
+          "#21232D",
+          "#3D3F49",
+          "#5B5D68",
+          "#7A7D88",
+          "#9B9EAA",
+          "#C1C3D0",
+          "#EBEEFB"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Display",
-        "purpose": "The name, once, on two lines. 70px on phones."
+        "displayName": "Display (expanded name)",
+        "purpose": "The name only: 82px desktop in one line, 66px on phones in two lines, -2px tracking."
       },
-      "display-figure": {
-        "displayName": "Display figure",
-        "purpose": "The year's contribution total on the cobalt field. 58px on phones."
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Headline numbers: 44px desktop / 40px phone; 22px for work-card commit counts."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Role line under the name. 24px on phones."
+        "purpose": "Role line under the name (26px desktop, 22px phone)."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Number-block heads over an ink rule; button labels."
+        "purpose": "Tile headings (20px), work-card names (22px), list rows (17px), button labels and ledger values (16px)."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Language names and ledger labels on 36px / 38px rows."
+        "purpose": "Work-card descriptions (15px at 0.86 ink opacity) and ledger labels (16px, muted)."
       },
-      "body-figure": {
-        "displayName": "Body figure",
-        "purpose": "Right-aligned values paired with body labels."
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Tile sub-lines, muted, wrapped to at most two lines."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Peak label, month and weekday ticks, colophon. 13-16px by layout."
+        "purpose": "Axis ticks, legends, stacks, timestamps (13px; 11-12px for dial and count captions)."
       },
       "chip": {
         "displayName": "Chip",
-        "purpose": "Private / Open source chip labels."
+        "purpose": "Private / Open source pill labels."
       }
     },
+    "palettes": {
+      "strata-night": [
+        "#4F6BFF",
+        "#7A5CF0",
+        "#B056D8",
+        "#FF6F91",
+        "#FFB0C2",
+        "#5A6284"
+      ],
+      "strata-day": [
+        "#2340F0",
+        "#5A45DC",
+        "#9444C4",
+        "#D2406A",
+        "#F08CA5",
+        "#9AA0B4"
+      ],
+      "mini-skyline-night": {
+        "front": "#5A74FF",
+        "side": "#2E43C4",
+        "roof": "#C3CCFF"
+      },
+      "mini-skyline-day": {
+        "front": "#2340F0",
+        "side": "#16269E",
+        "roof": "#8FA0FA"
+      },
+      "snake-day": {
+        "snake": "#C8325A",
+        "dots": [
+          "#EEF0FB",
+          "#C9D0FB",
+          "#7486F7",
+          "#2340F0",
+          "#1627B0"
+        ]
+      },
+      "snake-night": {
+        "snake": "#FFB8C8",
+        "dots": [
+          "#10142B",
+          "#1E2A70",
+          "#3B5BFF",
+          "#8FA2FF",
+          "#C9D1FF"
+        ]
+      }
+    },
+    "gradients": [
+      {
+        "name": "night-sky",
+        "value": "linear 0 #03040A, .55 #080B22, .86 #131C5E, 1 #2A3DE0 (top to horizon)"
+      },
+      {
+        "name": "night-ground",
+        "value": "linear 0 #0B1030, 1 #04050C (horizon to floor)"
+      },
+      {
+        "name": "day-sky",
+        "value": "linear 0 #FFFFFF, .62 #FCFCFF, .9 #FFE8EE, 1 #FFCBD7"
+      },
+      {
+        "name": "day-ground",
+        "value": "linear 0 #FFEFF3, 1 #FFFFFF"
+      },
+      {
+        "name": "horizon-glow",
+        "value": "radial glow color .9 -> .35 at .45 -> 0; ellipse centered 60% across at the horizon, rx 62% W, ry 42% of horizon height"
+      },
+      {
+        "name": "second-tint",
+        "value": "radial glow2 .55 -> 0; ellipse at 24% across, 40px above the horizon"
+      },
+      {
+        "name": "card-floor-haze",
+        "value": "linear haze color 0 -> .16 opacity over the bottom 110px of every card"
+      },
+      {
+        "name": "reflection",
+        "value": "skyline mirrored at the horizon, opacity .5, luminance-masked white->black over 70% of the ground"
+      }
+    ],
     "shadows": [],
     "motion": [
       {
-        "name": "sweep",
-        "value": "2.4s cubic-bezier(.45,0,.2,1) .3s both; translateX(0 -> chart span), opacity 0 -> 1 (10%) -> 1 (88%) -> 0",
-        "purpose": "The single oscilloscope pass across the cover chart; invisible at first and last frame; animation:none and opacity 0 under prefers-reduced-motion."
+        "name": "window-twinkle",
+        "value": ".tw 5.2s ease-in-out infinite; opacity 1 -> .2 -> 1",
+        "purpose": "About 7% of lit hero windows; hashed delays."
+      },
+      {
+        "name": "star-twinkle",
+        "value": ".st 7s ease-in-out infinite; opacity 1 -> .15 -> 1",
+        "purpose": "22% of night stars."
+      },
+      {
+        "name": "horizon-breathe",
+        "value": ".gl 9s ease-in-out infinite; opacity 1 -> .72 -> 1",
+        "purpose": "The horizon glow."
+      },
+      {
+        "name": "live-pulse",
+        "value": ".pu 2.4s cubic-bezier(.2,.6,.3,1) infinite; scale 1 -> 2.6, opacity .55 -> 0",
+        "purpose": "Ring behind call-sheet dots pushed today or yesterday."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion:reduce){.tw,.st,.gl,.pu{animation:none}.pu{opacity:0}}",
+        "purpose": "Every loop off; the scene rests on the finished frame."
       }
     ],
     "breakpoints": [
       {
         "name": "phone",
         "value": "(max-width: 600px)",
-        "purpose": "First <picture> source; selects the adaptive SVG (600px canvas) that switches theme internally."
+        "purpose": "Plain <source> serving the 600-wide -mobile SVG that carries both cues and switches via prefers-color-scheme inside the file."
       },
       {
-        "name": "wide",
-        "value": "1200px canvas",
-        "purpose": "Default light <img> and dark prefers-color-scheme source."
+        "name": "theme",
+        "value": "(prefers-color-scheme: dark)",
+        "purpose": "Desktop <source> serving the -dark SVG; -light is the <img> default."
       }
     ],
-    "fonts": [
-      {
-        "name": "A-display",
-        "file": "assets/fonts/archivo-display.woff2",
-        "instance": "Archivo wdth 125 wght 800"
+    "medium": {
+      "container": "GitHub-sanitized README markdown; every visual is an SVG loaded via <img> inside <picture>.",
+      "fonts": "Archivo subsets (display expanded heavy, medium, text) embedded as base64 WOFF2 per SVG; text positioned from assets/fonts/metrics.json.",
+      "canvas": {
+        "desktop": "1200 wide",
+        "phone": "600 wide"
       },
-      {
-        "name": "A-text",
-        "file": "assets/fonts/archivo-text.woff2",
-        "instance": "Archivo wdth 100 wght 400"
-      },
-      {
-        "name": "A-medium",
-        "file": "assets/fonts/archivo-medium.woff2",
-        "instance": "Archivo wdth 100 wght 600"
-      }
-    ],
-    "strokes": [
-      {
-        "name": "hairline",
-        "value": "1px on .5 offsets",
-        "purpose": "Row dividers, colophon rule and ticks, chart baseline"
-      },
-      {
-        "name": "outline",
-        "value": "1.5px inset .75px",
-        "purpose": "Secondary buttons and Open source chips"
-      }
-    ]
+      "encoding": "private = warm windows + solid chips; public = cool windows + outlined chips"
+    }
   },
   "components": [
     {
-      "name": "Primary Button",
+      "name": "Primary Button (email)",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Email contact, the one solid button in the contact row under the cover.",
-      "html": "<a class='ds-btn ds-btn-primary' href='#'><svg width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'><rect x='1' y='3' width='18' height='14' rx='1.5' fill='none' stroke='currentColor' stroke-width='1.8'/><path d='M1.8 4.2 10 11l8.2-6.8' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/></svg><span>umer.jahangier@gmail.com</span><svg width='12' height='12' viewBox='0 0 12 12' aria-hidden='true'><path d='M2 10l8-8M3.5 2H10v6.5' fill='none' stroke='currentColor' stroke-width='1.7' stroke-linecap='square'/></svg></a>",
-      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 18px 0 20px;border-radius:0;font:600 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;text-decoration:none;box-sizing:border-box}.ds-btn-primary{background:#2340F0;color:#FFFFFF;border:0}.ds-btn-primary:hover{background:#2F4BFF}.ds-btn-primary:focus-visible{outline:2px solid #0B0D12;outline-offset:2px}"
+      "description": "The one contact action: solid cobalt, mail glyph, label, up-right arrow. Night cue swaps to night-glow.",
+      "html": "<a class='ds-btn ds-btn-primary' href='#'><svg width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'><rect x='1' y='3' width='18' height='14' rx='2.5' fill='none' stroke='currentColor' stroke-width='1.8'/><path d='M1.8 4.6 10 11l8.2-6.4' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/></svg><span>umer.jahangier@gmail.com</span><svg width='14' height='14' viewBox='0 0 14 14' aria-hidden='true'><path d='M3 11l8-8M5 3h6v6' fill='none' stroke='currentColor' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;height:50px;padding:0 20px;border-radius:14px;font:500 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;text-decoration:none;box-sizing:border-box}.ds-btn-primary{background:#2340F0;color:#FFFFFF;transition:background .2s}.ds-btn-primary:hover{background:#1627B0}.ds-btn-primary:focus-visible{outline:2px solid #FF9DB3;outline-offset:3px}@media (prefers-color-scheme:dark){.ds-btn-primary{background:#3B5BFF}}"
     },
     {
-      "name": "Secondary Button",
+      "name": "Secondary Button (social)",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "LinkedIn, Instagram, praivox.com: outlined in ink on the page ground.",
-      "html": "<a class='ds-btn ds-btn-secondary' href='#'><svg width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'><rect x='1.9' y='1.9' width='16.2' height='16.2' rx='4.6' fill='none' stroke='currentColor' stroke-width='1.8'/><circle cx='10' cy='10' r='3.7' fill='none' stroke='currentColor' stroke-width='1.8'/><circle cx='14.6' cy='5.4' r='1.1' fill='currentColor'/></svg><span>Instagram</span><svg width='12' height='12' viewBox='0 0 12 12' aria-hidden='true'><path d='M2 10l8-8M3.5 2H10v6.5' fill='none' stroke='currentColor' stroke-width='1.7' stroke-linecap='square'/></svg></a>",
-      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 18px 0 20px;border-radius:0;font:600 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;text-decoration:none;box-sizing:border-box}.ds-btn-secondary{background:#FFFFFF;color:#0B0D12;border:1.5px solid #0B0D12}.ds-btn-secondary:hover{background:#0B0D12;color:#FFFFFF}.ds-btn-secondary:focus-visible{outline:2px solid #2340F0;outline-offset:2px}"
+      "description": "Card-filled contact link with a 1.5px hairline and ink glyph, label and arrow.",
+      "html": "<a class='ds-btn ds-btn-secondary' href='#'><svg width='20' height='20' viewBox='0 0 20 20' aria-hidden='true'><rect x='1' y='1' width='18' height='18' rx='3.5' fill='currentColor'/><path d='M5.2 8h2.3v7H5.2zM6.35 4.4a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6zM9.2 8h2.2v1c.4-.7 1.3-1.2 2.4-1.2 2.2 0 2.7 1.4 2.7 3.3V15h-2.3v-3.4c0-.9-.1-1.9-1.2-1.9s-1.5.9-1.5 1.8V15H9.2z' fill='#FFFFFF'/></svg><span>LinkedIn</span><svg width='14' height='14' viewBox='0 0 14 14' aria-hidden='true'><path d='M3 11l8-8M5 3h6v6' fill='none' stroke='currentColor' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;height:50px;padding:0 20px;border-radius:14px;font:500 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;text-decoration:none;box-sizing:border-box}.ds-btn-secondary{background:#FFFFFF;color:#0B0D1A;border:1.5px solid #E1E4F0;transition:border-color .2s}.ds-btn-secondary:hover{border-color:#2340F0}.ds-btn-secondary:focus-visible{outline:2px solid #FF9DB3;outline-offset:3px}@media (prefers-color-scheme:dark){.ds-btn-secondary{background:#080A15;color:#F2F3F8;border-color:#1C2238}}"
     },
     {
       "name": "Private Chip",
       "kind": "chip",
-      "refersTo": "tag-private",
-      "description": "Marks a private repository in the selected-work table: solid cobalt.",
-      "html": "<span class='ds-tag ds-tag-private'>Private</span>",
-      "css": ".ds-tag{display:inline-flex;align-items:center;height:22px;padding:0 10px;border-radius:0;font:600 12px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box}.ds-tag-private{background:#2340F0;color:#FFFFFF}"
+      "refersTo": "chip-private",
+      "description": "Solid pill: private work.",
+      "html": "<span class='ds-chip ds-chip-private'>Private</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;height:22px;padding:0 11px;border-radius:11px;font:500 12px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box}.ds-chip-private{background:#2340F0;color:#FFFFFF}@media (prefers-color-scheme:dark){.ds-chip-private{background:#3B5BFF}}"
     },
     {
       "name": "Open Source Chip",
       "kind": "chip",
-      "refersTo": "tag-open",
-      "description": "Marks a public repository: the same chip as a 1.5px cobalt outline.",
-      "html": "<span class='ds-tag ds-tag-open'>Open source</span>",
-      "css": ".ds-tag{display:inline-flex;align-items:center;height:22px;padding:0 10px;border-radius:0;font:600 12px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box}.ds-tag-open{background:transparent;color:#2340F0;border:1.5px solid #2340F0}"
+      "refersTo": "chip-open",
+      "description": "Outlined pill: public work.",
+      "html": "<span class='ds-chip ds-chip-open'>Open source</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;height:22px;padding:0 11px;border-radius:11px;font:500 12px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;box-sizing:border-box}.ds-chip-open{border:1.5px solid #2340F0;color:#2340F0}@media (prefers-color-scheme:dark){.ds-chip-open{border-color:#8FA2FF;color:#8FA2FF}}"
     },
     {
-      "name": "Cover Field",
+      "name": "Stage Card (ledger tile)",
       "kind": "card",
-      "refersTo": "cover-field",
-      "description": "The cobalt field: display figure, 52 white weekly bars, and the solid/outline private split bar.",
-      "html": "<div class='ds-field'><div class='ds-field-fig'>2,785</div><div class='ds-field-cap'>contributions in the last 12 months</div><div class='ds-field-bars'><i style='height:8px'></i><i style='height:14px'></i><i style='height:6px'></i><i style='height:22px'></i><i style='height:30px'></i><i style='height:18px'></i><i style='height:40px'></i><i style='height:26px'></i><i style='height:12px'></i><i style='height:34px'></i><i style='height:52px'></i><i style='height:44px'></i><i style='height:60px'></i><i style='height:38px'></i><i style='height:20px'></i><i style='height:70px'></i><i style='height:48px'></i><i style='height:28px'></i><i style='height:16px'></i><i style='height:36px'></i><i style='height:24px'></i><i style='height:10px'></i><i style='height:42px'></i><i style='height:56px'></i><i style='height:32px'></i><i style='height:18px'></i></div><div class='ds-split'><b style='width:61%'></b><s></s></div><div class='ds-split-lab'><span>61% in private repositories</span><em>39% public</em></div></div>",
-      "css": ".ds-field{background:#2340F0;color:#FFFFFF;padding:32px;width:416px;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-field-fig{font:800 64px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;font-stretch:125%;letter-spacing:-1.5px}.ds-field-cap{margin-top:12px;font:600 17px/1.2 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#DDE2FF}.ds-field-bars{display:flex;align-items:flex-end;gap:2px;height:80px;margin-top:40px;border-bottom:1px solid rgba(255,255,255,.5)}.ds-field-bars i{display:block;width:14px;background:#FFFFFF}.ds-split{display:flex;gap:3px;height:12px;margin-top:40px}.ds-split b{background:#FFFFFF}.ds-split s{flex:1;border:1px solid #FFFFFF}.ds-split-lab{display:flex;justify-content:space-between;margin-top:14px;font:600 15px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-split-lab em{font-style:normal;font-weight:400;color:#DDE2FF}"
+      "refersTo": "stage-card",
+      "description": "18px stage with hairline, floor haze rising from the bottom 110px, 30px heading block.",
+      "html": "<div class='ds-stage'><h3>The year, counted</h3><p class='ds-sub'>Last 12 months, private repositories included.</p><dl><div><dt>Contributions</dt><dd>3,824 · 94% private</dd></div><div><dt>Current streak</dt><dd>4 days</dd></div><div><dt>Repositories</dt><dd>50 · 37 private</dd></div></dl></div>",
+      "css": ".ds-stage{width:460px;padding:30px 30px 60px;border-radius:18px;border:1px solid #E1E4F0;background:linear-gradient(to bottom,#FFFFFF calc(100% - 110px),rgba(255,157,179,.16)) #FFFFFF;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0D1A;box-sizing:border-box}.ds-stage h3{margin:0;font:500 20px/1.2 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-stage .ds-sub{margin:6px 0 26px;font:400 14px/1.4 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#545B73}.ds-stage dl{margin:0}.ds-stage dl div{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #E1E4F0;font-size:16px}.ds-stage dl div:last-child{border-bottom:0}.ds-stage dt{color:#545B73}.ds-stage dd{margin:0;font-weight:500}@media (prefers-color-scheme:dark){.ds-stage{background:linear-gradient(to bottom,#080A15 calc(100% - 110px),rgba(59,91,255,.16)) #080A15;border-color:#1C2238;color:#F2F3F8}.ds-stage .ds-sub,.ds-stage dt{color:#A7AECC}.ds-stage dl div{border-color:#1C2238}}"
     },
     {
-      "name": "Ledger Block",
-      "kind": "custom",
-      "refersTo": "ledger-row",
-      "description": "'The year, counted': Title head over an ink rule, grey labels, semibold right-aligned values on hairlines.",
-      "html": "<div class='ds-ledger'><div class='ds-ledger-head'>The year, counted</div><div class='ds-ledger-row'><span>Current streak</span><b>2 days</b></div><div class='ds-ledger-row'><span>Longest streak</span><b>13 days</b></div><div class='ds-ledger-row'><span>Private contributions</span><b>1,706</b></div><div class='ds-ledger-row'><span>All time, since 2023</span><b>2,882</b></div></div>",
-      "css": ".ds-ledger{width:352px;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0D12}.ds-ledger-head{font:600 16px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;padding-bottom:16px;border-bottom:1px solid #0B0D12}.ds-ledger-row{display:flex;justify-content:space-between;align-items:center;height:38px;border-bottom:1px solid #D9DCE3;font:400 17px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-ledger-row span{color:#5A6170}.ds-ledger-row b{font-weight:600}"
+      "name": "Work Card with mini skyline",
+      "kind": "card",
+      "refersTo": "stage-card",
+      "description": "Project stage: name, chip, description, stack, and its own 52-week skyline with warm (private) windows and a display-cut commit count.",
+      "html": "<div class='ds-work'><div class='ds-work-top'><strong>AlphaVenue</strong><span class='ds-chip-p'>Private</span></div><p>Celebrations and venue platform: API, marketing site and a mobile app.</p><small>pnpm monorepo · Next.js · React Native / Expo</small><div class='ds-sky'><i style='height:20%'></i><i style='height:45%'></i><i style='height:30%'></i><i style='height:80%'></i><i style='height:55%'></i><i style='height:100%'></i><i style='height:40%'></i><b>6,982</b></div></div>",
+      "css": ".ds-work{width:580px;padding:28px;border-radius:18px;border:1px solid #E1E4F0;background:linear-gradient(to bottom,#FFFFFF calc(100% - 110px),rgba(255,157,179,.16));font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0D1A;box-sizing:border-box}.ds-work-top{display:flex;justify-content:space-between;align-items:center;font:500 22px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-chip-p{height:22px;padding:0 11px;border-radius:11px;background:#2340F0;color:#fff;font:500 12px/22px 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-work p{margin:14px 0 6px;font-size:15px;line-height:22px;opacity:.86}.ds-work small{font-size:13px;color:#545B73}.ds-sky{position:relative;display:flex;align-items:flex-end;gap:3px;height:70px;margin-top:14px;border-bottom:1px solid rgba(255,157,179,.8)}.ds-sky i{width:8px;background:#2340F0 radial-gradient(circle,#FF93AE 0.9px,transparent 1.2px) 0 0/8px 4px;box-shadow:inset -2px 0 #16269E}.ds-sky b{position:absolute;right:0;bottom:16px;font:800 22px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;font-stretch:125%}@media (prefers-color-scheme:dark){.ds-work{background:linear-gradient(to bottom,#080A15 calc(100% - 110px),rgba(59,91,255,.16));border-color:#1C2238;color:#F2F3F8}.ds-work small{color:#A7AECC}.ds-chip-p{background:#3B5BFF}.ds-sky{border-color:rgba(59,91,255,.8)}.ds-sky i{background-color:#5A74FF;box-shadow:inset -2px 0 #2E43C4}.ds-sky i{background-image:radial-gradient(circle,#FFC4D2 0.9px,transparent 1.2px)}}"
     },
     {
-      "name": "Language Share",
+      "name": "Hero Stage (night cue)",
       "kind": "custom",
-      "refersTo": "",
-      "description": "Ranked stacked bar and swatch list: cobalt tints by rank, then slates.",
-      "html": "<div class='ds-langs'><div class='ds-langs-bar'><i style='flex:42.5;background:#2340F0'></i><i style='flex:27.2;background:#4A62F2'></i><i style='flex:10.4;background:#6479F4'></i><i style='flex:9.1;background:#7487F4'></i><i style='flex:9;background:#6E7482'></i><i style='flex:1.8;background:#838997'></i></div><div class='ds-langs-row'><i style='background:#2340F0'></i><span>TypeScript</span><b>42.5%</b></div><div class='ds-langs-row'><i style='background:#4A62F2'></i><span>Python</span><b>27.2%</b></div><div class='ds-langs-row'><i style='background:#6479F4'></i><span>Java</span><b>10.4%</b></div></div>",
-      "css": ".ds-langs{width:352px;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0D12}.ds-langs-bar{display:flex;gap:2px;height:18px;margin-bottom:20px}.ds-langs-bar i{display:block}.ds-langs-row{display:flex;align-items:center;gap:12px;height:36px;border-bottom:1px solid #D9DCE3;font:400 17px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-langs-row i{width:12px;height:12px}.ds-langs-row span{flex:1}.ds-langs-row b{font-weight:600}"
+      "refersTo": "hero-stage",
+      "description": "Sky gradient to a cobalt horizon, rose tint above it, expanded name across the sky, skyline standing on the horizon.",
+      "html": "<div class='ds-hero'><div class='ds-name'>Muhammad Umer</div><div class='ds-role'>AI, Automation &amp; Full-Stack Engineer</div><div class='ds-rule'></div><div class='ds-city'><i style='height:30%'></i><i style='height:55%'></i><i style='height:40%'></i><i style='height:75%'></i><i style='height:50%'></i><i style='height:95%'></i><i style='height:35%'></i><i style='height:60%'></i></div></div>",
+      "css": ".ds-hero{position:relative;width:600px;height:320px;border-radius:22px;border:1px solid #1C2238;overflow:hidden;padding:28px;box-sizing:border-box;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#F2F3F8;background:radial-gradient(ellipse 60% 30% at 60% 78%,rgba(59,91,255,.9),rgba(59,91,255,0)),radial-gradient(ellipse 34% 20% at 24% 70%,rgba(255,111,145,.55),rgba(255,111,145,0)),linear-gradient(#03040A 0%,#080B22 43%,#131C5E 67%,#2A3DE0 78%,#0B1030 78%,#04050C 100%)}.ds-name{font:800 44px/1 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;font-stretch:125%;letter-spacing:-1px}.ds-role{margin-top:12px;font:500 16px/1.2 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif}.ds-rule{width:56px;height:3px;margin-top:14px;background:#FF7A9A}.ds-city{position:absolute;left:28px;right:28px;top:120px;height:130px;display:flex;align-items:flex-end;gap:10px;border-bottom:2px solid #5A76FF}.ds-city i{flex:1;background:#10152E radial-gradient(circle,#FFC4D2 1.2px,transparent 1.6px) 0 0/7px 7px;box-shadow:inset -3px 0 #0A0E22}.ds-city i:nth-child(3n){background-image:radial-gradient(circle,#8FA2FF 1.2px,transparent 1.6px)}@media (prefers-reduced-motion:no-preference){.ds-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 30% at 60% 78%,rgba(59,91,255,.25),transparent);animation:ds-gl 9s ease-in-out infinite}}@keyframes ds-gl{0%,100%{opacity:1}50%{opacity:.72}}"
     }
   ],
   "narrative": {
-    "northStar": "The Annual Report",
-    "overview": "The profile is typeset as a Swiss International Style annual report of one engineer's year. A white page (GitHub's ink ground in dark mode) carries one expanded name and one committed cobalt field that owns a whole region of the cover. Numbers are the evidence: the year's contributions, the private share, the languages, the weekly rhythm and a ledger are set as report figures, measured on hairline rules and tick marks, and rebuilt every day from the API.\n\nEverything visual is a generated SVG, because GitHub's sanitizer strips CSS from the page. The system lives in `scripts/profile.py`: two theme token sets, fixed geometry per layout, and a small set of builders (cover, three number blocks, buttons, chips). Density is report-like: generous ground on the left, a packed data field on the right, figures right-aligned against labels. The world rejects the neon-terminal dev profile and the badge wall.",
+    "northStar": "The Cyclorama",
+    "overview": "**Creative North Star: \"The Cyclorama\"**\n\nThe profile is a stage backdrop lit from night to day. Light shows a year of mostly private work. Dark mode is the night cue: a depthless black sky that deepens to a low cobalt horizon, rose light gathering above it, and a field of stars. Light mode is the day cue: a white wash, rose haze at the horizon, and cobalt architecture. Every chart is a piece of set. The year is a skyline of 52 weekly buildings, with lit windows for contributions and warm windows for private work. The day is the sun's path. Languages are strata of sky. Each named project stands on its own miniature skyline.\n\nThe world rejects two things by construction: the neon-terminal developer profile and the flat grid of stat cards. Depth comes from isometric buildings, a reflection in still water, and the horizon haze that rises from every card floor, never from drop shadows. Type is quiet except in two places: the name and the headline figures, set in an expanded heavy Archivo that spans the sky like a title card.\n\nThe medium is fixed and it shapes everything. GitHub sanitizes README markdown, so every visual is a generated SVG loaded through `<img>` inside a `<picture>`. Each SVG embeds its own Archivo subset as base64 WOFF2 and positions text from measured glyph widths, because an `<img>` SVG cannot load external fonts. Desktop gets separate `-light` and `-dark` files switched by `prefers-color-scheme`. Phones get one `-mobile` file through a `(max-width: 600px)` source. GitHub's themed picture leaves that plain media query alone, so the mobile file carries both cues and switches internally.",
     "keyCharacteristics": [
-      "One cobalt field per cover, holding the live 52-week chart in white.",
-      "A single visual code everywhere: solid means private (or primary), outline means public (or secondary).",
-      "Archivo embedded in three cut instances: expanded black for the name and the headline figure, normal-width semibold and regular for everything else.",
-      "Hairline rules and 80px tick marks; square corners; whole-pixel bar pitches.",
-      "Ink, cobalt tints and neutral slates only. No language brand colours.",
-      "One motion: a single oscilloscope sweep across the chart, invisible at its first and last frame."
+      "Two lighting cues of one stage, night (dark) and day (light), always shipped as a pair.",
+      "Isometric skylines as data: height and lit windows encode contributions; warm windows encode private work.",
+      "Horizon haze rising from the floor of every card; hairline edges; no shadows.",
+      "Expanded heavy Archivo for the name and figures only; Archivo Medium and Text for everything else.",
+      "Ambient motion only (twinkling windows and stars, a breathing horizon, a live-push pulse), and every loop starts from the finished frame."
     ],
     "rules": [
       {
-        "name": "The One Field Rule",
-        "body": "Cobalt appears as a filled region or as a ranked datum. It never tints running text, never decorates, and there is one field per surface.",
+        "name": "The Warm Window Rule",
+        "body": "Private is warm and public is cool, everywhere the distinction is drawn: warm windows for private work and cool windows for public work, in the hero skyline and every work card. Chips carry the same split as fill: solid for private, outlined for open source. Never swap the two, and never draw the distinction with a third color.",
         "section": "colors"
       },
       {
-        "name": "The Ranked Tint Rule",
-        "body": "Categorical series are coloured by rank in cobalt tints, then slates. Language brand colours (the GitHub rainbow) are never used.",
+        "name": "The Two Cues Rule",
+        "body": "Every surface ships both cues from the same builder with the same geometry; only the THEMES tokens change. A color that exists in only one cue is a bug unless it is the sky itself (stars and moon at night, sun by day).",
         "section": "colors"
       },
       {
-        "name": "The Legible Mark Rule",
-        "body": "Text on any ground is at least 4.5:1; every chart mark is at least 3:1. A new tint earns its place by passing both in both themes.",
-        "section": "colors"
-      },
-      {
-        "name": "The One Big Word Rule",
-        "body": "The expanded display cut is reserved for the name and the single headline figure. Nothing else is set expanded.",
+        "name": "The Expanded Name Rule",
+        "body": "The expanded display cut is reserved for the name and for numbers. Headings, labels, and prose never use it.",
         "section": "typography"
       },
       {
-        "name": "The Figure Weight Rule",
-        "body": "Labels are regular, their values semibold and right-aligned; weight, not colour, separates a number from its caption.",
+        "name": "The Measured Text Rule",
+        "body": "Every string is embedded, not linked, and laid out from `metrics.json` glyph widths. It wraps to a fixed line budget and ends in an ellipsis rather than overflowing. Never position text by guessing, and never rely on a system font rendering the same way.",
         "section": "typography"
       },
       {
-        "name": "The Fixed Budget Rule",
-        "body": "Every figure has a fixed geometry per layout; values change daily, the frame does not. New data must fit the existing box.",
+        "name": "The Asymmetric Bento Rule",
+        "body": "Paired tiles are never equal. The wide tile alternates sides row to row (700/460, then 460/700), so the eye zig-zags down the stage.",
         "section": "layout"
       },
       {
-        "name": "The Whole Pixel Rule",
-        "body": "Bar pitches are whole pixels and hairlines sit on .5 offsets. No fractional bar widths on the cover.",
-        "section": "layout"
-      },
-      {
-        "name": "The Flat Report Rule",
-        "body": "Surfaces are printed, not lifted. No drop shadows, glows or offset shadows on any element.",
+        "name": "The One Horizon Rule",
+        "body": "Every card is a small stage and carries the theme's horizon haze on its floor: cobalt at night, rose by day. The horizon is the only light source, so a surface lifts by standing on it, never by casting a shadow.",
         "section": "elevation"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Containers are defined by a 1px card-line edge (1.5px on outlined buttons and chips). Nothing gets a drop shadow, an offset shadow, or a glow on its edge.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Honest Silence Rule",
+        "body": "Under 20 matched commits the card draws only the empty baseline and makes no activity claim. An empty stage is correct; never fill it with invented or placeholder bars.",
+        "section": "components"
+      },
+      {
+        "name": "The Finished Frame Rule",
+        "body": "Every loop starts and ends at full opacity on the finished frame, so a static render, a first paint, or a screenshot is always the complete picture. `prefers-reduced-motion: reduce` turns every animation off and hides the pulse ring.",
+        "section": "components"
       }
     ],
     "dos": [
-      "**Do** generate every visual as an SVG from `THEMES` and `COVER_GEOMETRY` in `scripts/profile.py`, in a light, a dark and (for full-width visuals) an adaptive phone file.",
-      "**Do** keep solid for private or primary and outline for public or secondary, everywhere.",
-      "**Do** colour categorical data by rank in cobalt tints, then slates, and check every mark at 3:1 and every text pair at 4.5:1 in both themes.",
-      "**Do** embed only the Archivo instances a file uses, with the Helvetica stack as fallback.",
-      "**Do** keep bars on whole-pixel pitches and hairlines on half-pixel offsets.",
-      "**Do** make any animation invisible at its first and last frame and remove it under reduced motion."
+      "Do ship every new visual as a pair of cues from one builder: `-light` and `-dark` at 1200 wide, plus a `-mobile` file at 600 wide that carries both cues and switches on `prefers-color-scheme`.",
+      "Do encode private as warm windows and solid chips, and public as cool windows and outlined chips.",
+      "Do give every new tile the 18px stage card, the hairline, the floor haze, and the 30px heading block.",
+      "Do keep paired tiles asymmetric (700/460 or 460/700) with a 40px gutter.",
+      "Do start every animation loop from the finished frame and disable it under reduced motion.",
+      "Do embed Archivo and measure every string; wrap to a line budget and ellipsize.",
+      "Do draw data as set pieces on the stage: buildings, horizon, sky, sun path."
     ],
     "donts": [
-      "**Don't** use language brand colours or any hue outside ink, cobalt tints and slates.",
-      "**Don't** set anything but the name and the headline figure in the expanded display cut.",
-      "**Don't** add shadows, glows or rounded corners to fields, bars, buttons or chips.",
-      "**Don't** put a second cobalt field on a surface or tint running text cobalt.",
-      "**Don't** load third-party image services or external fonts; everything renders from this repo.",
-      "**Don't** let a figure grow its box; values change inside a fixed geometry."
+      "Don't use drop shadows or offset shadows. Depth comes from the horizon, reflections, and isometric faces.",
+      "Don't set headings, labels, or prose in the expanded display cut. It is for the name and numbers only.",
+      "Don't make the night cue a neon terminal: no monospace, no green on black, no glow on type. Glow belongs to the horizon.",
+      "Don't fall back to a flat grid of equal stat cards.",
+      "Don't rely on markdown styling, external fonts, or interactivity. GitHub strips `<style>` from the README, and `<img>` SVGs cannot load resources.",
+      "Don't draw activity for a project under 20 matched commits."
     ]
   }
 }

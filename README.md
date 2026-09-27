@@ -3,43 +3,40 @@
 <picture>
   <source media="(max-width: 600px)" srcset="dist/cover-personal-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="dist/cover-personal-dark.svg">
-  <img src="dist/cover-personal-light.svg" width="100%" alt="Muhammad Umer, AI, Automation and Full-Stack Engineer. Live graph of the last 52 weeks of contributions, with the share made in private repositories.">
+  <img src="dist/cover-personal-light.svg" width="100%" alt="Muhammad Umer, AI, Automation and Full-Stack Engineer. The last 52 weeks drawn as a skyline: one building per week, lit windows for contributions, warm windows for private work.">
 </picture>
 
-<a href="mailto:umer.jahangier@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-dark.svg"><img src="dist/btn-email-light.svg" height="48" alt="Email umer.jahangier@gmail.com"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="48" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="48" alt="Instagram"></picture></a>
+<a href="mailto:umer.jahangier@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-dark.svg"><img src="dist/btn-email-light.svg" height="50" alt="Email umer.jahangier@gmail.com"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="50" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="50" alt="Instagram"></picture></a>
 
-I build AI agents, automations and the full-stack products around them, from the first schema to the production deploy. Most of that work ships in private repositories for clients and for products I own, so the numbers on this page count private work too.
+I build AI agents, automations and the full-stack products around them, from the first schema to the production deploy. Almost all of it ships in private repositories, for clients and for products I own, so every chart here counts private work.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="dist/rhythm-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/rhythm-dark.svg">
+  <img src="dist/rhythm-light.svg" width="100%" alt="When I build: commits by hour of day in Lahore time, drawn as the sun's path, and languages by code size drawn as strata of sky. Private repositories included.">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="dist/activity-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/activity-dark.svg">
+  <img src="dist/activity-light.svg" width="100%" alt="On stage now: the projects with the latest pushes, and the year counted: streaks, active days, commits, pull requests, repositories.">
+</picture>
 
 ### Selected work
 
-| Project | What it is |
-| :-- | :-- |
-| **SalesPulse AI** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Sales communication platform: power dialer, AI voice agents, SMS and two-way CRM sync<br><sub>Next.js 15 · Prisma · PostgreSQL · Twilio · Retell AI · Stripe</sub> |
-| **AlphaVenue** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Celebrations and venue platform: API, marketing site, and a mobile app for couples and venue owners<br><sub>pnpm monorepo · Next.js · React Native / Expo · GSAP · Sanity</sub> |
-| **Elio** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Marketplace connecting contractors, homeowners and vendors: projects, milestone quotes, scheduling, payouts<br><sub>Flutter · React · Node.js</sub> |
-| **SocialSync** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Self-hosted, queue-based social media manager for teams across Instagram, Facebook, LinkedIn, X and YouTube<br><sub>TypeScript · job queues · encrypted token vault</sub> |
-| **HRIA-DMS** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Donation management for a humanitarian academy, with an offline-first desktop app in English and Urdu<br><sub>Electron · React · Express · MongoDB · Zod</sub> |
-| **Reveal Your Intentions** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | AI social-intelligence app that reads a situation and suggests how to respond<br><sub>Expo · Express · LLM orchestration</sub> |
-| **RestaurantOS** <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-private-dark.svg"><img src="dist/tag-private-light.svg" height="22" alt="Private repository"></picture> | Multi-tenant restaurant operating system: POS, inventory, finance, HR and reporting<br><sub>Java · multi-tenant SaaS</sub> |
-| [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) <br><picture><source media="(prefers-color-scheme: dark)" srcset="dist/tag-open-dark.svg"><img src="dist/tag-open-light.svg" height="22" alt="Open source"></picture> | One clone, one install: spec-driven workflows, agent memory, CodeGraph and MCP wiring for Cursor and VS Code<br><sub>Shell · MCP</sub> |
-
-<sub>Also: **madaddGar** (on-demand home services, Socket.io) · **Qalb-e-Saleem** (Flutter audio and reading app) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow)</sub>
-
-### The year in numbers
-
 <picture>
-  <source media="(max-width: 600px)" srcset="dist/numbers-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="dist/numbers-dark.svg">
-  <img src="dist/numbers-light.svg" width="100%" alt="The year in numbers: languages, weekly rhythm, streaks and totals, including private repositories.">
+  <source media="(max-width: 600px)" srcset="dist/work-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dist/work-dark.svg">
+  <img src="dist/work-light.svg" width="100%" alt="Selected work: SalesPulse AI, AlphaVenue, Elio, SocialSync, HRIA-DMS, Reveal Your Intentions, RestaurantOS and cursor-powered-up, each with its activity over the last year.">
 </picture>
 
-<sub>Rebuilt every day from the GitHub API. Private work is counted as totals only; no code leaves the repositories.</sub>
+<sub>Open source: [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow). Also: **madaddGar** (on-demand home services) · **Qalb-e-Saleem** (Flutter audio and reading app). Every chart is rebuilt daily from the GitHub API; private work is counted as totals only, and no code leaves the repositories.</sub>
 
 ### Toolbox
 
 **Languages** · TypeScript · Python · JavaScript · Dart · Java · C++ · SQL<br>
 **Frontend** · Next.js · React · React Native / Expo · Flutter · Tailwind CSS · GSAP<br>
-**Backend** · Node.js · Express · FastAPI · Prisma · REST · GraphQL · Socket.io<br>
+**Backend** · Node.js · Express · Spring · FastAPI · Prisma · REST · GraphQL · Socket.io<br>
 **AI and automation** · LLM agents · RAG · voice agents (Retell, Twilio) · n8n · LangChain · OpenAI · Claude · computer vision<br>
 **Data and infrastructure** · PostgreSQL · MongoDB · Redis · Docker · Kubernetes · Electron · GitHub Actions · Vercel · Linux
 
