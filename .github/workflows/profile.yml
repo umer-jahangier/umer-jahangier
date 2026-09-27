@@ -31,7 +31,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
 
@@ -41,7 +41,7 @@ jobs:
 
       - name: Generate cards
         env:
-          # Classic PAT with `repo` + `read:user`: adds private repo languages.
+          # Classic PAT with `repo` + `read:user`: adds private repos, languages and commit times.
           # Without it the script falls back to the built-in token (public languages only).
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
@@ -53,8 +53,8 @@ jobs:
           github_user_name: umer-jahangier
           github_token: ${{ secrets.PROFILE_TOKEN || github.token }}
           outputs: |
-            dist/github-snake.svg?color_snake=#2340F0&color_dots=#EEF0F4,#C9D0FB,#93A1F8,#5C72F4,#2340F0
-            dist/github-snake-dark.svg?color_snake=#B9C3FF&color_dots=#161B22,#1E2A70,#2E43C4,#4F68FF,#93A3FF
+            dist/github-snake.svg?color_snake=#C8325A&color_dots=#EEF0FB,#C9D0FB,#7486F7,#2340F0,#1627B0
+            dist/github-snake-dark.svg?color_snake=#FFB8C8&color_dots=#10142B,#1E2A70,#3B5BFF,#8FA2FF,#C9D1FF
 
       - name: Publish active variant
         run: |
