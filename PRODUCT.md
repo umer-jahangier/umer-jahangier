@@ -38,22 +38,17 @@ Most of his output is private: 2,776 contributions in the last year, 1,697 of th
 
 ## Evidence on Hand
 
-Real projects (verified from repo READMEs, 2026-09-27):
+Source of truth: the Europass CVs (Industry and Academic, 2026-09-28). Every public claim must match them.
 
-- **SalesPulse AI**: AI sales-communication platform: power dialer, AI voice agents (Retell), SMS, CRM sync (Merge.dev), Stripe. Next.js 15, Prisma, Twilio. Private.
-- **AlphaVenue**: celebration and venue platform: API, web and a React Native/Expo app for couples and venue owners; pnpm monorepo on PM2. Private.
-- **Elio** (elio.care): marketplace for contractors, homeowners and vendors: Flutter mobile + React web. Private.
-- **HRIA-DMS**: donation management system for an Islamic humanitarian academy: Electron desktop + Express/Mongo API, Zod-typed SDK, English/Urdu i18n. Private.
-- **SocialSync**: self-hosted, queue-based social media manager for teams: Instagram, Facebook, LinkedIn, X, YouTube; tokens encrypted at rest. Private.
-- **Reveal Your Intentions**: AI social-intelligence mobile app: Expo + Express AI orchestration API. Private.
-- **madaddGar**: on-demand home-services marketplace (providers bid, OTP-verified completion). Node, MongoDB, Socket.io. Private.
-- **Qalb-e-Saleem**: Flutter app for the majalis, writings and shajra of Hazrat Pir Syed Muhammad Abdullah Shah Mashhadi Qadri: audio player, reader. Private.
-- **RestaurantOS**: multi-tenant restaurant OS: POS, inventory, finance, HR, reporting. Private since 2026-09-27 (repo name `ResturantOS`); never link it.
-- **cursor-powered-up**: one-clone installer that powers up Cursor / VS Code / Antigravity with GSD workflows, agent memory, CodeGraph, MCP wiring. Public.
-- **domain-manager**: read-only Kubernetes hostname/DNS/certificate page, stdlib-only Python, multi-arch image on GHCR, Terra plugin. Public.
-- **Face-Recognition-Project**: CNN attendance system (TensorFlow, OpenCV). Public.
+- **AlphaVenue.ai** (Kindwell Solutions): sole engineer. Multi-tenant venue SaaS with 132 data models and 179 pages; ELLA LLM assistant with 104 tools, RAG (Qdrant) and an MCP server; Pipecat voice agent; native CRM.
+- **LogicOne Dialer**, logicone.ai (Logicbuilder.ai): primary engineer. Predictive dialling, live call coaching, voice agents, Stripe Connect. Next.js, Prisma, Twilio.
+- **Elio**, elio.care (ArchiPartnerDesign, 03/2024–12/2025): construction marketplace. Express, React + Vite, MongoDB, Socket.io, Flutter app.
+- **RestaurantOS**: technical lead of four. 15 Spring Boot domain microservices, PostgreSQL RLS, OPA. Private repo; never link it.
+- **HRIA-DMS**: Electron app with a 169-endpoint API. **SocialSync**: co-developer. **AI take-off pipeline**: freelance.
+- **Terra plugins**: 9 merged PRs to juno-fx/Terra-Official-Plugins (public).
+- **cursor-powered-up** and **domain-manager**: public.
 
-Absent, and not to be fabricated: testimonials, client logos, revenue or user counts, employer names.
+Never claim: over two years' experience stated as more; Next.js or React Native for Elio; SocialSync lead; take-off accuracy; commit counts on CVs. Praivox is deliberately absent from the CV and LinkedIn; it appears only in the optional `praivox` variant. Absent, and not to be fabricated: testimonials, client logos, revenue or user counts.
 
 ## Product Principles
 

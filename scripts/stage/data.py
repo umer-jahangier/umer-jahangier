@@ -24,13 +24,13 @@ USER = "umer-jahangier"
 # Display name -> keywords matched against lowercase repository names.
 # Only names the owner approved for the profile appear here.
 PROJECTS = [
-    ("SalesPulse AI", ("salespulse", "dailer", "dialer")),
-    ("AlphaVenue", ("alphavenue",)),
+    ("LogicOne Dialer", ("salespulse", "dailer", "dialer", "logicone")),
+    ("AlphaVenue.ai", ("alphavenue",)),
     ("Elio", ("elio",)),
     ("SocialSync", ("socialsync",)),
     ("HRIA-DMS", ("hria",)),
-    ("Reveal Your Intentions", ("reveal-your-intentions",)),
     ("RestaurantOS", ("resturantos", "restaurantos")),
+    ("Terra plugins", ("terra",)),
     ("Qalb-e-Saleem", ("qalb",)),
     ("madaddGar", ("madadd",)),
     ("cursor-powered-up", ("cursor-powered",)),
