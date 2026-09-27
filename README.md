@@ -27,18 +27,18 @@ I build AI agents, automations and the full-stack products around them, from the
 <picture>
   <source media="(max-width: 600px)" srcset="dist/work-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="dist/work-dark.svg">
-  <img src="dist/work-light.svg" width="100%" alt="Selected work: SalesPulse AI, AlphaVenue, Elio, SocialSync, HRIA-DMS, Reveal Your Intentions, RestaurantOS and cursor-powered-up, each with its activity over the last year.">
+  <img src="dist/work-light.svg" width="100%" alt="Selected work: AlphaVenue.ai, LogicOne Dialer, Elio, RestaurantOS, HRIA-DMS, SocialSync, Terra plugins and cursor-powered-up, each with its activity over the last year.">
 </picture>
 
-<sub>Open source: [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow). Also: **madaddGar** (on-demand home services) · **Qalb-e-Saleem** (Flutter audio and reading app). Every chart is rebuilt daily from the GitHub API; private work is counted as totals only, and no code leaves the repositories.</sub>
+<sub>Open source: [**Terra plugins**](https://github.com/juno-fx/Terra-Official-Plugins) (9 merged pull requests) · [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow). Also: **madaddGar** (on-demand home services) · **Qalb-e-Saleem** (Flutter audio and reading app). Every chart is rebuilt daily from the GitHub API; private work is counted as totals only, and no code leaves the repositories.</sub>
 
 ### Toolbox
 
-**Languages** · TypeScript · Python · JavaScript · Dart · Java · C++ · SQL<br>
-**Frontend** · Next.js · React · React Native / Expo · Flutter · Tailwind CSS · GSAP<br>
-**Backend** · Node.js · Express · Spring · FastAPI · Prisma · REST · GraphQL · Socket.io<br>
-**AI and automation** · LLM agents · RAG · voice agents (Retell, Twilio) · n8n · LangChain · OpenAI · Claude · computer vision<br>
-**Data and infrastructure** · PostgreSQL · MongoDB · Redis · Docker · Kubernetes · Electron · GitHub Actions · Vercel · Linux
+**AI and machine learning** · LLM agents and tool calling · RAG · Model Context Protocol · vector databases (Qdrant) · voice AI (Pipecat, Deepgram, Twilio) · OpenAI, Claude and Gemini APIs · PyTorch · deep reinforcement learning · computer vision (OpenCV)<br>
+**Languages** · Python · TypeScript · JavaScript · Java · C++ · C# · Dart · SQL<br>
+**Back end and data** · Node.js / Express · Spring Boot / Spring Cloud · FastAPI · Flask · REST · WebSockets · gRPC · PostgreSQL · MongoDB · Redis · RabbitMQ · BullMQ · Prisma<br>
+**Front end, mobile and desktop** · React · Next.js · Tailwind CSS · Flutter · Electron<br>
+**Cloud and DevOps** · Docker · Kubernetes (k3s) · Helm · GitHub Actions · Linux (nginx, PM2) · OAuth 2.0 / JWT · Open Policy Agent
 
 <br>
 
