@@ -6,7 +6,7 @@
   <img src="dist/cover-personal-light.svg" width="100%" alt="Muhammad Umer, AI, Automation and Full-Stack Engineer. The last 52 weeks drawn as a skyline: one building per week, lit windows for contributions, warm windows for private work.">
 </picture>
 
-<a href="mailto:umer.jahangier@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-dark.svg"><img src="dist/btn-email-light.svg" height="50" alt="Email umer.jahangier@gmail.com"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="50" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="50" alt="Instagram"></picture></a>
+<a href="mailto:umer.jahangier@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-email-dark.svg"><img src="dist/btn-email-light.svg" height="50" alt="Email umer.jahangier@gmail.com"></picture></a>&nbsp;<a href="https://umer-jahangier.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-site-dark.svg"><img src="dist/btn-site-light.svg" height="50" alt="Portfolio at umer-jahangier.github.io"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammad-umer-jahangier/"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-linkedin-dark.svg"><img src="dist/btn-linkedin-light.svg" height="50" alt="LinkedIn"></picture></a>&nbsp;<a href="https://instagram.com/umer_jahangier"><picture><source media="(prefers-color-scheme: dark)" srcset="dist/btn-instagram-dark.svg"><img src="dist/btn-instagram-light.svg" height="50" alt="Instagram"></picture></a>
 
 I build AI agents, automations and the full-stack products around them, from the first schema to the production deploy. Almost all of it ships in private repositories, for clients and for products I own, so every chart here counts private work.
 
@@ -46,5 +46,7 @@ I build AI agents, automations and the full-stack products around them, from the
   <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg">
   <img src="dist/github-snake.svg" width="100%" alt="Animated snake eating the last year of contributions, private ones included.">
 </picture>
+
+The whole portfolio, with a live demo of each big project and a board you can draw on, is at **[umer-jahangier.github.io](https://umer-jahangier.github.io/)**.
 
 Have something to build, or a role to talk about? Email **[umer.jahangier@gmail.com](mailto:umer.jahangier@gmail.com)** or [connect on LinkedIn](https://www.linkedin.com/in/muhammad-umer-jahangier/).
