@@ -526,6 +526,7 @@ def chip(kind, t, right_x, y):
 
 BUTTONS = {
     "email": dict(label="umer.jahangier@gmail.com", icon="mail", primary=True),
+    "site": dict(label="Portfolio", icon="globe", primary=False),
     "email-studio": dict(label="hello@example.com", icon="mail", primary=True),
     "studio": dict(label="example.com", icon="globe", primary=False),
     "linkedin": dict(label="LinkedIn", icon="linkedin", primary=False),
