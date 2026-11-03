@@ -260,7 +260,7 @@ Soft rounded rectangles hold hard-edged architecture. The hero stage has a 22px 
 Contact is the one action, so buttons are calm, wide, and explicit.
 - **Shape:** gently rounded (14px), 50px tall. The width is measured from the label (label width + 98px).
 - **Primary (email):** solid cobalt fill (night-glow at night) with white label and glyph. A 20px inline SVG mail icon sits at x=20, the label at x=52, and an up-right arrow stroke 30px from the right edge.
-- **Secondary (LinkedIn, Instagram, example.com):** card fill with a 1.5px hairline edge and ink label, icon, and arrow.
+- **Secondary (LinkedIn, Instagram):** card fill with a 1.5px hairline edge and ink label, icon, and arrow.
 - **States:** none. The buttons are images inside `<a>` links, and GitHub gives them no hover or focus styling beyond its own.
 
 ### Chips

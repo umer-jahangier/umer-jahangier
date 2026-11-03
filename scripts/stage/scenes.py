@@ -40,8 +40,6 @@ THEMES = {
 VARIANTS = {
     "personal": dict(role="AI, Automation & Full-Stack Engineer",
                      line="Lahore, Pakistan · open to roles and projects"),
-    "studio": dict(role="AI, Automation & Full-Stack Engineer",
-                    line="Founder, Studio · Lahore, Pakistan"),
 }
 
 SHOWCASE = [
@@ -527,8 +525,6 @@ def chip(kind, t, right_x, y):
 BUTTONS = {
     "email": dict(label="umer.jahangier@gmail.com", icon="mail", primary=True),
     "site": dict(label="Portfolio", icon="globe", primary=False),
-    "email-studio": dict(label="hello@example.com", icon="mail", primary=True),
-    "studio": dict(label="example.com", icon="globe", primary=False),
     "linkedin": dict(label="LinkedIn", icon="linkedin", primary=False),
     "instagram": dict(label="Instagram", icon="instagram", primary=False),
 }

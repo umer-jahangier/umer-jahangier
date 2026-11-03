@@ -2,10 +2,10 @@
 version: 1
 slug: "readme-md"
 primary_target: "README.md"
-related_targets: ["variants/README.personal.md","variants/README.studio.md"]
+related_targets: ["variants/README.personal.md"]
 ---
 
-Scope: GitHub profile README for umer-jahangier (both variants). Visitor mode: Persuade.
+Scope: GitHub profile README for umer-jahangier. Visitor mode: Persuade.
 Audience: recruiters, clients, peers, collaborators; each decides in seconds. Action: make contact (email / LinkedIn). Proof: live private-inclusive stats + named projects. Constraints: GitHub-sanitized markdown, SVG via <img> only, light + dark via <picture>, generated in-repo.
 
 ## Direction contract

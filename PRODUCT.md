@@ -31,8 +31,8 @@ Most of his output is private: 2,776 contributions in the last year, 1,697 of th
 
 ## Capabilities and Constraints
 
-- Two variants: `variants/README.personal.md` (default, no Studio) and `variants/README.studio.md` (founder framing). `README.md` is a copy of the active variant.
-- Contact (personal): umer.jahangier@gmail.com · LinkedIn `muhammad-umer-jahangier` · Instagram `umer_jahangier`. Contact (Studio): hello@example.com · example.com.
+- One variant: `variants/README.personal.md`. `README.md` is a copy of the active variant.
+- Contact (personal): umer.jahangier@gmail.com · LinkedIn `muhammad-umer-jahangier` · Instagram `umer_jahangier`.
 - Private repos may be named with a one-line description; no links, code or screenshots.
 - GitHub strips `<style>`, scripts and most attributes from README HTML. SVGs loaded via `<img>` may animate (SMIL/CSS inside the SVG) but cannot load external fonts or be interactive.
 
@@ -48,7 +48,7 @@ Source of truth: the Europass CVs (Industry and Academic, 2026-09-28). Every pub
 - **Terra plugins**: 9 merged PRs to juno-fx/Terra-Official-Plugins (public).
 - **cursor-powered-up** and **domain-manager**: public.
 
-Never claim: over two years' experience stated as more; Next.js or React Native for Elio; SocialSync lead; take-off accuracy; commit counts on CVs. Studio is deliberately absent from the CV and LinkedIn; it appears only in the optional `studio` variant. Absent, and not to be fabricated: testimonials, client logos, revenue or user counts.
+Never claim: over two years' experience stated as more; Next.js or React Native for Elio; SocialSync lead; take-off accuracy; commit counts on CVs. Absent, and not to be fabricated: testimonials, client logos, revenue or user counts.
 
 ## Product Principles
 

@@ -11,7 +11,7 @@ on:
       variant:
         description: "README variant to publish"
         type: choice
-        options: [keep current, personal, studio]
+        options: [keep current, personal]
         default: keep current
   push:
     branches: [main]
