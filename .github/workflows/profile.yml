@@ -44,6 +44,8 @@ jobs:
           # Classic PAT with `repo` + `read:user`: adds private repos, languages and commit times.
           # Without it the script falls back to the built-in token (public languages only).
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          # Comma-separated commit emails that aren't on the GitHub account (work addresses).
+          PROFILE_AUTHOR_EMAILS: ${{ secrets.PROFILE_AUTHOR_EMAILS }}
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/profile.py
 

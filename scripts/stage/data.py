@@ -7,7 +7,9 @@ only in totals.
 
 import http.client
 import json
+import os
 import time
+import urllib.parse
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -20,6 +22,11 @@ except Exception:  # pragma: no cover - zoneinfo missing
     LOCAL_TZ = timezone(timedelta(hours=5))
 
 USER = "umer-jahangier"
+
+# Commits made with an email that isn't on the GitHub account have no login, so
+# ?author=<login> misses them. PROFILE_AUTHOR_EMAILS (a secret, comma-separated)
+# names those emails; they are only sent to the GitHub API, never written out.
+EXTRA_AUTHORS = [e.strip() for e in os.environ.get("PROFILE_AUTHOR_EMAILS", "").split(",") if e.strip()]
 
 # Display name -> keywords matched against lowercase repository names.
 # Only names the owner approved for the profile appear here.
@@ -151,24 +158,29 @@ def fetch_repos(token, personal):
 def fetch_commit_times(token, repos, since):
     """(local datetime, repo) for every commit the user authored since `since`."""
     out = []
+    seen = set()
     stamp = since.strftime("%Y-%m-%dT%H:%M:%SZ")
     for repo in repos:
         if repo["pushedAt"] < stamp:
             continue
-        url = (f"https://api.github.com/repos/{repo['nameWithOwner']}/commits"
-               f"?author={USER}&since={stamp}&per_page=100")
-        while url:
-            try:
-                page, link = _request(token, url)
-            except RuntimeError as err:
-                # An empty repo answers 409; skip it rather than fail the run.
-                print(f"::notice::skipped a repository ({err})")
-                break
-            for c in page:
-                when = datetime.fromisoformat(c["commit"]["author"]["date"].replace("Z", "+00:00"))
-                out.append((when.astimezone(LOCAL_TZ), repo))
-            url = next((part.split(";")[0].strip(" <>") for part in link.split(",")
-                        if 'rel="next"' in part), None)
+        for author in [USER, *EXTRA_AUTHORS]:
+            url = (f"https://api.github.com/repos/{repo['nameWithOwner']}/commits"
+                   f"?author={urllib.parse.quote(author)}&since={stamp}&per_page=100")
+            while url:
+                try:
+                    page, link = _request(token, url)
+                except RuntimeError as err:
+                    # An empty repo answers 409; skip it rather than fail the run.
+                    print(f"::notice::skipped a repository ({err})")
+                    break
+                for c in page:
+                    if c["sha"] in seen:
+                        continue
+                    seen.add(c["sha"])
+                    when = datetime.fromisoformat(c["commit"]["author"]["date"].replace("Z", "+00:00"))
+                    out.append((when.astimezone(LOCAL_TZ), repo))
+                url = next((part.split(";")[0].strip(" <>") for part in link.split(",")
+                            if 'rel="next"' in part), None)
     return out
 
 

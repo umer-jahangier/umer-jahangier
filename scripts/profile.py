@@ -49,7 +49,13 @@ def main():
     if not token:
         sys.exit("Set PROFILE_TOKEN or GITHUB_TOKEN.")
 
-    stats = data.fetch(token, personal)
+    try:
+        stats = data.fetch(token, personal)
+    except RuntimeError as err:
+        if "HTTP 401" in str(err):
+            sys.exit("::error::GitHub refused the token (HTTP 401): PROFILE_TOKEN has expired or been revoked. "
+                     "Create a classic token with the repo and read:user scopes and save it as the PROFILE_TOKEN secret.")
+        raise
     os.makedirs(OUT, exist_ok=True)
     files = build(stats)
     for name, content in files.items():
