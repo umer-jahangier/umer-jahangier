@@ -27,10 +27,10 @@ I build AI agents, automations and the full-stack products around them, from the
 <picture>
   <source media="(max-width: 600px)" srcset="dist/work-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="dist/work-dark.svg">
-  <img src="dist/work-light.svg" width="100%" alt="Selected work: AlphaVenue.ai, LogicOne Dialer, Elio, RestaurantOS, HRIA-DMS, SocialSync, Terra plugins and cursor-powered-up, each with its activity over the last year.">
+  <img src="dist/work-light.svg" width="100%" alt="Selected work: AlphaVenue.ai, LogicOne Dialer, Elio, RestaurantOS, HRIA-DMS, SocialSync, Terra plugins and claude-nonstop, each with its activity over the last year.">
 </picture>
 
-<sub>Open source: [**Terra plugins**](https://github.com/juno-fx/Terra-Official-Plugins) (9 merged pull requests) · [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow). Also: **madaddGar** (on-demand home services) · **Qalb-e-Saleem** (Flutter audio and reading app). Every chart is rebuilt daily from the GitHub API; private work is counted as totals only, and no code leaves the repositories.</sub>
+<sub>Open source: [**claude-nonstop**](https://github.com/umer-jahangier/claude-nonstop) ([website](https://umer-jahangier.github.io/claude-nonstop/), [npm](https://www.npmjs.com/package/@umer-jahangier/claude-nonstop)): keeps Claude Code, Codex and the Claude desktop app working through usage limits · [**Terra plugins**](https://github.com/juno-fx/Terra-Official-Plugins) (9 merged pull requests) · [**cursor-powered-up**](https://github.com/umer-jahangier/cursor-powered-up) · [**domain-manager**](https://github.com/umer-jahangier/domain-manager) (Kubernetes DNS and certificate status) · [**Face Recognition**](https://github.com/umer-jahangier/Face-Recognition-Project) (CNN attendance, TensorFlow). Also: **madaddGar** (on-demand home services) · **Qalb-e-Saleem** (Flutter audio and reading app). Every chart is rebuilt daily from the GitHub API; private work is counted as totals only, and no code leaves the repositories.</sub>
 
 ### Toolbox
 

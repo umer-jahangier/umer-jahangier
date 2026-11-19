@@ -58,8 +58,8 @@ SHOWCASE = [
      "Next.js · Prisma · PostgreSQL · BullMQ", False),
     ("Terra plugins", "Nine merged pull requests to Juno Innovations' open-source Kubernetes plugin catalogue: cert-issuer, external-dns, domain-manager.",
      "Kubernetes · Helm · Argo CD · Gateway API", True),
-    ("cursor-powered-up", "One clone, one install: spec-driven workflows, agent memory, CodeGraph and MCP wiring for Cursor and VS Code.",
-     "Shell · MCP", True),
+    ("claude-nonstop", "Keeps Claude Code, Codex and the Claude desktop app working through usage limits: next account, then API keys, one by one.",
+     "Node.js · Claude Code · Codex · Anthropic and OpenAI APIs", True),
 ]
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()

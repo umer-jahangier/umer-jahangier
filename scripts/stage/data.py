@@ -41,6 +41,7 @@ PROJECTS = [
     ("Qalb-e-Saleem", ("qalb",)),
     ("madaddGar", ("madadd",)),
     ("cursor-powered-up", ("cursor-powered",)),
+    ("claude-nonstop", ("claude-nonstop",)),
     ("domain-manager", ("domain-manager",)),
 ]
 
